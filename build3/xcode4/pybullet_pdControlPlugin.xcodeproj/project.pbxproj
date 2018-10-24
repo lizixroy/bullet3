@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356E7F433BE018C418394F18 /* PhysicsClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6372723D1287057C2E380B5D /* PhysicsClient.cpp */; };
+		68946A6D5B175E3851D113DA /* PhysicsClientC_API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A350A164FBA63420E360D34 /* PhysicsClientC_API.cpp */; };
+		572B6FDE76B30F0A74C82265 /* PhysicsClientSharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75575E9912760F953B1B7B00 /* PhysicsClientSharedMemory.cpp */; };
+		32F1738D4692479B528F3EE3 /* PhysicsClientSharedMemory_C_API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51992A8A51980BFF174738B5 /* PhysicsClientSharedMemory_C_API.cpp */; };
+		443A770F3A3512EC762D1D7A /* PosixSharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC876DF3FE77C0545EC1E98 /* PosixSharedMemory.cpp */; };
+		524E3FEE556C273B4CF7140E /* Win32SharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DB5CB253971A7B3A153BE9 /* Win32SharedMemory.cpp */; };
+		35B042FC6FD347113CD02A2E /* b3RobotSimulatorClientAPI_NoDirect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD536BB5999661907EE2F40 /* b3RobotSimulatorClientAPI_NoDirect.cpp */; };
+		14F84C1F3E285BA805074E5B /* pdControlPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A66A83323685820080872 /* pdControlPlugin.cpp */; };
+		2F95013E4C44159237BD1650 /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75EC12794B5829C54713476A /* b3Clock.cpp */; };
+		4EF8338B76B56D0B24B8421E /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42713F1E760E24F5008C6ABD /* b3ResourcePath.cpp */; };
+		6DCE701644D506425AA03F71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779B71E57881734A06E07A95 /* Cocoa.framework */; };
+		41CF01DC533E2FBB3C383B0E /* libBulletFileLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7D58E557B804CC6E8C4927 /* libBulletFileLoader.a */; };
+		7ABD302E31C0512F185325C9 /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088D77E77D33441A2C4C4F2E /* libBullet3Common.a */; };
+		58886CD53C7B581774CB4190 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 729957A34A5A15E57BFE6A8B /* libLinearMath.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044826CF186808220E542DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D405A9C431C64483EBD7CF7 /* BulletFileLoader.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 309F207576752BFF191E2AF1;
+			remoteInfo = "libBulletFileLoader_xcode4_x64_release.a";
+		};
+		3B907B00443D1A29207500C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D405A9C431C64483EBD7CF7 /* BulletFileLoader.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5912516E104D3F28758048D2;
+			remoteInfo = "libBulletFileLoader_xcode4_x64_release.a";
+		};
+		3C687C377F07647A28D14EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5329366078892AA36942207F /* Bullet3Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09FA7FC839970BF5153840E3;
+			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
+		};
+		606E0435638742FE39363E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5329366078892AA36942207F /* Bullet3Common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4C63853833567C73AB6FF6;
+			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
+		};
+		50917D1F3CB954911EE84126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E471BA83A506D753F36240F /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38056F365426392605FA0F64;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+		2A53683664A06DCE19C2413F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E471BA83A506D753F36240F /* LinearMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7169459C2B3E28C14D00766D;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6372723D1287057C2E380B5D /* PhysicsClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClient.cpp"; path = "../../examples/SharedMemory/PhysicsClient.cpp"; sourceTree = "<group>"; };
+		3E82749D092714504E014A59 /* PhysicsClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClient.h"; path = "../../examples/SharedMemory/PhysicsClient.h"; sourceTree = "<group>"; };
+		5A350A164FBA63420E360D34 /* PhysicsClientC_API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClientC_API.cpp"; path = "../../examples/SharedMemory/PhysicsClientC_API.cpp"; sourceTree = "<group>"; };
+		7D387F682B5C2F88206D5DDD /* PhysicsClientC_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClientC_API.h"; path = "../../examples/SharedMemory/PhysicsClientC_API.h"; sourceTree = "<group>"; };
+		75575E9912760F953B1B7B00 /* PhysicsClientSharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClientSharedMemory.cpp"; path = "../../examples/SharedMemory/PhysicsClientSharedMemory.cpp"; sourceTree = "<group>"; };
+		46F05B5225D56FBA53F07244 /* PhysicsClientSharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClientSharedMemory.h"; path = "../../examples/SharedMemory/PhysicsClientSharedMemory.h"; sourceTree = "<group>"; };
+		51992A8A51980BFF174738B5 /* PhysicsClientSharedMemory_C_API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClientSharedMemory_C_API.cpp"; path = "../../examples/SharedMemory/PhysicsClientSharedMemory_C_API.cpp"; sourceTree = "<group>"; };
+		658A72C0275D4C091E854D16 /* PhysicsClientSharedMemory_C_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClientSharedMemory_C_API.h"; path = "../../examples/SharedMemory/PhysicsClientSharedMemory_C_API.h"; sourceTree = "<group>"; };
+		1AC876DF3FE77C0545EC1E98 /* PosixSharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PosixSharedMemory.cpp"; path = "../../examples/SharedMemory/PosixSharedMemory.cpp"; sourceTree = "<group>"; };
+		4B4469B77E7606EC2A7D0FF8 /* PosixSharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PosixSharedMemory.h"; path = "../../examples/SharedMemory/PosixSharedMemory.h"; sourceTree = "<group>"; };
+		17DB5CB253971A7B3A153BE9 /* Win32SharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Win32SharedMemory.cpp"; path = "../../examples/SharedMemory/Win32SharedMemory.cpp"; sourceTree = "<group>"; };
+		3D9F1F7552A84BB972FF7755 /* Win32SharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Win32SharedMemory.h"; path = "../../examples/SharedMemory/Win32SharedMemory.h"; sourceTree = "<group>"; };
+		2AD536BB5999661907EE2F40 /* b3RobotSimulatorClientAPI_NoDirect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3RobotSimulatorClientAPI_NoDirect.cpp"; path = "../../examples/SharedMemory/b3RobotSimulatorClientAPI_NoDirect.cpp"; sourceTree = "<group>"; };
+		3D694C914FF30F24227B5DF6 /* b3RobotSimulatorClientAPI_NoDirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RobotSimulatorClientAPI_NoDirect.h"; path = "../../examples/SharedMemory/b3RobotSimulatorClientAPI_NoDirect.h"; sourceTree = "<group>"; };
+		5B4A66A83323685820080872 /* pdControlPlugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "pdControlPlugin.cpp"; path = "../../examples/SharedMemory/plugins/pdControlPlugin/pdControlPlugin.cpp"; sourceTree = "<group>"; };
+		75EC12794B5829C54713476A /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
+		5ED43BD205DC37FA0CCD2485 /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
+		42713F1E760E24F5008C6ABD /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
+		697707751A743F0E522B31AE /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
+		779B71E57881734A06E07A95 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "/System/Library/Frameworks/Cocoa.framework"; sourceTree = "<absolute>"; };
+		58FC15754CA30FAB6317389A /* libpybullet_pdControlPlugin_xcode4_x64_release.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libpybullet_pdControlPlugin_xcode4_x64_release.dylib"; path = "libpybullet_pdControlPlugin_xcode4_x64_release.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D405A9C431C64483EBD7CF7 /* BulletFileLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletFileLoader.xcodeproj"; path = "BulletFileLoader.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		5329366078892AA36942207F /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4E471BA83A506D753F36240F /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A495E784067478C5AF07DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCE701644D506425AA03F71 /* Cocoa.framework in Frameworks */,
+				41CF01DC533E2FBB3C383B0E /* libBulletFileLoader.a in Frameworks */,
+				7ABD302E31C0512F185325C9 /* libBullet3Common.a in Frameworks */,
+				58886CD53C7B581774CB4190 /* libLinearMath.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DD5617203F2368236569BD /* pybullet_pdControlPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				294520A0003E6C8E664414A7 /* examples */,
+				245F64531340068132731D5D /* Frameworks */,
+				27C672384300485C395C4862 /* Products */,
+				471C0F1F502A28C25D091800 /* Projects */,
+			);
+			name = "pybullet_pdControlPlugin";
+			sourceTree = "<group>";
+		};
+		294520A0003E6C8E664414A7 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				19991E1433CB0EBD1E5B7613 /* SharedMemory */,
+				6B2F13385A511C1A71A000AB /* Utils */,
+			);
+			name = "examples";
+			sourceTree = "<group>";
+		};
+		19991E1433CB0EBD1E5B7613 /* SharedMemory */ = {
+			isa = PBXGroup;
+			children = (
+				6372723D1287057C2E380B5D /* PhysicsClient.cpp */,
+				3E82749D092714504E014A59 /* PhysicsClient.h */,
+				5A350A164FBA63420E360D34 /* PhysicsClientC_API.cpp */,
+				7D387F682B5C2F88206D5DDD /* PhysicsClientC_API.h */,
+				75575E9912760F953B1B7B00 /* PhysicsClientSharedMemory.cpp */,
+				46F05B5225D56FBA53F07244 /* PhysicsClientSharedMemory.h */,
+				51992A8A51980BFF174738B5 /* PhysicsClientSharedMemory_C_API.cpp */,
+				658A72C0275D4C091E854D16 /* PhysicsClientSharedMemory_C_API.h */,
+				1AC876DF3FE77C0545EC1E98 /* PosixSharedMemory.cpp */,
+				4B4469B77E7606EC2A7D0FF8 /* PosixSharedMemory.h */,
+				17DB5CB253971A7B3A153BE9 /* Win32SharedMemory.cpp */,
+				3D9F1F7552A84BB972FF7755 /* Win32SharedMemory.h */,
+				2AD536BB5999661907EE2F40 /* b3RobotSimulatorClientAPI_NoDirect.cpp */,
+				3D694C914FF30F24227B5DF6 /* b3RobotSimulatorClientAPI_NoDirect.h */,
+				5DEE56754FDB5D3E1F38214D /* plugins */,
+			);
+			name = "SharedMemory";
+			sourceTree = "<group>";
+		};
+		5DEE56754FDB5D3E1F38214D /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				60A85C765F4D74FE7D334BD2 /* pdControlPlugin */,
+			);
+			name = "plugins";
+			sourceTree = "<group>";
+		};
+		60A85C765F4D74FE7D334BD2 /* pdControlPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				5B4A66A83323685820080872 /* pdControlPlugin.cpp */,
+			);
+			name = "pdControlPlugin";
+			sourceTree = "<group>";
+		};
+		6B2F13385A511C1A71A000AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75EC12794B5829C54713476A /* b3Clock.cpp */,
+				5ED43BD205DC37FA0CCD2485 /* b3Clock.h */,
+				42713F1E760E24F5008C6ABD /* b3ResourcePath.cpp */,
+				697707751A743F0E522B31AE /* b3ResourcePath.h */,
+			);
+			name = "Utils";
+			sourceTree = "<group>";
+		};
+		245F64531340068132731D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				779B71E57881734A06E07A95 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		27C672384300485C395C4862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FC15754CA30FAB6317389A /* libpybullet_pdControlPlugin_xcode4_x64_release.dylib */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		471C0F1F502A28C25D091800 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				4D405A9C431C64483EBD7CF7 /* BulletFileLoader.xcodeproj */,
+				5329366078892AA36942207F /* Bullet3Common.xcodeproj */,
+				4E471BA83A506D753F36240F /* LinearMath.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		3330415766BD052566C05B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7D58E557B804CC6E8C4927 /* libBulletFileLoader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFA3DA2715302F72FBD2CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088D77E77D33441A2C4C4F2E /* libBullet3Common.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67484C6647F00546691F2BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729957A34A5A15E57BFE6A8B /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D9F340270B1296A18234B17 /* pybullet_pdControlPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EE279D3B480804623243C6 /* Build configuration list for PBXNativeTarget "pybullet_pdControlPlugin" */;
+			buildPhases = (
+				308854CC3118380910FC4542 /* Resources */,
+				2D350CF337EB3AA561BE0D42 /* Sources */,
+				7A495E784067478C5AF07DC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADD4C6A46AB1A7C50D17D99 /* PBXTargetDependency */,
+				0C9E1A0F7031560F76670418 /* PBXTargetDependency */,
+				1D7A46D84E6D01A6796425D8 /* PBXTargetDependency */,
+			);
+			name = "pybullet_pdControlPlugin";
+			productName = "pybullet_pdControlPlugin";
+			productReference = 58FC15754CA30FAB6317389A /* libpybullet_pdControlPlugin_xcode4_x64_release.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "pybullet_pdControlPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 25DD5617203F2368236569BD /* pybullet_pdControlPlugin */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3330415766BD052566C05B39 /* Products */;
+					ProjectRef = 4D405A9C431C64483EBD7CF7 /* BulletFileLoader.xcodeproj */;
+				},
+				{
+					ProductGroup = 4EFA3DA2715302F72FBD2CB1 /* Products */;
+					ProjectRef = 5329366078892AA36942207F /* Bullet3Common.xcodeproj */;
+				},
+				{
+					ProductGroup = 67484C6647F00546691F2BE7 /* Products */;
+					ProjectRef = 4E471BA83A506D753F36240F /* LinearMath.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3D9F340270B1296A18234B17 /* libpybullet_pdControlPlugin_xcode4_x64_release.dylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7A7D58E557B804CC6E8C4927 /* libBulletFileLoader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libBulletFileLoader.a";
+			remoteRef = 044826CF186808220E542DAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		088D77E77D33441A2C4C4F2E /* libBullet3Common.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libBullet3Common.a";
+			remoteRef = 3C687C377F07647A28D14EC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		729957A34A5A15E57BFE6A8B /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libLinearMath.a";
+			remoteRef = 50917D1F3CB954911EE84126 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308854CC3118380910FC4542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D350CF337EB3AA561BE0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356E7F433BE018C418394F18 /* PhysicsClient.cpp in Sources */,
+				68946A6D5B175E3851D113DA /* PhysicsClientC_API.cpp in Sources */,
+				572B6FDE76B30F0A74C82265 /* PhysicsClientSharedMemory.cpp in Sources */,
+				32F1738D4692479B528F3EE3 /* PhysicsClientSharedMemory_C_API.cpp in Sources */,
+				443A770F3A3512EC762D1D7A /* PosixSharedMemory.cpp in Sources */,
+				524E3FEE556C273B4CF7140E /* Win32SharedMemory.cpp in Sources */,
+				35B042FC6FD347113CD02A2E /* b3RobotSimulatorClientAPI_NoDirect.cpp in Sources */,
+				14F84C1F3E285BA805074E5B /* pdControlPlugin.cpp in Sources */,
+				2F95013E4C44159237BD1650 /* b3Clock.cpp in Sources */,
+				4EF8338B76B56D0B24B8421E /* b3ResourcePath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		1ADD4C6A46AB1A7C50D17D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletFileLoader.a";
+			targetProxy = 3B907B00443D1A29207500C3 /* PBXContainerItemProxy */;
+		};
+		0C9E1A0F7031560F76670418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBullet3Common.a";
+			targetProxy = 606E0435638742FE39363E63 /* PBXContainerItemProxy */;
+		};
+		1D7A46D84E6D01A6796425D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libLinearMath.a";
+			targetProxy = 2A53683664A06DCE19C2413F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26FF5DA37CE82046581774F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "pybullet_pdControlPlugin_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		20FA1712501319031C0D486E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				EXECUTABLE_PREFIX = lib;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "pybullet_pdControlPlugin_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		5EFD402F6922401A088A5BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PHYSICS_IN_PROCESS_EXAMPLE_BROWSER",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/SharedMemory/plugins/pdControlPlugin",
+					"../../src",
+					"../../examples",
+					"../../examples/ThirdPartyLibs",
+				);
+				OBJROOT = "obj/x64/Release/pybullet_pdControlPlugin";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-lPython",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		312031B04F6C6E39612C47CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"PHYSICS_IN_PROCESS_EXAMPLE_BROWSER",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/SharedMemory/plugins/pdControlPlugin",
+					"../../src",
+					"../../examples",
+					"../../examples/ThirdPartyLibs",
+				);
+				OBJROOT = "obj/x64/Debug/pybullet_pdControlPlugin";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				OTHER_LDFLAGS = (
+					"-lPython",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66EE279D3B480804623243C6 /* Build configuration list for PBXNativeTarget "libpybullet_pdControlPlugin_xcode4_x64_release.dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FF5DA37CE82046581774F6 /* Release */,
+				20FA1712501319031C0D486E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "pybullet_pdControlPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFD402F6922401A088A5BDD /* Release */,
+				312031B04F6C6E39612C47CA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

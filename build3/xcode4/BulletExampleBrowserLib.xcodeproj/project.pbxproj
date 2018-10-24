@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C12523E68521A9416114387 /* CollisionShape2TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 438978C044C502C96C0A1217 /* CollisionShape2TriangleMesh.cpp */; };
+		4E204C4E519B312B329D1473 /* GL_ShapeDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C0320DB25B315AD171D786F /* GL_ShapeDrawer.cpp */; };
+		7EE649DB57AA6B257F3A4AEE /* GraphingTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E4630D265522774506414AB /* GraphingTexture.cpp */; };
+		34F561EB43067FD535836BD1 /* GwenParameterInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B305148CC75AA76B858DD /* GwenParameterInterface.cpp */; };
+		6442496A6BA9487F1C094A60 /* GwenProfileWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D136D71DF101F0D142A05 /* GwenProfileWindow.cpp */; };
+		417D30865892744D6C0F61D9 /* GwenTextureWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 507E219F5FF043D2254B08F3 /* GwenTextureWindow.cpp */; };
+		021672FF5EBE3CFF4AB81B8B /* gwenUserInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374A11E76B2975E86C2849B0 /* gwenUserInterface.cpp */; };
+		350A26A803DA7A8D52D93501 /* InProcessExampleBrowser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D672E434FC46B4923410978 /* InProcessExampleBrowser.cpp */; };
+		1B490AD757F1471F4CCD4235 /* OpenGLExampleBrowser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 305C6D22793404DA2F2624E0 /* OpenGLExampleBrowser.cpp */; };
+		56B13562571A0F4B3BD869DA /* OpenGLGuiHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB67DAC65972A4E7F9D5A7F /* OpenGLGuiHelper.cpp */; };
+		7E7C1099434C70E1571F3B25 /* gl.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EF9700A501F4E7450416E70 /* gl.c */; };
+		6C915EC42593734743970E70 /* ChromeTraceUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF45F474E3525E978E86C4D /* ChromeTraceUtil.cpp */; };
+		6620723237DF5223081A03A8 /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 796E659E01870751727F0E72 /* b3Clock.cpp */; };
+		18512A344ABB5C4D45354761 /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34E1316517E552746A673953 /* b3ResourcePath.cpp */; };
+		3A655C7046F06CCE032639EE /* clew.c in Sources */ = {isa = PBXBuildFile; fileRef = 33207FA52B3140BA298F0BEC /* clew.c */; };
+		3DC5017C0F060A2A7E5C041D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405107E0132A532E73DA7D06 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		438978C044C502C96C0A1217 /* CollisionShape2TriangleMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "CollisionShape2TriangleMesh.cpp"; path = "../../examples/ExampleBrowser/CollisionShape2TriangleMesh.cpp"; sourceTree = "<group>"; };
+		6D126A185A3970AA674F1AA2 /* CollisionShape2TriangleMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CollisionShape2TriangleMesh.h"; path = "../../examples/ExampleBrowser/CollisionShape2TriangleMesh.h"; sourceTree = "<group>"; };
+		090755E26F9A11A4575808D9 /* EmptyBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EmptyBrowser.h"; path = "../../examples/ExampleBrowser/EmptyBrowser.h"; sourceTree = "<group>"; };
+		6B3B1B1B48330F5E6B02583C /* EmptyExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EmptyExample.h"; path = "../../examples/ExampleBrowser/EmptyExample.h"; sourceTree = "<group>"; };
+		70326DD96871738E24FA249B /* ExampleBrowserInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ExampleBrowserInterface.h"; path = "../../examples/ExampleBrowser/ExampleBrowserInterface.h"; sourceTree = "<group>"; };
+		4FD626E316F87A065354625A /* ExampleEntries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ExampleEntries.h"; path = "../../examples/ExampleBrowser/ExampleEntries.h"; sourceTree = "<group>"; };
+		0C0320DB25B315AD171D786F /* GL_ShapeDrawer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GL_ShapeDrawer.cpp"; path = "../../examples/ExampleBrowser/GL_ShapeDrawer.cpp"; sourceTree = "<group>"; };
+		464650B07D6D2F571BCE1EE3 /* GL_ShapeDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GL_ShapeDrawer.h"; path = "../../examples/ExampleBrowser/GL_ShapeDrawer.h"; sourceTree = "<group>"; };
+		1E4630D265522774506414AB /* GraphingTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GraphingTexture.cpp"; path = "../../examples/ExampleBrowser/GwenGUISupport/GraphingTexture.cpp"; sourceTree = "<group>"; };
+		06F550E05908496108D9731B /* GraphingTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GraphingTexture.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/GraphingTexture.h"; sourceTree = "<group>"; };
+		1D7B305148CC75AA76B858DD /* GwenParameterInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GwenParameterInterface.cpp"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenParameterInterface.cpp"; sourceTree = "<group>"; };
+		099F387E7699473524540FE8 /* GwenParameterInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GwenParameterInterface.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenParameterInterface.h"; sourceTree = "<group>"; };
+		5A0D136D71DF101F0D142A05 /* GwenProfileWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GwenProfileWindow.cpp"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenProfileWindow.cpp"; sourceTree = "<group>"; };
+		22740FBB3E8347493ECA7FE3 /* GwenProfileWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GwenProfileWindow.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenProfileWindow.h"; sourceTree = "<group>"; };
+		507E219F5FF043D2254B08F3 /* GwenTextureWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "GwenTextureWindow.cpp"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenTextureWindow.cpp"; sourceTree = "<group>"; };
+		1A810CD724AB11C350651E41 /* GwenTextureWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GwenTextureWindow.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/GwenTextureWindow.h"; sourceTree = "<group>"; };
+		45C11AB706502D507F6B5AA9 /* gwenInternalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "gwenInternalData.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/gwenInternalData.h"; sourceTree = "<group>"; };
+		374A11E76B2975E86C2849B0 /* gwenUserInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "gwenUserInterface.cpp"; path = "../../examples/ExampleBrowser/GwenGUISupport/gwenUserInterface.cpp"; sourceTree = "<group>"; };
+		7AEA22AA485029E26ACF7BCB /* gwenUserInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "gwenUserInterface.h"; path = "../../examples/ExampleBrowser/GwenGUISupport/gwenUserInterface.h"; sourceTree = "<group>"; };
+		5D672E434FC46B4923410978 /* InProcessExampleBrowser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "InProcessExampleBrowser.cpp"; path = "../../examples/ExampleBrowser/InProcessExampleBrowser.cpp"; sourceTree = "<group>"; };
+		0F3568DD33641E02214D7F76 /* InProcessExampleBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "InProcessExampleBrowser.h"; path = "../../examples/ExampleBrowser/InProcessExampleBrowser.h"; sourceTree = "<group>"; };
+		305C6D22793404DA2F2624E0 /* OpenGLExampleBrowser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "OpenGLExampleBrowser.cpp"; path = "../../examples/ExampleBrowser/OpenGLExampleBrowser.cpp"; sourceTree = "<group>"; };
+		5386304F3BD11B19296F3E1C /* OpenGLExampleBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OpenGLExampleBrowser.h"; path = "../../examples/ExampleBrowser/OpenGLExampleBrowser.h"; sourceTree = "<group>"; };
+		3DB67DAC65972A4E7F9D5A7F /* OpenGLGuiHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "OpenGLGuiHelper.cpp"; path = "../../examples/ExampleBrowser/OpenGLGuiHelper.cpp"; sourceTree = "<group>"; };
+		6B2B61A753D21BD206365F41 /* OpenGLGuiHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OpenGLGuiHelper.h"; path = "../../examples/ExampleBrowser/OpenGLGuiHelper.h"; sourceTree = "<group>"; };
+		4EF9700A501F4E7450416E70 /* gl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "gl.c"; path = "../../examples/ThirdPartyLibs/glad/gl.c"; sourceTree = "<group>"; };
+		6AF45F474E3525E978E86C4D /* ChromeTraceUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "ChromeTraceUtil.cpp"; path = "../../examples/Utils/ChromeTraceUtil.cpp"; sourceTree = "<group>"; };
+		74BA09EF366E2E99705424AF /* ChromeTraceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ChromeTraceUtil.h"; path = "../../examples/Utils/ChromeTraceUtil.h"; sourceTree = "<group>"; };
+		796E659E01870751727F0E72 /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
+		270F760700D53638480500F0 /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
+		34E1316517E552746A673953 /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
+		680955B836D57B3F1030690F /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
+		33207FA52B3140BA298F0BEC /* clew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "clew.c"; path = "../../src/clew/clew.c"; sourceTree = "<group>"; };
+		3CFF23BF10EA33756E836D4C /* clew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "clew.h"; path = "../../src/clew/clew.h"; sourceTree = "<group>"; };
+		405107E0132A532E73DA7D06 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenGL.framework"; path = "/System/Library/Frameworks/OpenGL.framework"; sourceTree = "<absolute>"; };
+		76D344CF0E381E5315CA2D11 /* libBulletExampleBrowserLib_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBulletExampleBrowserLib_xcode4_x64_release.a"; path = "libBulletExampleBrowserLib_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A160456371A3FAC591463C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC5017C0F060A2A7E5C041D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4B13AF4DE5301078094648 /* BulletExampleBrowserLib */ = {
+			isa = PBXGroup;
+			children = (
+				2E6709D85E460288468202BA /* examples */,
+				57FB4FCC5E714DF744D801FF /* src */,
+				30405A3762CE5ED7781D500B /* Frameworks */,
+				326C568134CC613B0C6F5EB6 /* Products */,
+			);
+			name = "BulletExampleBrowserLib";
+			sourceTree = "<group>";
+		};
+		2E6709D85E460288468202BA /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				353813C0523A1AA6286F4CB6 /* ExampleBrowser */,
+				2AAC3A281E38263C5CAE4D48 /* ThirdPartyLibs */,
+				2DDC4E567F535383425E4E52 /* Utils */,
+			);
+			name = "examples";
+			sourceTree = "<group>";
+		};
+		353813C0523A1AA6286F4CB6 /* ExampleBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				438978C044C502C96C0A1217 /* CollisionShape2TriangleMesh.cpp */,
+				6D126A185A3970AA674F1AA2 /* CollisionShape2TriangleMesh.h */,
+				090755E26F9A11A4575808D9 /* EmptyBrowser.h */,
+				6B3B1B1B48330F5E6B02583C /* EmptyExample.h */,
+				70326DD96871738E24FA249B /* ExampleBrowserInterface.h */,
+				4FD626E316F87A065354625A /* ExampleEntries.h */,
+				0C0320DB25B315AD171D786F /* GL_ShapeDrawer.cpp */,
+				464650B07D6D2F571BCE1EE3 /* GL_ShapeDrawer.h */,
+				69E73E365BE0693F47513B56 /* GwenGUISupport */,
+				5D672E434FC46B4923410978 /* InProcessExampleBrowser.cpp */,
+				0F3568DD33641E02214D7F76 /* InProcessExampleBrowser.h */,
+				305C6D22793404DA2F2624E0 /* OpenGLExampleBrowser.cpp */,
+				5386304F3BD11B19296F3E1C /* OpenGLExampleBrowser.h */,
+				3DB67DAC65972A4E7F9D5A7F /* OpenGLGuiHelper.cpp */,
+				6B2B61A753D21BD206365F41 /* OpenGLGuiHelper.h */,
+			);
+			name = "ExampleBrowser";
+			sourceTree = "<group>";
+		};
+		69E73E365BE0693F47513B56 /* GwenGUISupport */ = {
+			isa = PBXGroup;
+			children = (
+				1E4630D265522774506414AB /* GraphingTexture.cpp */,
+				06F550E05908496108D9731B /* GraphingTexture.h */,
+				1D7B305148CC75AA76B858DD /* GwenParameterInterface.cpp */,
+				099F387E7699473524540FE8 /* GwenParameterInterface.h */,
+				5A0D136D71DF101F0D142A05 /* GwenProfileWindow.cpp */,
+				22740FBB3E8347493ECA7FE3 /* GwenProfileWindow.h */,
+				507E219F5FF043D2254B08F3 /* GwenTextureWindow.cpp */,
+				1A810CD724AB11C350651E41 /* GwenTextureWindow.h */,
+				45C11AB706502D507F6B5AA9 /* gwenInternalData.h */,
+				374A11E76B2975E86C2849B0 /* gwenUserInterface.cpp */,
+				7AEA22AA485029E26ACF7BCB /* gwenUserInterface.h */,
+			);
+			name = "GwenGUISupport";
+			sourceTree = "<group>";
+		};
+		2AAC3A281E38263C5CAE4D48 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				37413BC5274A11F258C1167E /* glad */,
+			);
+			name = "ThirdPartyLibs";
+			sourceTree = "<group>";
+		};
+		37413BC5274A11F258C1167E /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				4EF9700A501F4E7450416E70 /* gl.c */,
+			);
+			name = "glad";
+			sourceTree = "<group>";
+		};
+		2DDC4E567F535383425E4E52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6AF45F474E3525E978E86C4D /* ChromeTraceUtil.cpp */,
+				74BA09EF366E2E99705424AF /* ChromeTraceUtil.h */,
+				796E659E01870751727F0E72 /* b3Clock.cpp */,
+				270F760700D53638480500F0 /* b3Clock.h */,
+				34E1316517E552746A673953 /* b3ResourcePath.cpp */,
+				680955B836D57B3F1030690F /* b3ResourcePath.h */,
+			);
+			name = "Utils";
+			sourceTree = "<group>";
+		};
+		57FB4FCC5E714DF744D801FF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1DE06974706E48EC37954627 /* clew */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		1DE06974706E48EC37954627 /* clew */ = {
+			isa = PBXGroup;
+			children = (
+				33207FA52B3140BA298F0BEC /* clew.c */,
+				3CFF23BF10EA33756E836D4C /* clew.h */,
+			);
+			name = "clew";
+			sourceTree = "<group>";
+		};
+		30405A3762CE5ED7781D500B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405107E0132A532E73DA7D06 /* OpenGL.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		326C568134CC613B0C6F5EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D344CF0E381E5315CA2D11 /* libBulletExampleBrowserLib_xcode4_x64_release.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C54C1F30BA2905327A7968 /* BulletExampleBrowserLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292408A1214622274F625096 /* Build configuration list for PBXNativeTarget "BulletExampleBrowserLib" */;
+			buildPhases = (
+				4B3C58E3517A28787C79148E /* Resources */,
+				052E31C337E00DA22D85784D /* Sources */,
+				3A160456371A3FAC591463C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BulletExampleBrowserLib";
+			productName = "BulletExampleBrowserLib";
+			productReference = 76D344CF0E381E5315CA2D11 /* libBulletExampleBrowserLib_xcode4_x64_release.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletExampleBrowserLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 0F4B13AF4DE5301078094648 /* BulletExampleBrowserLib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C54C1F30BA2905327A7968 /* libBulletExampleBrowserLib_xcode4_x64_release.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3C58E3517A28787C79148E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052E31C337E00DA22D85784D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C12523E68521A9416114387 /* CollisionShape2TriangleMesh.cpp in Sources */,
+				4E204C4E519B312B329D1473 /* GL_ShapeDrawer.cpp in Sources */,
+				7EE649DB57AA6B257F3A4AEE /* GraphingTexture.cpp in Sources */,
+				34F561EB43067FD535836BD1 /* GwenParameterInterface.cpp in Sources */,
+				6442496A6BA9487F1C094A60 /* GwenProfileWindow.cpp in Sources */,
+				417D30865892744D6C0F61D9 /* GwenTextureWindow.cpp in Sources */,
+				021672FF5EBE3CFF4AB81B8B /* gwenUserInterface.cpp in Sources */,
+				350A26A803DA7A8D52D93501 /* InProcessExampleBrowser.cpp in Sources */,
+				1B490AD757F1471F4CCD4235 /* OpenGLExampleBrowser.cpp in Sources */,
+				56B13562571A0F4B3BD869DA /* OpenGLGuiHelper.cpp in Sources */,
+				7E7C1099434C70E1571F3B25 /* gl.c in Sources */,
+				6C915EC42593734743970E70 /* ChromeTraceUtil.cpp in Sources */,
+				6620723237DF5223081A03A8 /* b3Clock.cpp in Sources */,
+				18512A344ABB5C4D45354761 /* b3ResourcePath.cpp in Sources */,
+				3A655C7046F06CCE032639EE /* clew.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C25DF730C973901D4B61BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "BulletExampleBrowserLib_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		557F3DA618F718970D5E2120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "BulletExampleBrowserLib_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		2DA477E15C5221F77EF03F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"B3_USE_CLEW",
+					"INCLUDE_CLOTH_DEMOS",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src/clew",
+					"../../examples/ExampleBrowser",
+					"../../src",
+					"../../examples/ThirdPartyLibs",
+					"../../examples/ThirdPartyLibs/glad",
+				);
+				OBJROOT = "obj/x64/Release/BulletExampleBrowserLib";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		563562405A4D7DC275322822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"B3_USE_CLEW",
+					"INCLUDE_CLOTH_DEMOS",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src/clew",
+					"../../examples/ExampleBrowser",
+					"../../src",
+					"../../examples/ThirdPartyLibs",
+					"../../examples/ThirdPartyLibs/glad",
+				);
+				OBJROOT = "obj/x64/Debug/BulletExampleBrowserLib";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292408A1214622274F625096 /* Build configuration list for PBXNativeTarget "libBulletExampleBrowserLib_xcode4_x64_release.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C25DF730C973901D4B61BC /* Release */,
+				557F3DA618F718970D5E2120 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletExampleBrowserLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA477E15C5221F77EF03F3D /* Release */,
+				563562405A4D7DC275322822 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

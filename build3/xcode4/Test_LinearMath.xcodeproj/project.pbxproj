@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393F72DA74134CE95B736A5E /* TestList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD5E5339F30B476E2C47CC /* TestList.cpp */; };
+		55CD0B9650423AB634155656 /* Test_3x3getRot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7235366D433910CD3E2D7F19 /* Test_3x3getRot.cpp */; };
+		41B824060BCC3FA32439451C /* Test_3x3mulM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3928712A3343127818672EF0 /* Test_3x3mulM.cpp */; };
+		00F508B27D056C4B53083C1F /* Test_3x3mulM1M2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C077C4C1D8403313C1D1D17 /* Test_3x3mulM1M2.cpp */; };
+		149B037F41AA1F0F1B7C1FF8 /* Test_3x3mulMV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30EF5C80062A355D1B63084B /* Test_3x3mulMV.cpp */; };
+		0877795840A926851A8728FB /* Test_3x3mulVM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 753170A100AC2A3317212BAB /* Test_3x3mulVM.cpp */; };
+		131849456698126810447734 /* Test_3x3setRot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6429581B7FF8262442C34BE4 /* Test_3x3setRot.cpp */; };
+		42644FE9535442D420F0114F /* Test_3x3timesTranspose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB4D2D513F219A46AD3A26 /* Test_3x3timesTranspose.cpp */; };
+		7B4E53C67F3508AF51742519 /* Test_3x3transpose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43463EE27ACA6AE65E683AE2 /* Test_3x3transpose.cpp */; };
+		1B6302A20D514E724C9951FC /* Test_3x3transposeTimes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D9F71B955407551370D3F2C /* Test_3x3transposeTimes.cpp */; };
+		58CA368C3CB748ED768A1600 /* Test_btDbvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F344344F1170055D4B00DF /* Test_btDbvt.cpp */; };
+		29C968A817DA19E2006E4F81 /* Test_dot3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4252374810190BB26FB615F1 /* Test_dot3.cpp */; };
+		4D3D7BB475B224D0653333E9 /* Test_maxdot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1062205605CD564376C90991 /* Test_maxdot.cpp */; };
+		5BFA1CCB67800E442B6F3C6E /* Test_mindot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54310ACE7CDB49172CE52B9F /* Test_mindot.cpp */; };
+		715D167C66A511564F7934C4 /* Test_qtdot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B557D3278687A6468257D4F /* Test_qtdot.cpp */; };
+		010C732863C54BEE2F415CE0 /* Test_qtmul.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FD87101112E15972B7A0AE7 /* Test_qtmul.cpp */; };
+		0D097EAA090077E433E84BC6 /* Test_qtmulQV3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB302A72F523E5B643D2234 /* Test_qtmulQV3.cpp */; };
+		0289312F3D7D69CC67470344 /* Test_qtmulV3Q.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B7CAE3C4C5D53786E0090 /* Test_qtmulV3Q.cpp */; };
+		7E660D72475A777E20A369ED /* Test_qtnorm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55EA2C005CD93CA5354241A8 /* Test_qtnorm.cpp */; };
+		643242306BC6394E62F97E52 /* Test_quat_aos_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 764D5FB244E93A805A9B7643 /* Test_quat_aos_neon.cpp */; };
+		7FD7277325766C5901CE1AA9 /* Test_v3cross.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352D44871C070FB574C7726D /* Test_v3cross.cpp */; };
+		0F4E7FC1710504AB1BD15F99 /* Test_v3div.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7938791031921F0503340216 /* Test_v3div.cpp */; };
+		506C7EF10E376C0B72702087 /* Test_v3dot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 389750C554FD4D2B60B67B88 /* Test_v3dot.cpp */; };
+		39AE6C7722D509116B074306 /* Test_v3interp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 427854EE7AD15B967B280E63 /* Test_v3interp.cpp */; };
+		1F6816450CE51DF90622314C /* Test_v3lerp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61FB63D73C89592D1B3345B5 /* Test_v3lerp.cpp */; };
+		663964D96699775922767EC4 /* Test_v3norm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 595C2C820EE76FBC4B0A24F7 /* Test_v3norm.cpp */; };
+		598153292BF251113DA92322 /* Test_v3rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6595361D4B17696F1224345B /* Test_v3rotate.cpp */; };
+		50A73C996DF8505E69BF184F /* Test_v3sdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E556AD0037A3F1B0CA00169 /* Test_v3sdiv.cpp */; };
+		732C7163455F1D702E854BB9 /* Test_v3skew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B8261734887ED646BA6747 /* Test_v3skew.cpp */; };
+		6F94166B651214E374DD0DE4 /* Test_v3triple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA146A7185F32731FAF49B8 /* Test_v3triple.cpp */; };
+		0201189031B44F13747C7C3C /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD027907941237847302E5B /* Utils.cpp */; };
+		2BC1241F197D66EB6CD265D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20EA632941EA074A124935FD /* main.cpp */; };
+		61153808175308714F6A65B3 /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4465679867F71D6431E6336B /* libBulletDynamics.a */; };
+		58D05B297DBF085738480B0D /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09474E7A3C341B154A6251 /* libBulletCollision.a */; };
+		463563DA0D2D1A0771BC087A /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6C184D6CA175E8044A2917 /* libLinearMath.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17703BDB2D7573F0210A56FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6310847FB7741716F14C87 /* BulletDynamics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4FA35C0623D46E115FAC37AE;
+			remoteInfo = "libBulletDynamics_xcode4_x64_release.a";
+		};
+		2C8F027756853AA06F6E2F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6310847FB7741716F14C87 /* BulletDynamics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EB46A31C615C5040DE36D9;
+			remoteInfo = "libBulletDynamics_xcode4_x64_release.a";
+		};
+		189A541734750CF618DD5F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B716E13D1607483DC7726E /* BulletCollision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77EF0B1679CF11A92638645A;
+			remoteInfo = "libBulletCollision_xcode4_x64_release.a";
+		};
+		754913FB5A8D12E1177E7535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B716E13D1607483DC7726E /* BulletCollision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4C58FB07E61E0D009078E9;
+			remoteInfo = "libBulletCollision_xcode4_x64_release.a";
+		};
+		72A538933AFF4D2F6C892A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10466D19195E04DE43842340 /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38056F365426392605FA0F64;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+		199917F62EE8128316CC3071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10466D19195E04DE43842340 /* LinearMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7169459C2B3E28C14D00766D;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDD5E5339F30B476E2C47CC /* TestList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TestList.cpp"; path = "../../test/Bullet2/Source/TestList.cpp"; sourceTree = "<group>"; };
+		45A17D64515F555C2E1253F1 /* TestList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestList.h"; path = "../../test/Bullet2/Source/TestList.h"; sourceTree = "<group>"; };
+		7235366D433910CD3E2D7F19 /* Test_3x3getRot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3getRot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3getRot.cpp"; sourceTree = "<group>"; };
+		4D8027F239DC3E3C65F975B6 /* Test_3x3getRot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3getRot.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3getRot.h"; sourceTree = "<group>"; };
+		3928712A3343127818672EF0 /* Test_3x3mulM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3mulM.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulM.cpp"; sourceTree = "<group>"; };
+		6D6515E872540D9165E3302C /* Test_3x3mulM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3mulM.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulM.h"; sourceTree = "<group>"; };
+		3C077C4C1D8403313C1D1D17 /* Test_3x3mulM1M2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3mulM1M2.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulM1M2.cpp"; sourceTree = "<group>"; };
+		581836F9365A0E9C49301955 /* Test_3x3mulM1M2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3mulM1M2.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulM1M2.h"; sourceTree = "<group>"; };
+		30EF5C80062A355D1B63084B /* Test_3x3mulMV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3mulMV.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulMV.cpp"; sourceTree = "<group>"; };
+		03FD5E197C0D5FD7586353FA /* Test_3x3mulMV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3mulMV.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulMV.h"; sourceTree = "<group>"; };
+		753170A100AC2A3317212BAB /* Test_3x3mulVM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3mulVM.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulVM.cpp"; sourceTree = "<group>"; };
+		1FBB5CB8707E00B4459B6AC9 /* Test_3x3mulVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3mulVM.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3mulVM.h"; sourceTree = "<group>"; };
+		6429581B7FF8262442C34BE4 /* Test_3x3setRot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3setRot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3setRot.cpp"; sourceTree = "<group>"; };
+		270E30CE5F670C446B566547 /* Test_3x3setRot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3setRot.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3setRot.h"; sourceTree = "<group>"; };
+		2AAB4D2D513F219A46AD3A26 /* Test_3x3timesTranspose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3timesTranspose.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3timesTranspose.cpp"; sourceTree = "<group>"; };
+		6F1E52F8509C574D10E74472 /* Test_3x3timesTranspose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3timesTranspose.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3timesTranspose.h"; sourceTree = "<group>"; };
+		43463EE27ACA6AE65E683AE2 /* Test_3x3transpose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3transpose.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3transpose.cpp"; sourceTree = "<group>"; };
+		350A560A2FBA694336155A63 /* Test_3x3transpose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3transpose.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3transpose.h"; sourceTree = "<group>"; };
+		1D9F71B955407551370D3F2C /* Test_3x3transposeTimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_3x3transposeTimes.cpp"; path = "../../test/Bullet2/Source/Tests/Test_3x3transposeTimes.cpp"; sourceTree = "<group>"; };
+		283B3F530FEB31E471CA2C3A /* Test_3x3transposeTimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_3x3transposeTimes.h"; path = "../../test/Bullet2/Source/Tests/Test_3x3transposeTimes.h"; sourceTree = "<group>"; };
+		40F344344F1170055D4B00DF /* Test_btDbvt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_btDbvt.cpp"; path = "../../test/Bullet2/Source/Tests/Test_btDbvt.cpp"; sourceTree = "<group>"; };
+		15F3296550491B7C72000337 /* Test_btDbvt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_btDbvt.h"; path = "../../test/Bullet2/Source/Tests/Test_btDbvt.h"; sourceTree = "<group>"; };
+		4252374810190BB26FB615F1 /* Test_dot3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_dot3.cpp"; path = "../../test/Bullet2/Source/Tests/Test_dot3.cpp"; sourceTree = "<group>"; };
+		59AA4FB44C8B79F812477EE3 /* Test_dot3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_dot3.h"; path = "../../test/Bullet2/Source/Tests/Test_dot3.h"; sourceTree = "<group>"; };
+		1062205605CD564376C90991 /* Test_maxdot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_maxdot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_maxdot.cpp"; sourceTree = "<group>"; };
+		10915FFD68BD0EB534D31204 /* Test_maxdot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_maxdot.h"; path = "../../test/Bullet2/Source/Tests/Test_maxdot.h"; sourceTree = "<group>"; };
+		54310ACE7CDB49172CE52B9F /* Test_mindot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_mindot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_mindot.cpp"; sourceTree = "<group>"; };
+		5B203F7543B32A87178817C5 /* Test_mindot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_mindot.h"; path = "../../test/Bullet2/Source/Tests/Test_mindot.h"; sourceTree = "<group>"; };
+		2B557D3278687A6468257D4F /* Test_qtdot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_qtdot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_qtdot.cpp"; sourceTree = "<group>"; };
+		530465EB4F730F8C47B4146E /* Test_qtdot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_qtdot.h"; path = "../../test/Bullet2/Source/Tests/Test_qtdot.h"; sourceTree = "<group>"; };
+		4FD87101112E15972B7A0AE7 /* Test_qtmul.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_qtmul.cpp"; path = "../../test/Bullet2/Source/Tests/Test_qtmul.cpp"; sourceTree = "<group>"; };
+		133532FA3EAF65F9659F68B8 /* Test_qtmul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_qtmul.h"; path = "../../test/Bullet2/Source/Tests/Test_qtmul.h"; sourceTree = "<group>"; };
+		0DB302A72F523E5B643D2234 /* Test_qtmulQV3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_qtmulQV3.cpp"; path = "../../test/Bullet2/Source/Tests/Test_qtmulQV3.cpp"; sourceTree = "<group>"; };
+		430D306F634C13E52B367538 /* Test_qtmulQV3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_qtmulQV3.h"; path = "../../test/Bullet2/Source/Tests/Test_qtmulQV3.h"; sourceTree = "<group>"; };
+		5D4B7CAE3C4C5D53786E0090 /* Test_qtmulV3Q.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_qtmulV3Q.cpp"; path = "../../test/Bullet2/Source/Tests/Test_qtmulV3Q.cpp"; sourceTree = "<group>"; };
+		16020C6D739566A431E75635 /* Test_qtmulV3Q.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_qtmulV3Q.h"; path = "../../test/Bullet2/Source/Tests/Test_qtmulV3Q.h"; sourceTree = "<group>"; };
+		55EA2C005CD93CA5354241A8 /* Test_qtnorm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_qtnorm.cpp"; path = "../../test/Bullet2/Source/Tests/Test_qtnorm.cpp"; sourceTree = "<group>"; };
+		08010F446D4234B44029525B /* Test_qtnorm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_qtnorm.h"; path = "../../test/Bullet2/Source/Tests/Test_qtnorm.h"; sourceTree = "<group>"; };
+		764D5FB244E93A805A9B7643 /* Test_quat_aos_neon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_quat_aos_neon.cpp"; path = "../../test/Bullet2/Source/Tests/Test_quat_aos_neon.cpp"; sourceTree = "<group>"; };
+		5765328E130D6B1B4FCE7AF4 /* Test_quat_aos_neon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_quat_aos_neon.h"; path = "../../test/Bullet2/Source/Tests/Test_quat_aos_neon.h"; sourceTree = "<group>"; };
+		352D44871C070FB574C7726D /* Test_v3cross.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3cross.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3cross.cpp"; sourceTree = "<group>"; };
+		708F739D66C33D7839613FCC /* Test_v3cross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3cross.h"; path = "../../test/Bullet2/Source/Tests/Test_v3cross.h"; sourceTree = "<group>"; };
+		7938791031921F0503340216 /* Test_v3div.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3div.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3div.cpp"; sourceTree = "<group>"; };
+		603624141F3020BB5E3037DB /* Test_v3div.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3div.h"; path = "../../test/Bullet2/Source/Tests/Test_v3div.h"; sourceTree = "<group>"; };
+		389750C554FD4D2B60B67B88 /* Test_v3dot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3dot.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3dot.cpp"; sourceTree = "<group>"; };
+		3F6F345214C40149119D0312 /* Test_v3dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3dot.h"; path = "../../test/Bullet2/Source/Tests/Test_v3dot.h"; sourceTree = "<group>"; };
+		427854EE7AD15B967B280E63 /* Test_v3interp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3interp.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3interp.cpp"; sourceTree = "<group>"; };
+		615326CF1035369F3DBE271D /* Test_v3interp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3interp.h"; path = "../../test/Bullet2/Source/Tests/Test_v3interp.h"; sourceTree = "<group>"; };
+		61FB63D73C89592D1B3345B5 /* Test_v3lerp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3lerp.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3lerp.cpp"; sourceTree = "<group>"; };
+		21313C66506A75B020080EA8 /* Test_v3lerp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3lerp.h"; path = "../../test/Bullet2/Source/Tests/Test_v3lerp.h"; sourceTree = "<group>"; };
+		595C2C820EE76FBC4B0A24F7 /* Test_v3norm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3norm.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3norm.cpp"; sourceTree = "<group>"; };
+		225A4DA05D6B39EB245B5E13 /* Test_v3norm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3norm.h"; path = "../../test/Bullet2/Source/Tests/Test_v3norm.h"; sourceTree = "<group>"; };
+		6595361D4B17696F1224345B /* Test_v3rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3rotate.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3rotate.cpp"; sourceTree = "<group>"; };
+		12CF59D019E47F8B073A18B5 /* Test_v3rotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3rotate.h"; path = "../../test/Bullet2/Source/Tests/Test_v3rotate.h"; sourceTree = "<group>"; };
+		2E556AD0037A3F1B0CA00169 /* Test_v3sdiv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3sdiv.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3sdiv.cpp"; sourceTree = "<group>"; };
+		047606940B2E204C6884560D /* Test_v3sdiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3sdiv.h"; path = "../../test/Bullet2/Source/Tests/Test_v3sdiv.h"; sourceTree = "<group>"; };
+		23B8261734887ED646BA6747 /* Test_v3skew.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3skew.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3skew.cpp"; sourceTree = "<group>"; };
+		6D6603ED6244798310913C80 /* Test_v3skew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3skew.h"; path = "../../test/Bullet2/Source/Tests/Test_v3skew.h"; sourceTree = "<group>"; };
+		1CA146A7185F32731FAF49B8 /* Test_v3triple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Test_v3triple.cpp"; path = "../../test/Bullet2/Source/Tests/Test_v3triple.cpp"; sourceTree = "<group>"; };
+		102524AC1EAE56910175309C /* Test_v3triple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Test_v3triple.h"; path = "../../test/Bullet2/Source/Tests/Test_v3triple.h"; sourceTree = "<group>"; };
+		5AD027907941237847302E5B /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Utils.cpp"; path = "../../test/Bullet2/Source/Utils.cpp"; sourceTree = "<group>"; };
+		596B00131E75394923C21A93 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Utils.h"; path = "../../test/Bullet2/Source/Utils.h"; sourceTree = "<group>"; };
+		44904E7A66CC06ED61972E2F /* btIntDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "btIntDefines.h"; path = "../../test/Bullet2/Source/btIntDefines.h"; sourceTree = "<group>"; };
+		20EA632941EA074A124935FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../test/Bullet2/Source/main.cpp"; sourceTree = "<group>"; };
+		11BF33D31BDB03E156914B77 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "main.h"; path = "../../test/Bullet2/Source/main.h"; sourceTree = "<group>"; };
+		13492E292E1C3A803C630B14 /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "vector.h"; path = "../../test/Bullet2/Source/vector.h"; sourceTree = "<group>"; };
+		09202FAB3C0926F818955FC1 /* Test_LinearMath_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Test_LinearMath_xcode4_x64_release"; path = "Test_LinearMath_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6310847FB7741716F14C87 /* BulletDynamics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletDynamics.xcodeproj"; path = "BulletDynamics.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		06B716E13D1607483DC7726E /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletCollision.xcodeproj"; path = "BulletCollision.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		10466D19195E04DE43842340 /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C95D1069BB753A71CA2C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61153808175308714F6A65B3 /* libBulletDynamics.a in Frameworks */,
+				58D05B297DBF085738480B0D /* libBulletCollision.a in Frameworks */,
+				463563DA0D2D1A0771BC087A /* libLinearMath.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B479B433D867B52F4D201E /* Test_LinearMath */ = {
+			isa = PBXGroup;
+			children = (
+				3ED614497FF534136E567071 /* test */,
+				79602AFD758A459D5611042F /* Products */,
+				5A74311E6783522A46E30BE2 /* Projects */,
+			);
+			name = "Test_LinearMath";
+			sourceTree = "<group>";
+		};
+		3ED614497FF534136E567071 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				31EA1D6E5C812A3677C736AA /* Bullet2 */,
+			);
+			name = "test";
+			sourceTree = "<group>";
+		};
+		31EA1D6E5C812A3677C736AA /* Bullet2 */ = {
+			isa = PBXGroup;
+			children = (
+				063329513F0E3AF46F263006 /* Source */,
+			);
+			name = "Bullet2";
+			sourceTree = "<group>";
+		};
+		063329513F0E3AF46F263006 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0DDD5E5339F30B476E2C47CC /* TestList.cpp */,
+				45A17D64515F555C2E1253F1 /* TestList.h */,
+				1FBD334C627257963B6916AF /* Tests */,
+				5AD027907941237847302E5B /* Utils.cpp */,
+				596B00131E75394923C21A93 /* Utils.h */,
+				44904E7A66CC06ED61972E2F /* btIntDefines.h */,
+				20EA632941EA074A124935FD /* main.cpp */,
+				11BF33D31BDB03E156914B77 /* main.h */,
+				13492E292E1C3A803C630B14 /* vector.h */,
+			);
+			name = "Source";
+			sourceTree = "<group>";
+		};
+		1FBD334C627257963B6916AF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7235366D433910CD3E2D7F19 /* Test_3x3getRot.cpp */,
+				4D8027F239DC3E3C65F975B6 /* Test_3x3getRot.h */,
+				3928712A3343127818672EF0 /* Test_3x3mulM.cpp */,
+				6D6515E872540D9165E3302C /* Test_3x3mulM.h */,
+				3C077C4C1D8403313C1D1D17 /* Test_3x3mulM1M2.cpp */,
+				581836F9365A0E9C49301955 /* Test_3x3mulM1M2.h */,
+				30EF5C80062A355D1B63084B /* Test_3x3mulMV.cpp */,
+				03FD5E197C0D5FD7586353FA /* Test_3x3mulMV.h */,
+				753170A100AC2A3317212BAB /* Test_3x3mulVM.cpp */,
+				1FBB5CB8707E00B4459B6AC9 /* Test_3x3mulVM.h */,
+				6429581B7FF8262442C34BE4 /* Test_3x3setRot.cpp */,
+				270E30CE5F670C446B566547 /* Test_3x3setRot.h */,
+				2AAB4D2D513F219A46AD3A26 /* Test_3x3timesTranspose.cpp */,
+				6F1E52F8509C574D10E74472 /* Test_3x3timesTranspose.h */,
+				43463EE27ACA6AE65E683AE2 /* Test_3x3transpose.cpp */,
+				350A560A2FBA694336155A63 /* Test_3x3transpose.h */,
+				1D9F71B955407551370D3F2C /* Test_3x3transposeTimes.cpp */,
+				283B3F530FEB31E471CA2C3A /* Test_3x3transposeTimes.h */,
+				40F344344F1170055D4B00DF /* Test_btDbvt.cpp */,
+				15F3296550491B7C72000337 /* Test_btDbvt.h */,
+				4252374810190BB26FB615F1 /* Test_dot3.cpp */,
+				59AA4FB44C8B79F812477EE3 /* Test_dot3.h */,
+				1062205605CD564376C90991 /* Test_maxdot.cpp */,
+				10915FFD68BD0EB534D31204 /* Test_maxdot.h */,
+				54310ACE7CDB49172CE52B9F /* Test_mindot.cpp */,
+				5B203F7543B32A87178817C5 /* Test_mindot.h */,
+				2B557D3278687A6468257D4F /* Test_qtdot.cpp */,
+				530465EB4F730F8C47B4146E /* Test_qtdot.h */,
+				4FD87101112E15972B7A0AE7 /* Test_qtmul.cpp */,
+				133532FA3EAF65F9659F68B8 /* Test_qtmul.h */,
+				0DB302A72F523E5B643D2234 /* Test_qtmulQV3.cpp */,
+				430D306F634C13E52B367538 /* Test_qtmulQV3.h */,
+				5D4B7CAE3C4C5D53786E0090 /* Test_qtmulV3Q.cpp */,
+				16020C6D739566A431E75635 /* Test_qtmulV3Q.h */,
+				55EA2C005CD93CA5354241A8 /* Test_qtnorm.cpp */,
+				08010F446D4234B44029525B /* Test_qtnorm.h */,
+				764D5FB244E93A805A9B7643 /* Test_quat_aos_neon.cpp */,
+				5765328E130D6B1B4FCE7AF4 /* Test_quat_aos_neon.h */,
+				352D44871C070FB574C7726D /* Test_v3cross.cpp */,
+				708F739D66C33D7839613FCC /* Test_v3cross.h */,
+				7938791031921F0503340216 /* Test_v3div.cpp */,
+				603624141F3020BB5E3037DB /* Test_v3div.h */,
+				389750C554FD4D2B60B67B88 /* Test_v3dot.cpp */,
+				3F6F345214C40149119D0312 /* Test_v3dot.h */,
+				427854EE7AD15B967B280E63 /* Test_v3interp.cpp */,
+				615326CF1035369F3DBE271D /* Test_v3interp.h */,
+				61FB63D73C89592D1B3345B5 /* Test_v3lerp.cpp */,
+				21313C66506A75B020080EA8 /* Test_v3lerp.h */,
+				595C2C820EE76FBC4B0A24F7 /* Test_v3norm.cpp */,
+				225A4DA05D6B39EB245B5E13 /* Test_v3norm.h */,
+				6595361D4B17696F1224345B /* Test_v3rotate.cpp */,
+				12CF59D019E47F8B073A18B5 /* Test_v3rotate.h */,
+				2E556AD0037A3F1B0CA00169 /* Test_v3sdiv.cpp */,
+				047606940B2E204C6884560D /* Test_v3sdiv.h */,
+				23B8261734887ED646BA6747 /* Test_v3skew.cpp */,
+				6D6603ED6244798310913C80 /* Test_v3skew.h */,
+				1CA146A7185F32731FAF49B8 /* Test_v3triple.cpp */,
+				102524AC1EAE56910175309C /* Test_v3triple.h */,
+			);
+			name = "Tests";
+			sourceTree = "<group>";
+		};
+		79602AFD758A459D5611042F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09202FAB3C0926F818955FC1 /* Test_LinearMath_xcode4_x64_release */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		5A74311E6783522A46E30BE2 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				5F6310847FB7741716F14C87 /* BulletDynamics.xcodeproj */,
+				06B716E13D1607483DC7726E /* BulletCollision.xcodeproj */,
+				10466D19195E04DE43842340 /* LinearMath.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		064D472828FB121002EB332E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4465679867F71D6431E6336B /* libBulletDynamics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626D6BAE75351DBB17E56ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D09474E7A3C341B154A6251 /* libBulletCollision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF35B53420B0DE420EE7833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6C184D6CA175E8044A2917 /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF21FD76EBC018E3D65729D /* Test_LinearMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF702E710A408A865136796 /* Build configuration list for PBXNativeTarget "Test_LinearMath" */;
+			buildPhases = (
+				4F6C6B674E5024CC611426D8 /* Resources */,
+				5364540D3D1C16176760106E /* Sources */,
+				46C95D1069BB753A71CA2C5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750A7B8172D87DB23162488A /* PBXTargetDependency */,
+				002844494F2F46065A2551E6 /* PBXTargetDependency */,
+				03FB57B1567C781A07CE6780 /* PBXTargetDependency */,
+			);
+			name = "Test_LinearMath";
+			productInstallPath = "$(HOME)/bin";
+			productName = "Test_LinearMath";
+			productReference = 09202FAB3C0926F818955FC1 /* Test_LinearMath_xcode4_x64_release */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_LinearMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 30B479B433D867B52F4D201E /* Test_LinearMath */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 064D472828FB121002EB332E /* Products */;
+					ProjectRef = 5F6310847FB7741716F14C87 /* BulletDynamics.xcodeproj */;
+				},
+				{
+					ProductGroup = 626D6BAE75351DBB17E56ED1 /* Products */;
+					ProjectRef = 06B716E13D1607483DC7726E /* BulletCollision.xcodeproj */;
+				},
+				{
+					ProductGroup = 0DF35B53420B0DE420EE7833 /* Products */;
+					ProjectRef = 10466D19195E04DE43842340 /* LinearMath.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1DF21FD76EBC018E3D65729D /* Test_LinearMath_xcode4_x64_release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4465679867F71D6431E6336B /* libBulletDynamics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libBulletDynamics.a";
+			remoteRef = 17703BDB2D7573F0210A56FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D09474E7A3C341B154A6251 /* libBulletCollision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libBulletCollision.a";
+			remoteRef = 189A541734750CF618DD5F05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6A6C184D6CA175E8044A2917 /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libLinearMath.a";
+			remoteRef = 72A538933AFF4D2F6C892A33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F6C6B674E5024CC611426D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5364540D3D1C16176760106E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F72DA74134CE95B736A5E /* TestList.cpp in Sources */,
+				55CD0B9650423AB634155656 /* Test_3x3getRot.cpp in Sources */,
+				41B824060BCC3FA32439451C /* Test_3x3mulM.cpp in Sources */,
+				00F508B27D056C4B53083C1F /* Test_3x3mulM1M2.cpp in Sources */,
+				149B037F41AA1F0F1B7C1FF8 /* Test_3x3mulMV.cpp in Sources */,
+				0877795840A926851A8728FB /* Test_3x3mulVM.cpp in Sources */,
+				131849456698126810447734 /* Test_3x3setRot.cpp in Sources */,
+				42644FE9535442D420F0114F /* Test_3x3timesTranspose.cpp in Sources */,
+				7B4E53C67F3508AF51742519 /* Test_3x3transpose.cpp in Sources */,
+				1B6302A20D514E724C9951FC /* Test_3x3transposeTimes.cpp in Sources */,
+				58CA368C3CB748ED768A1600 /* Test_btDbvt.cpp in Sources */,
+				29C968A817DA19E2006E4F81 /* Test_dot3.cpp in Sources */,
+				4D3D7BB475B224D0653333E9 /* Test_maxdot.cpp in Sources */,
+				5BFA1CCB67800E442B6F3C6E /* Test_mindot.cpp in Sources */,
+				715D167C66A511564F7934C4 /* Test_qtdot.cpp in Sources */,
+				010C732863C54BEE2F415CE0 /* Test_qtmul.cpp in Sources */,
+				0D097EAA090077E433E84BC6 /* Test_qtmulQV3.cpp in Sources */,
+				0289312F3D7D69CC67470344 /* Test_qtmulV3Q.cpp in Sources */,
+				7E660D72475A777E20A369ED /* Test_qtnorm.cpp in Sources */,
+				643242306BC6394E62F97E52 /* Test_quat_aos_neon.cpp in Sources */,
+				7FD7277325766C5901CE1AA9 /* Test_v3cross.cpp in Sources */,
+				0F4E7FC1710504AB1BD15F99 /* Test_v3div.cpp in Sources */,
+				506C7EF10E376C0B72702087 /* Test_v3dot.cpp in Sources */,
+				39AE6C7722D509116B074306 /* Test_v3interp.cpp in Sources */,
+				1F6816450CE51DF90622314C /* Test_v3lerp.cpp in Sources */,
+				663964D96699775922767EC4 /* Test_v3norm.cpp in Sources */,
+				598153292BF251113DA92322 /* Test_v3rotate.cpp in Sources */,
+				50A73C996DF8505E69BF184F /* Test_v3sdiv.cpp in Sources */,
+				732C7163455F1D702E854BB9 /* Test_v3skew.cpp in Sources */,
+				6F94166B651214E374DD0DE4 /* Test_v3triple.cpp in Sources */,
+				0201189031B44F13747C7C3C /* Utils.cpp in Sources */,
+				2BC1241F197D66EB6CD265D7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		750A7B8172D87DB23162488A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletDynamics.a";
+			targetProxy = 2C8F027756853AA06F6E2F7B /* PBXContainerItemProxy */;
+		};
+		002844494F2F46065A2551E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBulletCollision.a";
+			targetProxy = 754913FB5A8D12E1177E7535 /* PBXContainerItemProxy */;
+		};
+		03FB57B1567C781A07CE6780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libLinearMath.a";
+			targetProxy = 199917F62EE8128316CC3071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		346F037316C851A121E218CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_LinearMath_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		09C97283215D0DC876B91586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_LinearMath_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		20992886784B0C8C4E3F151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../test/Bullet2/Source",
+					"../../test/Bullet2/Source/Tests",
+				);
+				OBJROOT = "obj/x64/Release/Test_LinearMath";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		46C758474FD617CF22E64A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../src",
+					"../../test/Bullet2/Source",
+					"../../test/Bullet2/Source/Tests",
+				);
+				OBJROOT = "obj/x64/Debug/Test_LinearMath";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF702E710A408A865136796 /* Build configuration list for PBXNativeTarget "Test_LinearMath_xcode4_x64_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346F037316C851A121E218CC /* Release */,
+				09C97283215D0DC876B91586 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_LinearMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20992886784B0C8C4E3F151C /* Release */,
+				46C758474FD617CF22E64A7F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
