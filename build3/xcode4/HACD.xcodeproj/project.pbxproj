@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027645212DA56A1B4A525633 /* hacdGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12957E60574D22840CE0694F /* hacdGraph.cpp */; };
-		050F3B7075D471F136D5063B /* hacdHACD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A676CD3150320656E0406B3 /* hacdHACD.cpp */; };
-		46A867780BBE692260BC0557 /* hacdICHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3170909B02761662E77C5 /* hacdICHull.cpp */; };
-		104474EA6FB84A14181F20B3 /* hacdManifoldMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC78432D0A106A31B17D78 /* hacdManifoldMesh.cpp */; };
+		3452749374B200A36BF34173 /* hacdGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5868431F5CE35933436B29AD /* hacdGraph.cpp */; };
+		75075734313A139816BE34BF /* hacdHACD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71012F5507DF65830A035A14 /* hacdHACD.cpp */; };
+		2B1B13DE74BE22EC4BA56DA1 /* hacdICHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B4403E81E766DE308634414 /* hacdICHull.cpp */; };
+		19A131FA49DE47DC53863DB4 /* hacdManifoldMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B777F3D352E18B54D1A1318 /* hacdManifoldMesh.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F0021524FDA1ED60C7769CE /* hacdCircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdCircularList.h"; path = "../../Extras/HACD/hacdCircularList.h"; sourceTree = "<group>"; };
-		12957E60574D22840CE0694F /* hacdGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdGraph.cpp"; path = "../../Extras/HACD/hacdGraph.cpp"; sourceTree = "<group>"; };
-		3EC12C0276AB6B470D122965 /* hacdGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdGraph.h"; path = "../../Extras/HACD/hacdGraph.h"; sourceTree = "<group>"; };
-		2A676CD3150320656E0406B3 /* hacdHACD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdHACD.cpp"; path = "../../Extras/HACD/hacdHACD.cpp"; sourceTree = "<group>"; };
-		48F164F51F5279766C10400C /* hacdHACD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdHACD.h"; path = "../../Extras/HACD/hacdHACD.h"; sourceTree = "<group>"; };
-		7BF3170909B02761662E77C5 /* hacdICHull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdICHull.cpp"; path = "../../Extras/HACD/hacdICHull.cpp"; sourceTree = "<group>"; };
-		28881F464D8A38535C447545 /* hacdICHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdICHull.h"; path = "../../Extras/HACD/hacdICHull.h"; sourceTree = "<group>"; };
-		29AC78432D0A106A31B17D78 /* hacdManifoldMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdManifoldMesh.cpp"; path = "../../Extras/HACD/hacdManifoldMesh.cpp"; sourceTree = "<group>"; };
-		5E2E2BB067360B8365E92C01 /* hacdManifoldMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdManifoldMesh.h"; path = "../../Extras/HACD/hacdManifoldMesh.h"; sourceTree = "<group>"; };
-		1A4343C5472A424B686B4EF7 /* hacdVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdVector.h"; path = "../../Extras/HACD/hacdVector.h"; sourceTree = "<group>"; };
-		565C34FA19A80E1C053C3ACD /* hacdVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdVersion.h"; path = "../../Extras/HACD/hacdVersion.h"; sourceTree = "<group>"; };
-		487C486837900E3C43EB1B40 /* libHACD_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHACD_xcode4_x64_release.a"; path = "libHACD_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F830F5C164944F12ACE6884 /* hacdCircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdCircularList.h"; path = "../../Extras/HACD/hacdCircularList.h"; sourceTree = "<group>"; };
+		5868431F5CE35933436B29AD /* hacdGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdGraph.cpp"; path = "../../Extras/HACD/hacdGraph.cpp"; sourceTree = "<group>"; };
+		1876111E5C070BE369271D2A /* hacdGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdGraph.h"; path = "../../Extras/HACD/hacdGraph.h"; sourceTree = "<group>"; };
+		71012F5507DF65830A035A14 /* hacdHACD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdHACD.cpp"; path = "../../Extras/HACD/hacdHACD.cpp"; sourceTree = "<group>"; };
+		22EB06E128206A151A385853 /* hacdHACD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdHACD.h"; path = "../../Extras/HACD/hacdHACD.h"; sourceTree = "<group>"; };
+		5B4403E81E766DE308634414 /* hacdICHull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdICHull.cpp"; path = "../../Extras/HACD/hacdICHull.cpp"; sourceTree = "<group>"; };
+		0E4C59D403D131523A464AEC /* hacdICHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdICHull.h"; path = "../../Extras/HACD/hacdICHull.h"; sourceTree = "<group>"; };
+		6B777F3D352E18B54D1A1318 /* hacdManifoldMesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "hacdManifoldMesh.cpp"; path = "../../Extras/HACD/hacdManifoldMesh.cpp"; sourceTree = "<group>"; };
+		105353D23CEC4AA67BB47BF3 /* hacdManifoldMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdManifoldMesh.h"; path = "../../Extras/HACD/hacdManifoldMesh.h"; sourceTree = "<group>"; };
+		1B8343006BA6109C2318363D /* hacdVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdVector.h"; path = "../../Extras/HACD/hacdVector.h"; sourceTree = "<group>"; };
+		746E736647910C0F618903DD /* hacdVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hacdVersion.h"; path = "../../Extras/HACD/hacdVersion.h"; sourceTree = "<group>"; };
+		7BAE08A749A37EA04B9D34BB /* libHACD_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHACD_xcode4_x64_release.a"; path = "libHACD_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61274FDF39A32C5A7B7A449D /* Frameworks */ = {
+		725757B53ED5358972405F43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,45 +39,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		538D535241E75E8B7FA07C6D /* HACD */ = {
+		72EF29337ACC6780450433EB /* HACD */ = {
 			isa = PBXGroup;
 			children = (
-				0D311EA3172D23C910062D4E /* Extras */,
-				01EE71DD029738C3344558A8 /* Products */,
+				29A6635C2D9D431B411D6D94 /* Extras */,
+				2AF4009E198F2E5222795A53 /* Products */,
 			);
 			name = "HACD";
 			sourceTree = "<group>";
 		};
-		0D311EA3172D23C910062D4E /* Extras */ = {
+		29A6635C2D9D431B411D6D94 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
-				765350B20B4434900DD2119B /* HACD */,
+				39CA05A473480FC044A228AC /* HACD */,
 			);
 			name = "Extras";
 			sourceTree = "<group>";
 		};
-		765350B20B4434900DD2119B /* HACD */ = {
+		39CA05A473480FC044A228AC /* HACD */ = {
 			isa = PBXGroup;
 			children = (
-				5F0021524FDA1ED60C7769CE /* hacdCircularList.h */,
-				12957E60574D22840CE0694F /* hacdGraph.cpp */,
-				3EC12C0276AB6B470D122965 /* hacdGraph.h */,
-				2A676CD3150320656E0406B3 /* hacdHACD.cpp */,
-				48F164F51F5279766C10400C /* hacdHACD.h */,
-				7BF3170909B02761662E77C5 /* hacdICHull.cpp */,
-				28881F464D8A38535C447545 /* hacdICHull.h */,
-				29AC78432D0A106A31B17D78 /* hacdManifoldMesh.cpp */,
-				5E2E2BB067360B8365E92C01 /* hacdManifoldMesh.h */,
-				1A4343C5472A424B686B4EF7 /* hacdVector.h */,
-				565C34FA19A80E1C053C3ACD /* hacdVersion.h */,
+				6F830F5C164944F12ACE6884 /* hacdCircularList.h */,
+				5868431F5CE35933436B29AD /* hacdGraph.cpp */,
+				1876111E5C070BE369271D2A /* hacdGraph.h */,
+				71012F5507DF65830A035A14 /* hacdHACD.cpp */,
+				22EB06E128206A151A385853 /* hacdHACD.h */,
+				5B4403E81E766DE308634414 /* hacdICHull.cpp */,
+				0E4C59D403D131523A464AEC /* hacdICHull.h */,
+				6B777F3D352E18B54D1A1318 /* hacdManifoldMesh.cpp */,
+				105353D23CEC4AA67BB47BF3 /* hacdManifoldMesh.h */,
+				1B8343006BA6109C2318363D /* hacdVector.h */,
+				746E736647910C0F618903DD /* hacdVersion.h */,
 			);
 			name = "HACD";
 			sourceTree = "<group>";
 		};
-		01EE71DD029738C3344558A8 /* Products */ = {
+		2AF4009E198F2E5222795A53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				487C486837900E3C43EB1B40 /* libHACD_xcode4_x64_release.a */,
+				7BAE08A749A37EA04B9D34BB /* libHACD_xcode4_x64_release.a */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -85,13 +85,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EBA043D609417FB63DF513C /* HACD */ = {
+		0F007F681A6B19755C893588 /* HACD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEF24C50D2F1B1D4ADC6DAD /* Build configuration list for PBXNativeTarget "HACD" */;
+			buildConfigurationList = 230E6F454F6F41F02CCA3A6D /* Build configuration list for PBXNativeTarget "HACD" */;
 			buildPhases = (
-				79852BF362EC1247783C4AF3 /* Resources */,
-				238B132C488A68F7536321A5 /* Sources */,
-				61274FDF39A32C5A7B7A449D /* Frameworks */,
+				7287118025A04B960DE62061 /* Resources */,
+				6AC564321A3E62E757BE0CB3 /* Sources */,
+				725757B53ED5358972405F43 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +99,7 @@
 			);
 			name = "HACD";
 			productName = "HACD";
-			productReference = 487C486837900E3C43EB1B40 /* libHACD_xcode4_x64_release.a */;
+			productReference = 7BAE08A749A37EA04B9D34BB /* libHACD_xcode4_x64_release.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -110,17 +110,17 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "HACD" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 538D535241E75E8B7FA07C6D /* HACD */;
+			mainGroup = 72EF29337ACC6780450433EB /* HACD */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EBA043D609417FB63DF513C /* libHACD_xcode4_x64_release.a */,
+				0F007F681A6B19755C893588 /* libHACD_xcode4_x64_release.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79852BF362EC1247783C4AF3 /* Resources */ = {
+		7287118025A04B960DE62061 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,14 +130,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		238B132C488A68F7536321A5 /* Sources */ = {
+		6AC564321A3E62E757BE0CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027645212DA56A1B4A525633 /* hacdGraph.cpp in Sources */,
-				050F3B7075D471F136D5063B /* hacdHACD.cpp in Sources */,
-				46A867780BBE692260BC0557 /* hacdICHull.cpp in Sources */,
-				104474EA6FB84A14181F20B3 /* hacdManifoldMesh.cpp in Sources */,
+				3452749374B200A36BF34173 /* hacdGraph.cpp in Sources */,
+				75075734313A139816BE34BF /* hacdHACD.cpp in Sources */,
+				2B1B13DE74BE22EC4BA56DA1 /* hacdICHull.cpp in Sources */,
+				19A131FA49DE47DC53863DB4 /* hacdManifoldMesh.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5C455C4F050A7EF317F44018 /* Release */ = {
+		6E6E33A15025591A45A22805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -162,7 +162,7 @@
 			};
 			name = "Release";
 		};
-		28A858326080262B5ABA162E /* Debug */ = {
+		69080D6E42157A940C8254D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -176,7 +176,7 @@
 			};
 			name = "Debug";
 		};
-		0BCD729C65A67DD741E26AEF /* Release */ = {
+		6A74179F6B907BD0331A1F23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -203,7 +203,7 @@
 			};
 			name = "Release";
 		};
-		4EE05AFB3B6626A14FD33D1D /* Debug */ = {
+		519E03F024E95EEB1F2C18BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -237,11 +237,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BEF24C50D2F1B1D4ADC6DAD /* Build configuration list for PBXNativeTarget "libHACD_xcode4_x64_release.a" */ = {
+		230E6F454F6F41F02CCA3A6D /* Build configuration list for PBXNativeTarget "libHACD_xcode4_x64_release.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C455C4F050A7EF317F44018 /* Release */,
-				28A858326080262B5ABA162E /* Debug */,
+				6E6E33A15025591A45A22805 /* Release */,
+				69080D6E42157A940C8254D0 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -249,8 +249,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "HACD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BCD729C65A67DD741E26AEF /* Release */,
-				4EE05AFB3B6626A14FD33D1D /* Debug */,
+				6A74179F6B907BD0331A1F23 /* Release */,
+				519E03F024E95EEB1F2C18BE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

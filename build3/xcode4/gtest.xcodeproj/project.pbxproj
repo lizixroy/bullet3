@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		517F27013BA84B122C3160A3 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D76AF707F402559A64828 /* gtest-all.cc */; };
+		074D587A3B4A04171FCA22B2 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 22091ECC7E1A0A481E6666E4 /* gtest-all.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E2D76AF707F402559A64828 /* gtest-all.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "../../test/gtest-1.7.0/src/gtest-all.cc"; sourceTree = "<group>"; };
-		2BDC2AE6116D150F386328E3 /* libgtest_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libgtest_xcode4_x64_release.a"; path = "libgtest_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22091ECC7E1A0A481E6666E4 /* gtest-all.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "../../test/gtest-1.7.0/src/gtest-all.cc"; sourceTree = "<group>"; };
+		3C2B67045773565664A72415 /* libgtest_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libgtest_xcode4_x64_release.a"; path = "libgtest_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FC87D2B300206636D05787D /* Frameworks */ = {
+		0AF359150881543D2EDA1D63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -26,43 +26,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		70C67A7F40780E9C47BF6449 /* gtest */ = {
+		7C3E633613D340B81DAD790A /* gtest */ = {
 			isa = PBXGroup;
 			children = (
-				27C3221C6E810ECF3C1F3FF3 /* test */,
-				2865301075E12C9245AA4D35 /* Products */,
+				219E48EA112059FD7F926DA8 /* test */,
+				042C02092D640D041F260F1F /* Products */,
 			);
 			name = "gtest";
 			sourceTree = "<group>";
 		};
-		27C3221C6E810ECF3C1F3FF3 /* test */ = {
+		219E48EA112059FD7F926DA8 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				7CB108E72290243B4FF43BA3 /* gtest-1.7.0 */,
+				4D152F8C19FE1BB06C9334B6 /* gtest-1.7.0 */,
 			);
 			name = "test";
 			sourceTree = "<group>";
 		};
-		7CB108E72290243B4FF43BA3 /* gtest-1.7.0 */ = {
+		4D152F8C19FE1BB06C9334B6 /* gtest-1.7.0 */ = {
 			isa = PBXGroup;
 			children = (
-				05F07BC341CC54E94936339E /* src */,
+				285246253FD967FC09E81693 /* src */,
 			);
 			name = "gtest-1.7.0";
 			sourceTree = "<group>";
 		};
-		05F07BC341CC54E94936339E /* src */ = {
+		285246253FD967FC09E81693 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				5E2D76AF707F402559A64828 /* gtest-all.cc */,
+				22091ECC7E1A0A481E6666E4 /* gtest-all.cc */,
 			);
 			name = "src";
 			sourceTree = "<group>";
 		};
-		2865301075E12C9245AA4D35 /* Products */ = {
+		042C02092D640D041F260F1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BDC2AE6116D150F386328E3 /* libgtest_xcode4_x64_release.a */,
+				3C2B67045773565664A72415 /* libgtest_xcode4_x64_release.a */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08321FA875116E8D72580ADE /* gtest */ = {
+		1F922CB94A47248758EA1034 /* gtest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58264CE221C3367972006158 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildConfigurationList = 674F2F091DB96B8A5432453D /* Build configuration list for PBXNativeTarget "gtest" */;
 			buildPhases = (
-				7B3173CF1FAE1530365D3FDB /* Resources */,
-				46BD394A2CD21D703F9D02AB /* Sources */,
-				5FC87D2B300206636D05787D /* Frameworks */,
+				38B7230E7A260F7C31C9252A /* Resources */,
+				27826550054861E45FEF6FCD /* Sources */,
+				0AF359150881543D2EDA1D63 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +84,7 @@
 			);
 			name = "gtest";
 			productName = "gtest";
-			productReference = 2BDC2AE6116D150F386328E3 /* libgtest_xcode4_x64_release.a */;
+			productReference = 3C2B67045773565664A72415 /* libgtest_xcode4_x64_release.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -95,17 +95,17 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "gtest" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 70C67A7F40780E9C47BF6449 /* gtest */;
+			mainGroup = 7C3E633613D340B81DAD790A /* gtest */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08321FA875116E8D72580ADE /* libgtest_xcode4_x64_release.a */,
+				1F922CB94A47248758EA1034 /* libgtest_xcode4_x64_release.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B3173CF1FAE1530365D3FDB /* Resources */ = {
+		38B7230E7A260F7C31C9252A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,11 +115,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46BD394A2CD21D703F9D02AB /* Sources */ = {
+		27826550054861E45FEF6FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517F27013BA84B122C3160A3 /* gtest-all.cc in Sources */,
+				074D587A3B4A04171FCA22B2 /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6F6A22E9146B19A750D41BBD /* Release */ = {
+		3DDE71CF75C70CAB5FDB3015 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -144,7 +144,7 @@
 			};
 			name = "Release";
 		};
-		5E1430AF461A673974125168 /* Debug */ = {
+		0C8062C92CA920A337F34160 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -158,7 +158,7 @@
 			};
 			name = "Debug";
 		};
-		26E30BF06D4A18943E996DFE /* Release */ = {
+		5B8309AA1108643843714BCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -186,7 +186,7 @@
 			};
 			name = "Release";
 		};
-		2BB0452063CF6B0B585D6EC7 /* Debug */ = {
+		1B692B800F8E3449452E57A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -221,11 +221,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58264CE221C3367972006158 /* Build configuration list for PBXNativeTarget "libgtest_xcode4_x64_release.a" */ = {
+		674F2F091DB96B8A5432453D /* Build configuration list for PBXNativeTarget "libgtest_xcode4_x64_release.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F6A22E9146B19A750D41BBD /* Release */,
-				5E1430AF461A673974125168 /* Debug */,
+				3DDE71CF75C70CAB5FDB3015 /* Release */,
+				0C8062C92CA920A337F34160 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -233,8 +233,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26E30BF06D4A18943E996DFE /* Release */,
-				2BB0452063CF6B0B585D6EC7 /* Debug */,
+				5B8309AA1108643843714BCF /* Release */,
+				1B692B800F8E3449452E57A2 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

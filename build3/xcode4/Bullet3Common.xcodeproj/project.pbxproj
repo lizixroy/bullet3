@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F1D3C4D1ACC50167C155032 /* b3AlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59C801653AE6530579887FE1 /* b3AlignedAllocator.cpp */; };
-		67D7076463E959B062E87D59 /* b3Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 569426D658560A5B78953666 /* b3Logging.cpp */; };
-		02236BD469CC0CB005445EE9 /* b3Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 620155237A98279C2FC13A89 /* b3Vector3.cpp */; };
+		058711BC095F666323033832 /* b3AlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C711927EB67B20B125768 /* b3AlignedAllocator.cpp */; };
+		512913FD087A3CD36F276ACA /* b3Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6706325C2D366E094F41E9 /* b3Logging.cpp */; };
+		67C9542F6D8819A7281F4962 /* b3Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 271D70E02D180754395E6E77 /* b3Vector3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59C801653AE6530579887FE1 /* b3AlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3AlignedAllocator.cpp"; path = "../../src/Bullet3Common/b3AlignedAllocator.cpp"; sourceTree = "<group>"; };
-		0E775890561054A72F62555A /* b3AlignedAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedAllocator.h"; path = "../../src/Bullet3Common/b3AlignedAllocator.h"; sourceTree = "<group>"; };
-		28C72F4314666FBA258A18D1 /* b3AlignedObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedObjectArray.h"; path = "../../src/Bullet3Common/b3AlignedObjectArray.h"; sourceTree = "<group>"; };
-		60950EF532260FC40FA60DDA /* b3CommandLineArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CommandLineArgs.h"; path = "../../src/Bullet3Common/b3CommandLineArgs.h"; sourceTree = "<group>"; };
-		08AC6E660F2F5B33149F12A7 /* b3FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FileUtils.h"; path = "../../src/Bullet3Common/b3FileUtils.h"; sourceTree = "<group>"; };
-		407D5B4B2B6B02C9678A44B1 /* b3HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3HashMap.h"; path = "../../src/Bullet3Common/b3HashMap.h"; sourceTree = "<group>"; };
-		569426D658560A5B78953666 /* b3Logging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Logging.cpp"; path = "../../src/Bullet3Common/b3Logging.cpp"; sourceTree = "<group>"; };
-		038F289634A1495712B47947 /* b3Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Logging.h"; path = "../../src/Bullet3Common/b3Logging.h"; sourceTree = "<group>"; };
-		29B14D18078B3AE745F963BA /* b3Matrix3x3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Matrix3x3.h"; path = "../../src/Bullet3Common/b3Matrix3x3.h"; sourceTree = "<group>"; };
-		7A22618B7D4B474C79630226 /* b3MinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3MinMax.h"; path = "../../src/Bullet3Common/b3MinMax.h"; sourceTree = "<group>"; };
-		1ADA181515FD17400D4B3E1E /* b3PoolAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3PoolAllocator.h"; path = "../../src/Bullet3Common/b3PoolAllocator.h"; sourceTree = "<group>"; };
-		2B01716A0B82426037BA2FC4 /* b3QuadWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3QuadWord.h"; path = "../../src/Bullet3Common/b3QuadWord.h"; sourceTree = "<group>"; };
-		255F1E474C80064A76BE5616 /* b3Quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Quaternion.h"; path = "../../src/Bullet3Common/b3Quaternion.h"; sourceTree = "<group>"; };
-		7E654EB02FB404E10F094FDE /* b3Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Random.h"; path = "../../src/Bullet3Common/b3Random.h"; sourceTree = "<group>"; };
-		2EA101302FCB71B7551713F0 /* b3ResizablePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResizablePool.h"; path = "../../src/Bullet3Common/b3ResizablePool.h"; sourceTree = "<group>"; };
-		0AF57636625E2D2C51D262A8 /* b3Scalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Scalar.h"; path = "../../src/Bullet3Common/b3Scalar.h"; sourceTree = "<group>"; };
-		43D438C9414804F872C645C5 /* b3StackAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3StackAlloc.h"; path = "../../src/Bullet3Common/b3StackAlloc.h"; sourceTree = "<group>"; };
-		3E8922925908591C6F5F5726 /* b3Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Transform.h"; path = "../../src/Bullet3Common/b3Transform.h"; sourceTree = "<group>"; };
-		2A533E54295060A23FBA05AC /* b3TransformUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3TransformUtil.h"; path = "../../src/Bullet3Common/b3TransformUtil.h"; sourceTree = "<group>"; };
-		620155237A98279C2FC13A89 /* b3Vector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Vector3.cpp"; path = "../../src/Bullet3Common/b3Vector3.cpp"; sourceTree = "<group>"; };
-		3C0703D5328816A742625186 /* b3Vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Vector3.h"; path = "../../src/Bullet3Common/b3Vector3.h"; sourceTree = "<group>"; };
-		09FA7FC839970BF5153840E3 /* libBullet3Common_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Common_xcode4_x64_release.a"; path = "libBullet3Common_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6C711927EB67B20B125768 /* b3AlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3AlignedAllocator.cpp"; path = "../../src/Bullet3Common/b3AlignedAllocator.cpp"; sourceTree = "<group>"; };
+		16DC6752500315E168514D96 /* b3AlignedAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedAllocator.h"; path = "../../src/Bullet3Common/b3AlignedAllocator.h"; sourceTree = "<group>"; };
+		38751B5B75CC33C778491003 /* b3AlignedObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AlignedObjectArray.h"; path = "../../src/Bullet3Common/b3AlignedObjectArray.h"; sourceTree = "<group>"; };
+		4FB46C2638D33BF048C066D1 /* b3CommandLineArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CommandLineArgs.h"; path = "../../src/Bullet3Common/b3CommandLineArgs.h"; sourceTree = "<group>"; };
+		45020EB111F5019772CC47AD /* b3FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FileUtils.h"; path = "../../src/Bullet3Common/b3FileUtils.h"; sourceTree = "<group>"; };
+		3CD646B2731F254C29F71A9D /* b3HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3HashMap.h"; path = "../../src/Bullet3Common/b3HashMap.h"; sourceTree = "<group>"; };
+		4C6706325C2D366E094F41E9 /* b3Logging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Logging.cpp"; path = "../../src/Bullet3Common/b3Logging.cpp"; sourceTree = "<group>"; };
+		7DE1650E3495573B64D11356 /* b3Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Logging.h"; path = "../../src/Bullet3Common/b3Logging.h"; sourceTree = "<group>"; };
+		7C805F61075A3980146736AF /* b3Matrix3x3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Matrix3x3.h"; path = "../../src/Bullet3Common/b3Matrix3x3.h"; sourceTree = "<group>"; };
+		41347E2A28E14F2E76C3379C /* b3MinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3MinMax.h"; path = "../../src/Bullet3Common/b3MinMax.h"; sourceTree = "<group>"; };
+		12C95AF315B73B8A78203D8D /* b3PoolAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3PoolAllocator.h"; path = "../../src/Bullet3Common/b3PoolAllocator.h"; sourceTree = "<group>"; };
+		00F37F3260F91E684FFA4053 /* b3QuadWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3QuadWord.h"; path = "../../src/Bullet3Common/b3QuadWord.h"; sourceTree = "<group>"; };
+		38FA290C6C89249A26304F65 /* b3Quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Quaternion.h"; path = "../../src/Bullet3Common/b3Quaternion.h"; sourceTree = "<group>"; };
+		71AF497C6D3345251B613A61 /* b3Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Random.h"; path = "../../src/Bullet3Common/b3Random.h"; sourceTree = "<group>"; };
+		45F227F60A751A441CF1215D /* b3ResizablePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResizablePool.h"; path = "../../src/Bullet3Common/b3ResizablePool.h"; sourceTree = "<group>"; };
+		7C2B0C9F2E0D0DC8058C5509 /* b3Scalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Scalar.h"; path = "../../src/Bullet3Common/b3Scalar.h"; sourceTree = "<group>"; };
+		001165AD41B42C09382D3607 /* b3StackAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3StackAlloc.h"; path = "../../src/Bullet3Common/b3StackAlloc.h"; sourceTree = "<group>"; };
+		2383121931243B7852F17FBC /* b3Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Transform.h"; path = "../../src/Bullet3Common/b3Transform.h"; sourceTree = "<group>"; };
+		27797C4C03096969057F67D0 /* b3TransformUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3TransformUtil.h"; path = "../../src/Bullet3Common/b3TransformUtil.h"; sourceTree = "<group>"; };
+		271D70E02D180754395E6E77 /* b3Vector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Vector3.cpp"; path = "../../src/Bullet3Common/b3Vector3.cpp"; sourceTree = "<group>"; };
+		46301C4D3A4B389F7C711D34 /* b3Vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Vector3.h"; path = "../../src/Bullet3Common/b3Vector3.h"; sourceTree = "<group>"; };
+		27A74D5543490A4B6B5A202F /* libBullet3Common_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Common_xcode4_x64_release.a"; path = "libBullet3Common_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E012C85596532984FD47EF5 /* Frameworks */ = {
+		7DF83EE7653B3C28208E7F5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,55 +48,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F1165A7510F3EC25CD26BDF /* Bullet3Common */ = {
+		3BA20EE577EC555972351F16 /* Bullet3Common */ = {
 			isa = PBXGroup;
 			children = (
-				191D74CC2BB6570000A43EB0 /* src */,
-				4A506BF6050A13D7450633E2 /* Products */,
+				69C3243532BA064811F37FBF /* src */,
+				481F78240BAE70B10FB97375 /* Products */,
 			);
 			name = "Bullet3Common";
 			sourceTree = "<group>";
 		};
-		191D74CC2BB6570000A43EB0 /* src */ = {
+		69C3243532BA064811F37FBF /* src */ = {
 			isa = PBXGroup;
 			children = (
-				4E5273643648481E4B623052 /* Bullet3Common */,
+				610544107FA13AD45C995343 /* Bullet3Common */,
 			);
 			name = "src";
 			sourceTree = "<group>";
 		};
-		4E5273643648481E4B623052 /* Bullet3Common */ = {
+		610544107FA13AD45C995343 /* Bullet3Common */ = {
 			isa = PBXGroup;
 			children = (
-				59C801653AE6530579887FE1 /* b3AlignedAllocator.cpp */,
-				0E775890561054A72F62555A /* b3AlignedAllocator.h */,
-				28C72F4314666FBA258A18D1 /* b3AlignedObjectArray.h */,
-				60950EF532260FC40FA60DDA /* b3CommandLineArgs.h */,
-				08AC6E660F2F5B33149F12A7 /* b3FileUtils.h */,
-				407D5B4B2B6B02C9678A44B1 /* b3HashMap.h */,
-				569426D658560A5B78953666 /* b3Logging.cpp */,
-				038F289634A1495712B47947 /* b3Logging.h */,
-				29B14D18078B3AE745F963BA /* b3Matrix3x3.h */,
-				7A22618B7D4B474C79630226 /* b3MinMax.h */,
-				1ADA181515FD17400D4B3E1E /* b3PoolAllocator.h */,
-				2B01716A0B82426037BA2FC4 /* b3QuadWord.h */,
-				255F1E474C80064A76BE5616 /* b3Quaternion.h */,
-				7E654EB02FB404E10F094FDE /* b3Random.h */,
-				2EA101302FCB71B7551713F0 /* b3ResizablePool.h */,
-				0AF57636625E2D2C51D262A8 /* b3Scalar.h */,
-				43D438C9414804F872C645C5 /* b3StackAlloc.h */,
-				3E8922925908591C6F5F5726 /* b3Transform.h */,
-				2A533E54295060A23FBA05AC /* b3TransformUtil.h */,
-				620155237A98279C2FC13A89 /* b3Vector3.cpp */,
-				3C0703D5328816A742625186 /* b3Vector3.h */,
+				7A6C711927EB67B20B125768 /* b3AlignedAllocator.cpp */,
+				16DC6752500315E168514D96 /* b3AlignedAllocator.h */,
+				38751B5B75CC33C778491003 /* b3AlignedObjectArray.h */,
+				4FB46C2638D33BF048C066D1 /* b3CommandLineArgs.h */,
+				45020EB111F5019772CC47AD /* b3FileUtils.h */,
+				3CD646B2731F254C29F71A9D /* b3HashMap.h */,
+				4C6706325C2D366E094F41E9 /* b3Logging.cpp */,
+				7DE1650E3495573B64D11356 /* b3Logging.h */,
+				7C805F61075A3980146736AF /* b3Matrix3x3.h */,
+				41347E2A28E14F2E76C3379C /* b3MinMax.h */,
+				12C95AF315B73B8A78203D8D /* b3PoolAllocator.h */,
+				00F37F3260F91E684FFA4053 /* b3QuadWord.h */,
+				38FA290C6C89249A26304F65 /* b3Quaternion.h */,
+				71AF497C6D3345251B613A61 /* b3Random.h */,
+				45F227F60A751A441CF1215D /* b3ResizablePool.h */,
+				7C2B0C9F2E0D0DC8058C5509 /* b3Scalar.h */,
+				001165AD41B42C09382D3607 /* b3StackAlloc.h */,
+				2383121931243B7852F17FBC /* b3Transform.h */,
+				27797C4C03096969057F67D0 /* b3TransformUtil.h */,
+				271D70E02D180754395E6E77 /* b3Vector3.cpp */,
+				46301C4D3A4B389F7C711D34 /* b3Vector3.h */,
 			);
 			name = "Bullet3Common";
 			sourceTree = "<group>";
 		};
-		4A506BF6050A13D7450633E2 /* Products */ = {
+		481F78240BAE70B10FB97375 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09FA7FC839970BF5153840E3 /* libBullet3Common_xcode4_x64_release.a */,
+				27A74D5543490A4B6B5A202F /* libBullet3Common_xcode4_x64_release.a */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -104,13 +104,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C4C63853833567C73AB6FF6 /* Bullet3Common */ = {
+		0D8130AF6C2B0E3013A370F1 /* Bullet3Common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 598424FA341612A475681EE2 /* Build configuration list for PBXNativeTarget "Bullet3Common" */;
+			buildConfigurationList = 0B48618251AA05945F717740 /* Build configuration list for PBXNativeTarget "Bullet3Common" */;
 			buildPhases = (
-				22E7011259D474AA5F5415A6 /* Resources */,
-				058F19E6023A68C857B94850 /* Sources */,
-				7E012C85596532984FD47EF5 /* Frameworks */,
+				4BA4010B1A344F2A0DC04E84 /* Resources */,
+				4BEE1D987D1D2B7328286F36 /* Sources */,
+				7DF83EE7653B3C28208E7F5E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -118,7 +118,7 @@
 			);
 			name = "Bullet3Common";
 			productName = "Bullet3Common";
-			productReference = 09FA7FC839970BF5153840E3 /* libBullet3Common_xcode4_x64_release.a */;
+			productReference = 27A74D5543490A4B6B5A202F /* libBullet3Common_xcode4_x64_release.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,17 +129,17 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Common" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 7F1165A7510F3EC25CD26BDF /* Bullet3Common */;
+			mainGroup = 3BA20EE577EC555972351F16 /* Bullet3Common */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C4C63853833567C73AB6FF6 /* libBullet3Common_xcode4_x64_release.a */,
+				0D8130AF6C2B0E3013A370F1 /* libBullet3Common_xcode4_x64_release.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22E7011259D474AA5F5415A6 /* Resources */ = {
+		4BA4010B1A344F2A0DC04E84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,13 +149,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		058F19E6023A68C857B94850 /* Sources */ = {
+		4BEE1D987D1D2B7328286F36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1D3C4D1ACC50167C155032 /* b3AlignedAllocator.cpp in Sources */,
-				67D7076463E959B062E87D59 /* b3Logging.cpp in Sources */,
-				02236BD469CC0CB005445EE9 /* b3Vector3.cpp in Sources */,
+				058711BC095F666323033832 /* b3AlignedAllocator.cpp in Sources */,
+				512913FD087A3CD36F276ACA /* b3Logging.cpp in Sources */,
+				67C9542F6D8819A7281F4962 /* b3Vector3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		66BD111906370AC65D611BB1 /* Release */ = {
+		6B8C52A636525FA81C5550A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -180,7 +180,7 @@
 			};
 			name = "Release";
 		};
-		15D14F7C597466D1443F345E /* Debug */ = {
+		1646564B702D3F441C5F4A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -194,7 +194,7 @@
 			};
 			name = "Debug";
 		};
-		2FD827257BE72E772D001203 /* Release */ = {
+		0F5F64545A341B7A120E1000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -221,7 +221,7 @@
 			};
 			name = "Release";
 		};
-		321B2D8507974B6168627C86 /* Debug */ = {
+		323D452654464F2E106C4183 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -255,11 +255,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		598424FA341612A475681EE2 /* Build configuration list for PBXNativeTarget "libBullet3Common_xcode4_x64_release.a" */ = {
+		0B48618251AA05945F717740 /* Build configuration list for PBXNativeTarget "libBullet3Common_xcode4_x64_release.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66BD111906370AC65D611BB1 /* Release */,
-				15D14F7C597466D1443F345E /* Debug */,
+				6B8C52A636525FA81C5550A1 /* Release */,
+				1646564B702D3F441C5F4A80 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -267,8 +267,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FD827257BE72E772D001203 /* Release */,
-				321B2D8507974B6168627C86 /* Debug */,
+				0F5F64545A341B7A120E1000 /* Release */,
+				323D452654464F2E106C4183 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

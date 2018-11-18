@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2087265D23F86FA575100504 /* b3DynamicBvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12465A4A328C1B2921A102EF /* b3DynamicBvh.cpp */; };
-		6D3D5114301624D2708D4998 /* b3DynamicBvhBroadphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1469066449CE1DFF5E012799 /* b3DynamicBvhBroadphase.cpp */; };
-		6C487A0F2DCF746B5867042A /* b3OverlappingPairCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B624A6603DE78E71C912E36 /* b3OverlappingPairCache.cpp */; };
-		0095511436DD705904E03680 /* b3ConvexUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D061209216050E50218327A /* b3ConvexUtility.cpp */; };
-		293E527108FE7FD2572600A0 /* b3CpuNarrowPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62AE4637599C1E846D3B605F /* b3CpuNarrowPhase.cpp */; };
+		6AB1335137B5584118FC51A7 /* b3DynamicBvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06E9370221474A3117C11650 /* b3DynamicBvh.cpp */; };
+		7FDC5E6D748C50773D9B3D2E /* b3DynamicBvhBroadphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49076FF810414F7D30A958D0 /* b3DynamicBvhBroadphase.cpp */; };
+		401151C50E023A7C43CD04B3 /* b3OverlappingPairCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E669631380F5F517B691E /* b3OverlappingPairCache.cpp */; };
+		492C255A70A908D152520B2D /* b3ConvexUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D58251DAC34FD627445B2 /* b3ConvexUtility.cpp */; };
+		69FE276C60C46B9F210E364D /* b3CpuNarrowPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37AD7B5710E32F144D8D001C /* b3CpuNarrowPhase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AF85C9E3ADA49DC15B51E21 /* b3BroadphaseCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BroadphaseCallback.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3BroadphaseCallback.h"; sourceTree = "<group>"; };
-		12465A4A328C1B2921A102EF /* b3DynamicBvh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3DynamicBvh.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvh.cpp"; sourceTree = "<group>"; };
-		74ED0B1604C943B81C615609 /* b3DynamicBvh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3DynamicBvh.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvh.h"; sourceTree = "<group>"; };
-		1469066449CE1DFF5E012799 /* b3DynamicBvhBroadphase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3DynamicBvhBroadphase.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvhBroadphase.cpp"; sourceTree = "<group>"; };
-		2BA57345673D634834D94A51 /* b3DynamicBvhBroadphase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3DynamicBvhBroadphase.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvhBroadphase.h"; sourceTree = "<group>"; };
-		12BD5E2970D336AF256B31FC /* b3OverlappingPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3OverlappingPair.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPair.h"; sourceTree = "<group>"; };
-		2B624A6603DE78E71C912E36 /* b3OverlappingPairCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3OverlappingPairCache.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPairCache.cpp"; sourceTree = "<group>"; };
-		6B5D34F024407C3121832017 /* b3OverlappingPairCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3OverlappingPairCache.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPairCache.h"; sourceTree = "<group>"; };
-		772A11691CA46A6A089C3B42 /* b3Aabb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Aabb.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/shared/b3Aabb.h"; sourceTree = "<group>"; };
-		7B7E2BFC56E1579E6C541AE7 /* b3Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Config.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3Config.h"; sourceTree = "<group>"; };
-		5875176D13D935376C987B1D /* b3Contact4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Contact4.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3Contact4.h"; sourceTree = "<group>"; };
-		2D061209216050E50218327A /* b3ConvexUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ConvexUtility.cpp"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3ConvexUtility.cpp"; sourceTree = "<group>"; };
-		39105C5B7C1178073F4B744E /* b3ConvexUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexUtility.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3ConvexUtility.h"; sourceTree = "<group>"; };
-		62AE4637599C1E846D3B605F /* b3CpuNarrowPhase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3CpuNarrowPhase.cpp"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3CpuNarrowPhase.cpp"; sourceTree = "<group>"; };
-		0C283F707E0643B153193E44 /* b3CpuNarrowPhase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CpuNarrowPhase.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3CpuNarrowPhase.h"; sourceTree = "<group>"; };
-		1F08486564395B991D9E2069 /* b3RaycastInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RaycastInfo.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3RaycastInfo.h"; sourceTree = "<group>"; };
-		5F33375D6641637125FD345D /* b3RigidBodyCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RigidBodyCL.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3RigidBodyCL.h"; sourceTree = "<group>"; };
-		73FD74550FE9133452A5579C /* b3BvhSubtreeInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BvhSubtreeInfoData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3BvhSubtreeInfoData.h"; sourceTree = "<group>"; };
-		044244F131A362E814E907A2 /* b3BvhTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BvhTraversal.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3BvhTraversal.h"; sourceTree = "<group>"; };
-		552E63C92976408643F54A71 /* b3ClipFaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ClipFaces.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ClipFaces.h"; sourceTree = "<group>"; };
-		019573DE191821185F7D1465 /* b3Collidable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Collidable.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3Collidable.h"; sourceTree = "<group>"; };
-		24B04B1C2A9A03365C203C88 /* b3Contact4Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Contact4Data.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3Contact4Data.h"; sourceTree = "<group>"; };
-		258838420B8D6A6002EE6099 /* b3ContactConvexConvexSAT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactConvexConvexSAT.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ContactConvexConvexSAT.h"; sourceTree = "<group>"; };
-		0AC7492F53E56B96784A5B6D /* b3ContactSphereSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactSphereSphere.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ContactSphereSphere.h"; sourceTree = "<group>"; };
-		53F3076B1567539A4C692330 /* b3ConvexPolyhedronData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexPolyhedronData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ConvexPolyhedronData.h"; sourceTree = "<group>"; };
-		65E86F3871835529055E666F /* b3FindConcaveSatAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FindConcaveSatAxis.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3FindConcaveSatAxis.h"; sourceTree = "<group>"; };
-		03BD0B9D19A25F786B782D66 /* b3FindSeparatingAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FindSeparatingAxis.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3FindSeparatingAxis.h"; sourceTree = "<group>"; };
-		34F37CCF243E7FBC33680E5F /* b3MprPenetration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3MprPenetration.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3MprPenetration.h"; sourceTree = "<group>"; };
-		271B173137453ED265C77023 /* b3NewContactReduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3NewContactReduction.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3NewContactReduction.h"; sourceTree = "<group>"; };
-		3EAD7E843EF81847774A4660 /* b3QuantizedBvhNodeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3QuantizedBvhNodeData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3QuantizedBvhNodeData.h"; sourceTree = "<group>"; };
-		661906353190250E47FD4A2E /* b3ReduceContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ReduceContacts.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ReduceContacts.h"; sourceTree = "<group>"; };
-		31115384051D396A65DC624F /* b3RigidBodyData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RigidBodyData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"; sourceTree = "<group>"; };
-		616755E12B6A718153444B6C /* b3UpdateAabbs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3UpdateAabbs.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3UpdateAabbs.h"; sourceTree = "<group>"; };
-		20EE77EC5C8353442A830BC7 /* libBullet3Collision_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Collision_xcode4_x64_release.a"; path = "libBullet3Collision_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63476DC66BE718BA066A41AF /* b3BroadphaseCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BroadphaseCallback.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3BroadphaseCallback.h"; sourceTree = "<group>"; };
+		06E9370221474A3117C11650 /* b3DynamicBvh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3DynamicBvh.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvh.cpp"; sourceTree = "<group>"; };
+		5B967BC14125654C19F76695 /* b3DynamicBvh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3DynamicBvh.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvh.h"; sourceTree = "<group>"; };
+		49076FF810414F7D30A958D0 /* b3DynamicBvhBroadphase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3DynamicBvhBroadphase.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvhBroadphase.cpp"; sourceTree = "<group>"; };
+		24745D3630F808943EC910BE /* b3DynamicBvhBroadphase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3DynamicBvhBroadphase.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3DynamicBvhBroadphase.h"; sourceTree = "<group>"; };
+		631D2E8337A409021A91482C /* b3OverlappingPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3OverlappingPair.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPair.h"; sourceTree = "<group>"; };
+		6A1E669631380F5F517B691E /* b3OverlappingPairCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3OverlappingPairCache.cpp"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPairCache.cpp"; sourceTree = "<group>"; };
+		44257CC77EC7496676AF1791 /* b3OverlappingPairCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3OverlappingPairCache.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/b3OverlappingPairCache.h"; sourceTree = "<group>"; };
+		558721C052DB54F153901D9D /* b3Aabb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Aabb.h"; path = "../../src/Bullet3Collision/BroadPhaseCollision/shared/b3Aabb.h"; sourceTree = "<group>"; };
+		340956DC228A1D5F64FB396B /* b3Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Config.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3Config.h"; sourceTree = "<group>"; };
+		388A1EA452B72E06243D5772 /* b3Contact4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Contact4.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3Contact4.h"; sourceTree = "<group>"; };
+		3D2D58251DAC34FD627445B2 /* b3ConvexUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ConvexUtility.cpp"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3ConvexUtility.cpp"; sourceTree = "<group>"; };
+		4A3C44B22FF50D6C66036C3F /* b3ConvexUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexUtility.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3ConvexUtility.h"; sourceTree = "<group>"; };
+		37AD7B5710E32F144D8D001C /* b3CpuNarrowPhase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3CpuNarrowPhase.cpp"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3CpuNarrowPhase.cpp"; sourceTree = "<group>"; };
+		0C0D63CB55C52224142B292A /* b3CpuNarrowPhase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3CpuNarrowPhase.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3CpuNarrowPhase.h"; sourceTree = "<group>"; };
+		0578295E7B692C7E0B0F1A79 /* b3RaycastInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RaycastInfo.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3RaycastInfo.h"; sourceTree = "<group>"; };
+		349A1EED04633FA51D2B7B97 /* b3RigidBodyCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RigidBodyCL.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/b3RigidBodyCL.h"; sourceTree = "<group>"; };
+		1F53413E06C652730ADE0AB4 /* b3BvhSubtreeInfoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BvhSubtreeInfoData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3BvhSubtreeInfoData.h"; sourceTree = "<group>"; };
+		30491F0D15DA1EC404B52213 /* b3BvhTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3BvhTraversal.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3BvhTraversal.h"; sourceTree = "<group>"; };
+		2D1D67F87E2D640F3A276422 /* b3ClipFaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ClipFaces.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ClipFaces.h"; sourceTree = "<group>"; };
+		1B165A3F1E043A642B333C68 /* b3Collidable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Collidable.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3Collidable.h"; sourceTree = "<group>"; };
+		6C9A2F7078AF50F604A97736 /* b3Contact4Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Contact4Data.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3Contact4Data.h"; sourceTree = "<group>"; };
+		7DE95A905D0707F8610746BE /* b3ContactConvexConvexSAT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactConvexConvexSAT.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ContactConvexConvexSAT.h"; sourceTree = "<group>"; };
+		0D001642510A117C17556D48 /* b3ContactSphereSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ContactSphereSphere.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ContactSphereSphere.h"; sourceTree = "<group>"; };
+		1B6A035D632B43B2745848B3 /* b3ConvexPolyhedronData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexPolyhedronData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ConvexPolyhedronData.h"; sourceTree = "<group>"; };
+		00A56F6354F670273418307D /* b3FindConcaveSatAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FindConcaveSatAxis.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3FindConcaveSatAxis.h"; sourceTree = "<group>"; };
+		18F51BAF285C4DFA70DF57A0 /* b3FindSeparatingAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3FindSeparatingAxis.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3FindSeparatingAxis.h"; sourceTree = "<group>"; };
+		63C11CBD558D1EDF77C6193F /* b3MprPenetration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3MprPenetration.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3MprPenetration.h"; sourceTree = "<group>"; };
+		16D03B0C283757B158D26871 /* b3NewContactReduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3NewContactReduction.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3NewContactReduction.h"; sourceTree = "<group>"; };
+		71B06B7029C9642C147F4D01 /* b3QuantizedBvhNodeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3QuantizedBvhNodeData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3QuantizedBvhNodeData.h"; sourceTree = "<group>"; };
+		158371D919C37A7B52270823 /* b3ReduceContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ReduceContacts.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3ReduceContacts.h"; sourceTree = "<group>"; };
+		4B4355A2173A184B1D9E22E9 /* b3RigidBodyData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3RigidBodyData.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h"; sourceTree = "<group>"; };
+		771C557B10C303FC4CCB6488 /* b3UpdateAabbs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3UpdateAabbs.h"; path = "../../src/Bullet3Collision/NarrowPhaseCollision/shared/b3UpdateAabbs.h"; sourceTree = "<group>"; };
+		2876651A232706E542771684 /* libBullet3Collision_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Collision_xcode4_x64_release.a"; path = "libBullet3Collision_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		195D2DB75EB54E62228E3858 /* Frameworks */ = {
+		59265CDB4F5D6435585F4BD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,99 +62,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48C640C422E86ACB45685C0C /* Bullet3Collision */ = {
+		785143E91F300A564D3512B7 /* Bullet3Collision */ = {
 			isa = PBXGroup;
 			children = (
-				317661397359072800AE2EB2 /* src */,
-				40614495366D41D26C6570FC /* Products */,
+				58E11BDE3E7F07E362BE2A7A /* src */,
+				36127BEC51424EAA1D9825E7 /* Products */,
 			);
 			name = "Bullet3Collision";
 			sourceTree = "<group>";
 		};
-		317661397359072800AE2EB2 /* src */ = {
+		58E11BDE3E7F07E362BE2A7A /* src */ = {
 			isa = PBXGroup;
 			children = (
-				40033A744BAE2347220F3C06 /* Bullet3Collision */,
+				2FB47A050EE30DA811B123CC /* Bullet3Collision */,
 			);
 			name = "src";
 			sourceTree = "<group>";
 		};
-		40033A744BAE2347220F3C06 /* Bullet3Collision */ = {
+		2FB47A050EE30DA811B123CC /* Bullet3Collision */ = {
 			isa = PBXGroup;
 			children = (
-				444C5EFD551F0BDC342D2815 /* BroadPhaseCollision */,
-				148D513864B5598F6BB5646C /* NarrowPhaseCollision */,
+				518470590BD373A30A3B3052 /* BroadPhaseCollision */,
+				5D6653D57C2C6DB06C331ED8 /* NarrowPhaseCollision */,
 			);
 			name = "Bullet3Collision";
 			sourceTree = "<group>";
 		};
-		444C5EFD551F0BDC342D2815 /* BroadPhaseCollision */ = {
+		518470590BD373A30A3B3052 /* BroadPhaseCollision */ = {
 			isa = PBXGroup;
 			children = (
-				0AF85C9E3ADA49DC15B51E21 /* b3BroadphaseCallback.h */,
-				12465A4A328C1B2921A102EF /* b3DynamicBvh.cpp */,
-				74ED0B1604C943B81C615609 /* b3DynamicBvh.h */,
-				1469066449CE1DFF5E012799 /* b3DynamicBvhBroadphase.cpp */,
-				2BA57345673D634834D94A51 /* b3DynamicBvhBroadphase.h */,
-				12BD5E2970D336AF256B31FC /* b3OverlappingPair.h */,
-				2B624A6603DE78E71C912E36 /* b3OverlappingPairCache.cpp */,
-				6B5D34F024407C3121832017 /* b3OverlappingPairCache.h */,
-				4F9C4AD021D2161D749A4FD4 /* shared */,
+				63476DC66BE718BA066A41AF /* b3BroadphaseCallback.h */,
+				06E9370221474A3117C11650 /* b3DynamicBvh.cpp */,
+				5B967BC14125654C19F76695 /* b3DynamicBvh.h */,
+				49076FF810414F7D30A958D0 /* b3DynamicBvhBroadphase.cpp */,
+				24745D3630F808943EC910BE /* b3DynamicBvhBroadphase.h */,
+				631D2E8337A409021A91482C /* b3OverlappingPair.h */,
+				6A1E669631380F5F517B691E /* b3OverlappingPairCache.cpp */,
+				44257CC77EC7496676AF1791 /* b3OverlappingPairCache.h */,
+				5E7568DA6B074FEF1350266D /* shared */,
 			);
 			name = "BroadPhaseCollision";
 			sourceTree = "<group>";
 		};
-		4F9C4AD021D2161D749A4FD4 /* shared */ = {
+		5E7568DA6B074FEF1350266D /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				772A11691CA46A6A089C3B42 /* b3Aabb.h */,
+				558721C052DB54F153901D9D /* b3Aabb.h */,
 			);
 			name = "shared";
 			sourceTree = "<group>";
 		};
-		148D513864B5598F6BB5646C /* NarrowPhaseCollision */ = {
+		5D6653D57C2C6DB06C331ED8 /* NarrowPhaseCollision */ = {
 			isa = PBXGroup;
 			children = (
-				7B7E2BFC56E1579E6C541AE7 /* b3Config.h */,
-				5875176D13D935376C987B1D /* b3Contact4.h */,
-				2D061209216050E50218327A /* b3ConvexUtility.cpp */,
-				39105C5B7C1178073F4B744E /* b3ConvexUtility.h */,
-				62AE4637599C1E846D3B605F /* b3CpuNarrowPhase.cpp */,
-				0C283F707E0643B153193E44 /* b3CpuNarrowPhase.h */,
-				1F08486564395B991D9E2069 /* b3RaycastInfo.h */,
-				5F33375D6641637125FD345D /* b3RigidBodyCL.h */,
-				53D60FD249BC637124C804D0 /* shared */,
+				340956DC228A1D5F64FB396B /* b3Config.h */,
+				388A1EA452B72E06243D5772 /* b3Contact4.h */,
+				3D2D58251DAC34FD627445B2 /* b3ConvexUtility.cpp */,
+				4A3C44B22FF50D6C66036C3F /* b3ConvexUtility.h */,
+				37AD7B5710E32F144D8D001C /* b3CpuNarrowPhase.cpp */,
+				0C0D63CB55C52224142B292A /* b3CpuNarrowPhase.h */,
+				0578295E7B692C7E0B0F1A79 /* b3RaycastInfo.h */,
+				349A1EED04633FA51D2B7B97 /* b3RigidBodyCL.h */,
+				2A30457F2CAC6A3139050473 /* shared */,
 			);
 			name = "NarrowPhaseCollision";
 			sourceTree = "<group>";
 		};
-		53D60FD249BC637124C804D0 /* shared */ = {
+		2A30457F2CAC6A3139050473 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				73FD74550FE9133452A5579C /* b3BvhSubtreeInfoData.h */,
-				044244F131A362E814E907A2 /* b3BvhTraversal.h */,
-				552E63C92976408643F54A71 /* b3ClipFaces.h */,
-				019573DE191821185F7D1465 /* b3Collidable.h */,
-				24B04B1C2A9A03365C203C88 /* b3Contact4Data.h */,
-				258838420B8D6A6002EE6099 /* b3ContactConvexConvexSAT.h */,
-				0AC7492F53E56B96784A5B6D /* b3ContactSphereSphere.h */,
-				53F3076B1567539A4C692330 /* b3ConvexPolyhedronData.h */,
-				65E86F3871835529055E666F /* b3FindConcaveSatAxis.h */,
-				03BD0B9D19A25F786B782D66 /* b3FindSeparatingAxis.h */,
-				34F37CCF243E7FBC33680E5F /* b3MprPenetration.h */,
-				271B173137453ED265C77023 /* b3NewContactReduction.h */,
-				3EAD7E843EF81847774A4660 /* b3QuantizedBvhNodeData.h */,
-				661906353190250E47FD4A2E /* b3ReduceContacts.h */,
-				31115384051D396A65DC624F /* b3RigidBodyData.h */,
-				616755E12B6A718153444B6C /* b3UpdateAabbs.h */,
+				1F53413E06C652730ADE0AB4 /* b3BvhSubtreeInfoData.h */,
+				30491F0D15DA1EC404B52213 /* b3BvhTraversal.h */,
+				2D1D67F87E2D640F3A276422 /* b3ClipFaces.h */,
+				1B165A3F1E043A642B333C68 /* b3Collidable.h */,
+				6C9A2F7078AF50F604A97736 /* b3Contact4Data.h */,
+				7DE95A905D0707F8610746BE /* b3ContactConvexConvexSAT.h */,
+				0D001642510A117C17556D48 /* b3ContactSphereSphere.h */,
+				1B6A035D632B43B2745848B3 /* b3ConvexPolyhedronData.h */,
+				00A56F6354F670273418307D /* b3FindConcaveSatAxis.h */,
+				18F51BAF285C4DFA70DF57A0 /* b3FindSeparatingAxis.h */,
+				63C11CBD558D1EDF77C6193F /* b3MprPenetration.h */,
+				16D03B0C283757B158D26871 /* b3NewContactReduction.h */,
+				71B06B7029C9642C147F4D01 /* b3QuantizedBvhNodeData.h */,
+				158371D919C37A7B52270823 /* b3ReduceContacts.h */,
+				4B4355A2173A184B1D9E22E9 /* b3RigidBodyData.h */,
+				771C557B10C303FC4CCB6488 /* b3UpdateAabbs.h */,
 			);
 			name = "shared";
 			sourceTree = "<group>";
 		};
-		40614495366D41D26C6570FC /* Products */ = {
+		36127BEC51424EAA1D9825E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20EE77EC5C8353442A830BC7 /* libBullet3Collision_xcode4_x64_release.a */,
+				2876651A232706E542771684 /* libBullet3Collision_xcode4_x64_release.a */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -162,13 +162,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		512C323B418F30BA29B7573E /* Bullet3Collision */ = {
+		3FB25CEB6202065C19695DC5 /* Bullet3Collision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364921B72A135BD72F435B37 /* Build configuration list for PBXNativeTarget "Bullet3Collision" */;
+			buildConfigurationList = 14F025D75CF655786D23273C /* Build configuration list for PBXNativeTarget "Bullet3Collision" */;
 			buildPhases = (
-				15BB28D74E0C2282067C72CE /* Resources */,
-				67A315470CAA1E1A3FC9257A /* Sources */,
-				195D2DB75EB54E62228E3858 /* Frameworks */,
+				66FF1543715F227D4D1C1F7E /* Resources */,
+				2D281DB16D06361400306A81 /* Sources */,
+				59265CDB4F5D6435585F4BD9 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,7 +176,7 @@
 			);
 			name = "Bullet3Collision";
 			productName = "Bullet3Collision";
-			productReference = 20EE77EC5C8353442A830BC7 /* libBullet3Collision_xcode4_x64_release.a */;
+			productReference = 2876651A232706E542771684 /* libBullet3Collision_xcode4_x64_release.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -187,17 +187,17 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Collision" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 48C640C422E86ACB45685C0C /* Bullet3Collision */;
+			mainGroup = 785143E91F300A564D3512B7 /* Bullet3Collision */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				512C323B418F30BA29B7573E /* libBullet3Collision_xcode4_x64_release.a */,
+				3FB25CEB6202065C19695DC5 /* libBullet3Collision_xcode4_x64_release.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15BB28D74E0C2282067C72CE /* Resources */ = {
+		66FF1543715F227D4D1C1F7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,15 +207,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67A315470CAA1E1A3FC9257A /* Sources */ = {
+		2D281DB16D06361400306A81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2087265D23F86FA575100504 /* b3DynamicBvh.cpp in Sources */,
-				6D3D5114301624D2708D4998 /* b3DynamicBvhBroadphase.cpp in Sources */,
-				6C487A0F2DCF746B5867042A /* b3OverlappingPairCache.cpp in Sources */,
-				0095511436DD705904E03680 /* b3ConvexUtility.cpp in Sources */,
-				293E527108FE7FD2572600A0 /* b3CpuNarrowPhase.cpp in Sources */,
+				6AB1335137B5584118FC51A7 /* b3DynamicBvh.cpp in Sources */,
+				7FDC5E6D748C50773D9B3D2E /* b3DynamicBvhBroadphase.cpp in Sources */,
+				401151C50E023A7C43CD04B3 /* b3OverlappingPairCache.cpp in Sources */,
+				492C255A70A908D152520B2D /* b3ConvexUtility.cpp in Sources */,
+				69FE276C60C46B9F210E364D /* b3CpuNarrowPhase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +225,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		66FC3FC20359520420386173 /* Release */ = {
+		428003FE206030586BAF4326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -240,7 +240,7 @@
 			};
 			name = "Release";
 		};
-		4D0108943C9D69A56EE6468F /* Debug */ = {
+		3A4111246465617622775238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -254,7 +254,7 @@
 			};
 			name = "Debug";
 		};
-		729472953E71071441A02AEB /* Release */ = {
+		007A04A72700020E73474396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -281,7 +281,7 @@
 			};
 			name = "Release";
 		};
-		6E6812EF157A0D9A37B239EE /* Debug */ = {
+		723646AF0F6A0C173AE45EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -315,11 +315,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		364921B72A135BD72F435B37 /* Build configuration list for PBXNativeTarget "libBullet3Collision_xcode4_x64_release.a" */ = {
+		14F025D75CF655786D23273C /* Build configuration list for PBXNativeTarget "libBullet3Collision_xcode4_x64_release.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66FC3FC20359520420386173 /* Release */,
-				4D0108943C9D69A56EE6468F /* Debug */,
+				428003FE206030586BAF4326 /* Release */,
+				3A4111246465617622775238 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -327,8 +327,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Collision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				729472953E71071441A02AEB /* Release */,
-				6E6812EF157A0D9A37B239EE /* Debug */,
+				007A04A72700020E73474396 /* Release */,
+				723646AF0F6A0C173AE45EAE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

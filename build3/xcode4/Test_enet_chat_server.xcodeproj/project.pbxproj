@@ -7,107 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FBF276C5FFE581819505C73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE4CE55E5067BA12BB4C2C /* main.cpp */; };
-		2BAD25A7021341C521184AAD /* libenet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 340A04C552C64F895CBB15E5 /* libenet.a */; };
+		199A093B1B375766251A6B2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1994740C63FC635A2EA0117A /* main.cpp */; };
+		7BE031C43B3C61095114357A /* libenet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FD3CAE042D5AA0730F0778 /* libenet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6530390C598D49C548E74DEF /* PBXContainerItemProxy */ = {
+		5D14746F4ED27AF912D50B90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2607292E18050C3B17306B2E /* enet.xcodeproj */;
+			containerPortal = 75654A96646E1072486D7072 /* enet.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 6DCE046F2AA973BC679D0829;
+			remoteGlobalIDString = 6D731B991159156948DB37FC;
 			remoteInfo = "libenet_xcode4_x64_release.a";
 		};
-		0BAB29385B4604BE06615FB7 /* PBXContainerItemProxy */ = {
+		37867E9231FF603027BD1B30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2607292E18050C3B17306B2E /* enet.xcodeproj */;
+			containerPortal = 75654A96646E1072486D7072 /* enet.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 67A53B354FD1378A7711213E;
+			remoteGlobalIDString = 0CC8401B4E1B7B7D004F61A0;
 			remoteInfo = "libenet_xcode4_x64_release.a";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FFE4CE55E5067BA12BB4C2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../test/enet/chat/server/main.cpp"; sourceTree = "<group>"; };
-		10A754A46379568D70577C18 /* Test_enet_chat_server_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Test_enet_chat_server_xcode4_x64_release"; path = "Test_enet_chat_server_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2607292E18050C3B17306B2E /* enet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "enet.xcodeproj"; path = "enet.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1994740C63FC635A2EA0117A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../test/enet/chat/server/main.cpp"; sourceTree = "<group>"; };
+		613B23DB2DA271491CC63635 /* Test_enet_chat_server_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Test_enet_chat_server_xcode4_x64_release"; path = "Test_enet_chat_server_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75654A96646E1072486D7072 /* enet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "enet.xcodeproj"; path = "enet.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FFD7BCF55834B5373C8511B /* Frameworks */ = {
+		584010FC492F5BEF480A36CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BAD25A7021341C521184AAD /* libenet.a in Frameworks */,
+				7BE031C43B3C61095114357A /* libenet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		499825551B333F1B23D17D59 /* Test_enet_chat_server */ = {
+		721E392A353B39A119072E10 /* Test_enet_chat_server */ = {
 			isa = PBXGroup;
 			children = (
-				11A161F671A728346E551D58 /* test */,
-				32B533343F131C2163AA4579 /* Products */,
-				1098722D79D4617D7CB96F06 /* Projects */,
+				383C2A2E553063BA561651A4 /* test */,
+				437F7C851D7B26DC6D0F00A4 /* Products */,
+				22982F8E383154F805363867 /* Projects */,
 			);
 			name = "Test_enet_chat_server";
 			sourceTree = "<group>";
 		};
-		11A161F671A728346E551D58 /* test */ = {
+		383C2A2E553063BA561651A4 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				089F20ED63731C676AAA7DB4 /* enet */,
+				042A798331421AAC33A14CAD /* enet */,
 			);
 			name = "test";
 			sourceTree = "<group>";
 		};
-		089F20ED63731C676AAA7DB4 /* enet */ = {
+		042A798331421AAC33A14CAD /* enet */ = {
 			isa = PBXGroup;
 			children = (
-				6E6529E66C7B191E1EE811A3 /* chat */,
+				064C1047463829B95ADF705C /* chat */,
 			);
 			name = "enet";
 			sourceTree = "<group>";
 		};
-		6E6529E66C7B191E1EE811A3 /* chat */ = {
+		064C1047463829B95ADF705C /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				242C7E62619273C323F13BA1 /* server */,
+				30A128833BC92F476C5D06B2 /* server */,
 			);
 			name = "chat";
 			sourceTree = "<group>";
 		};
-		242C7E62619273C323F13BA1 /* server */ = {
+		30A128833BC92F476C5D06B2 /* server */ = {
 			isa = PBXGroup;
 			children = (
-				5FFE4CE55E5067BA12BB4C2C /* main.cpp */,
+				1994740C63FC635A2EA0117A /* main.cpp */,
 			);
 			name = "server";
 			sourceTree = "<group>";
 		};
-		32B533343F131C2163AA4579 /* Products */ = {
+		437F7C851D7B26DC6D0F00A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10A754A46379568D70577C18 /* Test_enet_chat_server_xcode4_x64_release */,
+				613B23DB2DA271491CC63635 /* Test_enet_chat_server_xcode4_x64_release */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
 		};
-		1098722D79D4617D7CB96F06 /* Projects */ = {
+		22982F8E383154F805363867 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				2607292E18050C3B17306B2E /* enet.xcodeproj */,
+				75654A96646E1072486D7072 /* enet.xcodeproj */,
 			);
 			name = "Projects";
 			sourceTree = "<group>";
 		};
-		2CBF53AB315A2F7E24080F02 /* Products */ = {
+		08B12B8969A81C8A64843BBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				340A04C552C64F895CBB15E5 /* libenet.a */,
+				74FD3CAE042D5AA0730F0778 /* libenet.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,23 +115,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42774D9C46607F84581B0EEF /* Test_enet_chat_server */ = {
+		7C3A4F076C1572BB5784574F /* Test_enet_chat_server */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A466A4C55F847C576EA290F /* Build configuration list for PBXNativeTarget "Test_enet_chat_server" */;
+			buildConfigurationList = 1CAD460903D658DD2B610016 /* Build configuration list for PBXNativeTarget "Test_enet_chat_server" */;
 			buildPhases = (
-				30951D95214539BD37E07184 /* Resources */,
-				3E042EC242A16D8B73960C50 /* Sources */,
-				7FFD7BCF55834B5373C8511B /* Frameworks */,
+				3678316D0C8313C91E051187 /* Resources */,
+				3F4502ED1E543B8201A64960 /* Sources */,
+				584010FC492F5BEF480A36CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				122354931EB23C0F2C3C1CCC /* PBXTargetDependency */,
+				6FA6201A36E05ECA43F46CAB /* PBXTargetDependency */,
 			);
 			name = "Test_enet_chat_server";
 			productInstallPath = "$(HOME)/bin";
 			productName = "Test_enet_chat_server";
-			productReference = 10A754A46379568D70577C18 /* Test_enet_chat_server_xcode4_x64_release */;
+			productReference = 613B23DB2DA271491CC63635 /* Test_enet_chat_server_xcode4_x64_release */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -142,33 +142,33 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_enet_chat_server" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 499825551B333F1B23D17D59 /* Test_enet_chat_server */;
+			mainGroup = 721E392A353B39A119072E10 /* Test_enet_chat_server */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2CBF53AB315A2F7E24080F02 /* Products */;
-					ProjectRef = 2607292E18050C3B17306B2E /* enet.xcodeproj */;
+					ProductGroup = 08B12B8969A81C8A64843BBC /* Products */;
+					ProjectRef = 75654A96646E1072486D7072 /* enet.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				42774D9C46607F84581B0EEF /* Test_enet_chat_server_xcode4_x64_release */,
+				7C3A4F076C1572BB5784574F /* Test_enet_chat_server_xcode4_x64_release */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		340A04C552C64F895CBB15E5 /* libenet.a */ = {
+		74FD3CAE042D5AA0730F0778 /* libenet.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libenet.a";
-			remoteRef = 6530390C598D49C548E74DEF /* PBXContainerItemProxy */;
+			remoteRef = 5D14746F4ED27AF912D50B90 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30951D95214539BD37E07184 /* Resources */ = {
+		3678316D0C8313C91E051187 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,11 +178,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E042EC242A16D8B73960C50 /* Sources */ = {
+		3F4502ED1E543B8201A64960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FBF276C5FFE581819505C73 /* main.cpp in Sources */,
+				199A093B1B375766251A6B2A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,15 +192,15 @@
 /* End PBXVariantGroup section */
 
 /* Begin PBXTargetDependency section */
-		122354931EB23C0F2C3C1CCC /* PBXTargetDependency */ = {
+		6FA6201A36E05ECA43F46CAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libenet.a";
-			targetProxy = 0BAB29385B4604BE06615FB7 /* PBXContainerItemProxy */;
+			targetProxy = 37867E9231FF603027BD1B30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7B0E5A3423980FC84678098F /* Release */ = {
+		69B51BEF172E657E367B7F77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -215,7 +215,7 @@
 			};
 			name = "Release";
 		};
-		3874011C6182267D61E91400 /* Debug */ = {
+		309F32820D6C4C4A4E752259 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -229,7 +229,7 @@
 			};
 			name = "Debug";
 		};
-		1C24292B5F365EE44CD01265 /* Release */ = {
+		6F44624E17717C893E576A44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -256,7 +256,7 @@
 			};
 			name = "Release";
 		};
-		0E3429586F014A76464C3756 /* Debug */ = {
+		0F8B2AA34B9B5E20131B7248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -290,11 +290,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A466A4C55F847C576EA290F /* Build configuration list for PBXNativeTarget "Test_enet_chat_server_xcode4_x64_release" */ = {
+		1CAD460903D658DD2B610016 /* Build configuration list for PBXNativeTarget "Test_enet_chat_server_xcode4_x64_release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B0E5A3423980FC84678098F /* Release */,
-				3874011C6182267D61E91400 /* Debug */,
+				69B51BEF172E657E367B7F77 /* Release */,
+				309F32820D6C4C4A4E752259 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -302,8 +302,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_enet_chat_server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C24292B5F365EE44CD01265 /* Release */,
-				0E3429586F014A76464C3756 /* Debug */,
+				6F44624E17717C893E576A44 /* Release */,
+				0F8B2AA34B9B5E20131B7248 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

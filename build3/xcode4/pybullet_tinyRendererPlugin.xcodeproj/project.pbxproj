@@ -7,331 +7,331 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		529836E91F9A67194BE9413C /* LoadMeshFromCollada.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F70665D0066D546FD2045 /* LoadMeshFromCollada.cpp */; };
-		49E641114D9247633794043D /* b3ImportMeshUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CB777313EA347F422044C4A /* b3ImportMeshUtility.cpp */; };
-		478650F91FC14E4C665B75E2 /* LoadMeshFromObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B67698804D166542F3833C8 /* LoadMeshFromObj.cpp */; };
-		0FAB2E5828F50AA5178002C1 /* Wavefront2GLInstanceGraphicsShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 365E16F41E5B276912801AE8 /* Wavefront2GLInstanceGraphicsShape.cpp */; };
-		6FEE0F6A7D142EE47F3908AC /* SimpleCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ED03B6704F855974B0A18DF /* SimpleCamera.cpp */; };
-		1F1155C63ECF2FEE3D531DE5 /* TinyRendererVisualShapeConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DBA403F048C419953D9662D /* TinyRendererVisualShapeConverter.cpp */; };
-		699552F1048422881D8D4F4A /* tinyRendererPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75D516181DC449FA70476148 /* tinyRendererPlugin.cpp */; };
-		6E404DAA6307692A5B2F1DE6 /* tiny_obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC270226A190F8B7D4F733F /* tiny_obj_loader.cpp */; };
-		4D75546E10230F74147B1EDE /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61BD73E964A334C25E673DBD /* stb_image.cpp */; };
-		5E4E63F0262555C653B54205 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79454AE802EF5A5668DF1EF0 /* tinyxml2.cpp */; };
-		696109303E150F64115F7F37 /* TinyRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CE2EC72BF21FB06D225DC3 /* TinyRenderer.cpp */; };
-		16C56CB0343457F00D7E71C2 /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 350C51183CC530A8009B6AB3 /* geometry.cpp */; };
-		7AD022FA032D2EF506451E40 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 291966DF78966B897C2E50C0 /* model.cpp */; };
-		791F1E5570D625D23BC53C3C /* our_gl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29C9563B463D6BD1112D2F14 /* our_gl.cpp */; };
-		7F66048C2DA351094DA51711 /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E52920BB11FA30BE52413 /* tgaimage.cpp */; };
-		6CCC6B5351A07D47779D188D /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20DE5DCA2BD75FC51EDA0EA8 /* b3Clock.cpp */; };
-		7CB63F89737452F81DE343BD /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13513D3713912472780A0F23 /* b3ResourcePath.cpp */; };
-		6D772BF449DD0C7859537743 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B507D6F0DC671E871B1331D /* Cocoa.framework */; };
-		7F7D16F878237B917B553A52 /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C659EB1105066A2CE06022 /* libBulletCollision.a */; };
-		6D943DFB32F72D390EBF5132 /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A49CB569425E83EEA0FD1 /* libBullet3Common.a */; };
-		44744F564A1156253B230F92 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FE398F1649345F7B324ED0 /* libLinearMath.a */; };
+		56DF785A6ED053DF7D8C0AC9 /* LoadMeshFromCollada.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08777D341828724276BA4510 /* LoadMeshFromCollada.cpp */; };
+		28E614524F901DA031576BBD /* b3ImportMeshUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A68783CCC2C1B5E011C41 /* b3ImportMeshUtility.cpp */; };
+		73C54587309511003445479C /* LoadMeshFromObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356E7C2B020D2FC07AEC2EFF /* LoadMeshFromObj.cpp */; };
+		76FA2B7A107D1994526525CC /* Wavefront2GLInstanceGraphicsShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CB09DF15A65A2B41791BD0 /* Wavefront2GLInstanceGraphicsShape.cpp */; };
+		723C544B10284FFB7ECF5C2A /* SimpleCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA658AE3688571A0738121A /* SimpleCamera.cpp */; };
+		6E046B972E9422F677201254 /* TinyRendererVisualShapeConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C5F9807280CA079F90BFA /* TinyRendererVisualShapeConverter.cpp */; };
+		3C28787E556C66C6530577BD /* tinyRendererPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32FE7545305F335B2A1E54DE /* tinyRendererPlugin.cpp */; };
+		6D092222051552EA16E86EDF /* tiny_obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34D04F5235C8790B63F66546 /* tiny_obj_loader.cpp */; };
+		770C3C0D1C6328E1784F2BF0 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34A6251E66FF7210271B09C9 /* stb_image.cpp */; };
+		765303AA4CB06D4B624F66A1 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3633687B03D073CC66434960 /* tinyxml2.cpp */; };
+		15983C0A44A875BB6C297A32 /* TinyRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FE2C281C850C8671D91BA7 /* TinyRenderer.cpp */; };
+		22653DB42A3270CF3F4F11F0 /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A90082804E44CAA673C14CF /* geometry.cpp */; };
+		7DBD31F8203465D12808549F /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F79037D1E3D480003C038BB /* model.cpp */; };
+		62710B651CF26DEF661F23DD /* our_gl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C16CF567E22B6E4E135203 /* our_gl.cpp */; };
+		729D47777EC74C565D212FF1 /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EC30D8F601B3677556E3A6F /* tgaimage.cpp */; };
+		2B90116B4642352072615D1A /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC09A20C3A714706C30465 /* b3Clock.cpp */; };
+		587E4EF478AE78B0291A20EA /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 316A2EC91E7F2A4F67AD3A9A /* b3ResourcePath.cpp */; };
+		53B401F73211181A030F5AB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA62D9137830BC67C5A7A6A /* Cocoa.framework */; };
+		706675B81E1C4D67436F4E40 /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B0A9D4B51330072BA30CD /* libBulletCollision.a */; };
+		7005149E17307FB0309945C4 /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A395CC73196167A3EA7524D /* libBullet3Common.a */; };
+		1CA20043445A7EA46B9B35F2 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEF79D7228D77ED10022CDD /* libLinearMath.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		73AA4F00417C5B467A97535D /* PBXContainerItemProxy */ = {
+		5A5939B4114E1F5069320B2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 58B513891801083713AA1AC5 /* BulletCollision.xcodeproj */;
+			containerPortal = 50B61162771E02601E707A13 /* BulletCollision.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 77EF0B1679CF11A92638645A;
+			remoteGlobalIDString = 07733D4254F5379B50003D8B;
 			remoteInfo = "libBulletCollision_xcode4_x64_release.a";
 		};
-		169C67147FE7534449FA58D3 /* PBXContainerItemProxy */ = {
+		639361A52F6061B334CC3EC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 58B513891801083713AA1AC5 /* BulletCollision.xcodeproj */;
+			containerPortal = 50B61162771E02601E707A13 /* BulletCollision.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C4C58FB07E61E0D009078E9;
+			remoteGlobalIDString = 1D64518378F8107C578D0F50;
 			remoteInfo = "libBulletCollision_xcode4_x64_release.a";
 		};
-		1643204E6688789A50672D9C /* PBXContainerItemProxy */ = {
+		616817F834E4189C51322FFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 072A7F474ACB706C69B24AB5 /* Bullet3Common.xcodeproj */;
+			containerPortal = 678D7D4637A26FC717FF163E /* Bullet3Common.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 09FA7FC839970BF5153840E3;
+			remoteGlobalIDString = 27A74D5543490A4B6B5A202F;
 			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
 		};
-		5DF30AFF2BC2707123116B82 /* PBXContainerItemProxy */ = {
+		0EE420EF6C4B35292352063D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 072A7F474ACB706C69B24AB5 /* Bullet3Common.xcodeproj */;
+			containerPortal = 678D7D4637A26FC717FF163E /* Bullet3Common.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C4C63853833567C73AB6FF6;
+			remoteGlobalIDString = 0D8130AF6C2B0E3013A370F1;
 			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
 		};
-		135D773336A33CA51D1825CD /* PBXContainerItemProxy */ = {
+		36A71720595C437012EF3799 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38B45A593EB82CD62597741C /* LinearMath.xcodeproj */;
+			containerPortal = 4BA07B863CEA28625E8A43C6 /* LinearMath.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 38056F365426392605FA0F64;
+			remoteGlobalIDString = 0D54087B588D491F3D3C403A;
 			remoteInfo = "libLinearMath_xcode4_x64_release.a";
 		};
-		61E2508B0A51618D2CE37294 /* PBXContainerItemProxy */ = {
+		45F16E8B7F2657D458CE5A6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38B45A593EB82CD62597741C /* LinearMath.xcodeproj */;
+			containerPortal = 4BA07B863CEA28625E8A43C6 /* LinearMath.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 7169459C2B3E28C14D00766D;
+			remoteGlobalIDString = 5C4D61AF642433E05BC63389;
 			remoteInfo = "libLinearMath_xcode4_x64_release.a";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B3F70665D0066D546FD2045 /* LoadMeshFromCollada.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "LoadMeshFromCollada.cpp"; path = "../../examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp"; sourceTree = "<group>"; };
-		03751286288E31E20EEF192A /* LoadMeshFromCollada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoadMeshFromCollada.h"; path = "../../examples/Importers/ImportColladaDemo/LoadMeshFromCollada.h"; sourceTree = "<group>"; };
-		5CB777313EA347F422044C4A /* b3ImportMeshUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ImportMeshUtility.cpp"; path = "../../examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp"; sourceTree = "<group>"; };
-		004759AF74904F1D0FDE6B7A /* b3ImportMeshUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ImportMeshUtility.h"; path = "../../examples/Importers/ImportMeshUtility/b3ImportMeshUtility.h"; sourceTree = "<group>"; };
-		6B67698804D166542F3833C8 /* LoadMeshFromObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "LoadMeshFromObj.cpp"; path = "../../examples/Importers/ImportObjDemo/LoadMeshFromObj.cpp"; sourceTree = "<group>"; };
-		600F29681A4E31AF62B429FD /* LoadMeshFromObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoadMeshFromObj.h"; path = "../../examples/Importers/ImportObjDemo/LoadMeshFromObj.h"; sourceTree = "<group>"; };
-		365E16F41E5B276912801AE8 /* Wavefront2GLInstanceGraphicsShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Wavefront2GLInstanceGraphicsShape.cpp"; path = "../../examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp"; sourceTree = "<group>"; };
-		038806F37B843F001985799A /* Wavefront2GLInstanceGraphicsShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Wavefront2GLInstanceGraphicsShape.h"; path = "../../examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.h"; sourceTree = "<group>"; };
-		6ED03B6704F855974B0A18DF /* SimpleCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "SimpleCamera.cpp"; path = "../../examples/OpenGLWindow/SimpleCamera.cpp"; sourceTree = "<group>"; };
-		01BA11F30F00685F71DE2921 /* SimpleCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SimpleCamera.h"; path = "../../examples/OpenGLWindow/SimpleCamera.h"; sourceTree = "<group>"; };
-		0DBA403F048C419953D9662D /* TinyRendererVisualShapeConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TinyRendererVisualShapeConverter.cpp"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.cpp"; sourceTree = "<group>"; };
-		42F975A74FCA143950E8423F /* TinyRendererVisualShapeConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TinyRendererVisualShapeConverter.h"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.h"; sourceTree = "<group>"; };
-		75D516181DC449FA70476148 /* tinyRendererPlugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tinyRendererPlugin.cpp"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/tinyRendererPlugin.cpp"; sourceTree = "<group>"; };
-		208D2D5333761A556BE449C0 /* tinyRendererPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tinyRendererPlugin.h"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/tinyRendererPlugin.h"; sourceTree = "<group>"; };
-		1BC270226A190F8B7D4F733F /* tiny_obj_loader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tiny_obj_loader.cpp"; path = "../../examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp"; sourceTree = "<group>"; };
-		0C9C5E2F12F858E81C3D2A6F /* tiny_obj_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tiny_obj_loader.h"; path = "../../examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.h"; sourceTree = "<group>"; };
-		61BD73E964A334C25E673DBD /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "stb_image.cpp"; path = "../../examples/ThirdPartyLibs/stb_image/stb_image.cpp"; sourceTree = "<group>"; };
-		1EAC48CA6E7169A42A872E1D /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "stb_image.h"; path = "../../examples/ThirdPartyLibs/stb_image/stb_image.h"; sourceTree = "<group>"; };
-		79454AE802EF5A5668DF1EF0 /* tinyxml2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tinyxml2.cpp"; path = "../../examples/ThirdPartyLibs/tinyxml2/tinyxml2.cpp"; sourceTree = "<group>"; };
-		756B4BDA0E816C4008B9511E /* tinyxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tinyxml2.h"; path = "../../examples/ThirdPartyLibs/tinyxml2/tinyxml2.h"; sourceTree = "<group>"; };
-		18CE2EC72BF21FB06D225DC3 /* TinyRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TinyRenderer.cpp"; path = "../../examples/TinyRenderer/TinyRenderer.cpp"; sourceTree = "<group>"; };
-		350C51183CC530A8009B6AB3 /* geometry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "geometry.cpp"; path = "../../examples/TinyRenderer/geometry.cpp"; sourceTree = "<group>"; };
-		291966DF78966B897C2E50C0 /* model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "model.cpp"; path = "../../examples/TinyRenderer/model.cpp"; sourceTree = "<group>"; };
-		29C9563B463D6BD1112D2F14 /* our_gl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "our_gl.cpp"; path = "../../examples/TinyRenderer/our_gl.cpp"; sourceTree = "<group>"; };
-		3B5E52920BB11FA30BE52413 /* tgaimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tgaimage.cpp"; path = "../../examples/TinyRenderer/tgaimage.cpp"; sourceTree = "<group>"; };
-		20DE5DCA2BD75FC51EDA0EA8 /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
-		5986142F462F52F3104321EE /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
-		13513D3713912472780A0F23 /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
-		48AD59EF7605772479807061 /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
-		5B507D6F0DC671E871B1331D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "/System/Library/Frameworks/Cocoa.framework"; sourceTree = "<absolute>"; };
-		05173BC254940106589F4552 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib"; path = "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58B513891801083713AA1AC5 /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletCollision.xcodeproj"; path = "BulletCollision.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		072A7F474ACB706C69B24AB5 /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		38B45A593EB82CD62597741C /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		08777D341828724276BA4510 /* LoadMeshFromCollada.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "LoadMeshFromCollada.cpp"; path = "../../examples/Importers/ImportColladaDemo/LoadMeshFromCollada.cpp"; sourceTree = "<group>"; };
+		4985488E15F51DB9769F6E1F /* LoadMeshFromCollada.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoadMeshFromCollada.h"; path = "../../examples/Importers/ImportColladaDemo/LoadMeshFromCollada.h"; sourceTree = "<group>"; };
+		2C5A68783CCC2C1B5E011C41 /* b3ImportMeshUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ImportMeshUtility.cpp"; path = "../../examples/Importers/ImportMeshUtility/b3ImportMeshUtility.cpp"; sourceTree = "<group>"; };
+		703F46272C0E7FC2455D5D50 /* b3ImportMeshUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ImportMeshUtility.h"; path = "../../examples/Importers/ImportMeshUtility/b3ImportMeshUtility.h"; sourceTree = "<group>"; };
+		356E7C2B020D2FC07AEC2EFF /* LoadMeshFromObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "LoadMeshFromObj.cpp"; path = "../../examples/Importers/ImportObjDemo/LoadMeshFromObj.cpp"; sourceTree = "<group>"; };
+		5AA532AC65C44A1C2B312033 /* LoadMeshFromObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoadMeshFromObj.h"; path = "../../examples/Importers/ImportObjDemo/LoadMeshFromObj.h"; sourceTree = "<group>"; };
+		03CB09DF15A65A2B41791BD0 /* Wavefront2GLInstanceGraphicsShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Wavefront2GLInstanceGraphicsShape.cpp"; path = "../../examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp"; sourceTree = "<group>"; };
+		1E706C8079E4122D65F13BE5 /* Wavefront2GLInstanceGraphicsShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Wavefront2GLInstanceGraphicsShape.h"; path = "../../examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.h"; sourceTree = "<group>"; };
+		3CA658AE3688571A0738121A /* SimpleCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "SimpleCamera.cpp"; path = "../../examples/OpenGLWindow/SimpleCamera.cpp"; sourceTree = "<group>"; };
+		77C9631105A51C41718B04E6 /* SimpleCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SimpleCamera.h"; path = "../../examples/OpenGLWindow/SimpleCamera.h"; sourceTree = "<group>"; };
+		6A0C5F9807280CA079F90BFA /* TinyRendererVisualShapeConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TinyRendererVisualShapeConverter.cpp"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.cpp"; sourceTree = "<group>"; };
+		7A3A76B1110255AE4AF34ECF /* TinyRendererVisualShapeConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TinyRendererVisualShapeConverter.h"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/TinyRendererVisualShapeConverter.h"; sourceTree = "<group>"; };
+		32FE7545305F335B2A1E54DE /* tinyRendererPlugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tinyRendererPlugin.cpp"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/tinyRendererPlugin.cpp"; sourceTree = "<group>"; };
+		2444096348F83EC7201B552D /* tinyRendererPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tinyRendererPlugin.h"; path = "../../examples/SharedMemory/plugins/tinyRendererPlugin/tinyRendererPlugin.h"; sourceTree = "<group>"; };
+		34D04F5235C8790B63F66546 /* tiny_obj_loader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tiny_obj_loader.cpp"; path = "../../examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp"; sourceTree = "<group>"; };
+		24B71812541223E669BB0F70 /* tiny_obj_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tiny_obj_loader.h"; path = "../../examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.h"; sourceTree = "<group>"; };
+		34A6251E66FF7210271B09C9 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "stb_image.cpp"; path = "../../examples/ThirdPartyLibs/stb_image/stb_image.cpp"; sourceTree = "<group>"; };
+		48853E480049610676E63443 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "stb_image.h"; path = "../../examples/ThirdPartyLibs/stb_image/stb_image.h"; sourceTree = "<group>"; };
+		3633687B03D073CC66434960 /* tinyxml2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tinyxml2.cpp"; path = "../../examples/ThirdPartyLibs/tinyxml2/tinyxml2.cpp"; sourceTree = "<group>"; };
+		15546BF34A7814D42B2A03B0 /* tinyxml2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tinyxml2.h"; path = "../../examples/ThirdPartyLibs/tinyxml2/tinyxml2.h"; sourceTree = "<group>"; };
+		58FE2C281C850C8671D91BA7 /* TinyRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TinyRenderer.cpp"; path = "../../examples/TinyRenderer/TinyRenderer.cpp"; sourceTree = "<group>"; };
+		1A90082804E44CAA673C14CF /* geometry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "geometry.cpp"; path = "../../examples/TinyRenderer/geometry.cpp"; sourceTree = "<group>"; };
+		5F79037D1E3D480003C038BB /* model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "model.cpp"; path = "../../examples/TinyRenderer/model.cpp"; sourceTree = "<group>"; };
+		44C16CF567E22B6E4E135203 /* our_gl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "our_gl.cpp"; path = "../../examples/TinyRenderer/our_gl.cpp"; sourceTree = "<group>"; };
+		2EC30D8F601B3677556E3A6F /* tgaimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tgaimage.cpp"; path = "../../examples/TinyRenderer/tgaimage.cpp"; sourceTree = "<group>"; };
+		0FAC09A20C3A714706C30465 /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
+		5AFE12D41EBA04BB22B1173F /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
+		316A2EC91E7F2A4F67AD3A9A /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
+		0E146DAE599E50DF1E2E7EE2 /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
+		4FA62D9137830BC67C5A7A6A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "/System/Library/Frameworks/Cocoa.framework"; sourceTree = "<absolute>"; };
+		69CD1F6B339B25A86CDC16E9 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib"; path = "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B61162771E02601E707A13 /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletCollision.xcodeproj"; path = "BulletCollision.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		678D7D4637A26FC717FF163E /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4BA07B863CEA28625E8A43C6 /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		338571240C1A223379277B74 /* Frameworks */ = {
+		50465B0B3DA31F1269F56C3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D772BF449DD0C7859537743 /* Cocoa.framework in Frameworks */,
-				7F7D16F878237B917B553A52 /* libBulletCollision.a in Frameworks */,
-				6D943DFB32F72D390EBF5132 /* libBullet3Common.a in Frameworks */,
-				44744F564A1156253B230F92 /* libLinearMath.a in Frameworks */,
+				53B401F73211181A030F5AB2 /* Cocoa.framework in Frameworks */,
+				706675B81E1C4D67436F4E40 /* libBulletCollision.a in Frameworks */,
+				7005149E17307FB0309945C4 /* libBullet3Common.a in Frameworks */,
+				1CA20043445A7EA46B9B35F2 /* libLinearMath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B9D214D5D855F7D182735FD /* pybullet_tinyRendererPlugin */ = {
+		535901FC01A31860560E3F61 /* pybullet_tinyRendererPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				2CF267F52F4A4C826BED2DB4 /* examples */,
-				761913CB0D2305CD5CDB4A02 /* Frameworks */,
-				7C634EAF759251906A2A1EA8 /* Products */,
-				68722F5523DE016E5E2D0760 /* Projects */,
+				07285630291820C3228F669C /* examples */,
+				62420F871C3F7B4A65547CC8 /* Frameworks */,
+				68AD4CEC40796F2D23790E9C /* Products */,
+				2CA472D4539703A6280F7A5C /* Projects */,
 			);
 			name = "pybullet_tinyRendererPlugin";
 			sourceTree = "<group>";
 		};
-		2CF267F52F4A4C826BED2DB4 /* examples */ = {
+		07285630291820C3228F669C /* examples */ = {
 			isa = PBXGroup;
 			children = (
-				0F9520804A49284D059A58F7 /* Importers */,
-				2AF977F0605B17B0603B571B /* OpenGLWindow */,
-				3834045705E05AAB1AC8685B /* SharedMemory */,
-				72B6122B721F6DD57117527D /* ThirdPartyLibs */,
-				0E8D0A56453C1E556A726921 /* TinyRenderer */,
-				600441467B5135DB49646A92 /* Utils */,
+				2B9B75370CE86D8B56BC6769 /* Importers */,
+				37F802A94F3967EF02087593 /* OpenGLWindow */,
+				5323425C2A77203D369C7066 /* SharedMemory */,
+				0CEC682C5C7137E46F0023E0 /* ThirdPartyLibs */,
+				43F0562956962C0E5BBE1DBA /* TinyRenderer */,
+				7AB9367605904D9D216C5699 /* Utils */,
 			);
 			name = "examples";
 			sourceTree = "<group>";
 		};
-		0F9520804A49284D059A58F7 /* Importers */ = {
+		2B9B75370CE86D8B56BC6769 /* Importers */ = {
 			isa = PBXGroup;
 			children = (
-				7FED402F7D62666F11DC1FAB /* ImportColladaDemo */,
-				2FE7780A12C77DC72EDD517A /* ImportMeshUtility */,
-				1D920C162F565B70459B7594 /* ImportObjDemo */,
+				48886BF67C5F482E02822A37 /* ImportColladaDemo */,
+				66BB3EA8238F265F49AC55AC /* ImportMeshUtility */,
+				536F2B0447392A710F1D4BBC /* ImportObjDemo */,
 			);
 			name = "Importers";
 			sourceTree = "<group>";
 		};
-		7FED402F7D62666F11DC1FAB /* ImportColladaDemo */ = {
+		48886BF67C5F482E02822A37 /* ImportColladaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1B3F70665D0066D546FD2045 /* LoadMeshFromCollada.cpp */,
-				03751286288E31E20EEF192A /* LoadMeshFromCollada.h */,
+				08777D341828724276BA4510 /* LoadMeshFromCollada.cpp */,
+				4985488E15F51DB9769F6E1F /* LoadMeshFromCollada.h */,
 			);
 			name = "ImportColladaDemo";
 			sourceTree = "<group>";
 		};
-		2FE7780A12C77DC72EDD517A /* ImportMeshUtility */ = {
+		66BB3EA8238F265F49AC55AC /* ImportMeshUtility */ = {
 			isa = PBXGroup;
 			children = (
-				5CB777313EA347F422044C4A /* b3ImportMeshUtility.cpp */,
-				004759AF74904F1D0FDE6B7A /* b3ImportMeshUtility.h */,
+				2C5A68783CCC2C1B5E011C41 /* b3ImportMeshUtility.cpp */,
+				703F46272C0E7FC2455D5D50 /* b3ImportMeshUtility.h */,
 			);
 			name = "ImportMeshUtility";
 			sourceTree = "<group>";
 		};
-		1D920C162F565B70459B7594 /* ImportObjDemo */ = {
+		536F2B0447392A710F1D4BBC /* ImportObjDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6B67698804D166542F3833C8 /* LoadMeshFromObj.cpp */,
-				600F29681A4E31AF62B429FD /* LoadMeshFromObj.h */,
-				365E16F41E5B276912801AE8 /* Wavefront2GLInstanceGraphicsShape.cpp */,
-				038806F37B843F001985799A /* Wavefront2GLInstanceGraphicsShape.h */,
+				356E7C2B020D2FC07AEC2EFF /* LoadMeshFromObj.cpp */,
+				5AA532AC65C44A1C2B312033 /* LoadMeshFromObj.h */,
+				03CB09DF15A65A2B41791BD0 /* Wavefront2GLInstanceGraphicsShape.cpp */,
+				1E706C8079E4122D65F13BE5 /* Wavefront2GLInstanceGraphicsShape.h */,
 			);
 			name = "ImportObjDemo";
 			sourceTree = "<group>";
 		};
-		2AF977F0605B17B0603B571B /* OpenGLWindow */ = {
+		37F802A94F3967EF02087593 /* OpenGLWindow */ = {
 			isa = PBXGroup;
 			children = (
-				6ED03B6704F855974B0A18DF /* SimpleCamera.cpp */,
-				01BA11F30F00685F71DE2921 /* SimpleCamera.h */,
+				3CA658AE3688571A0738121A /* SimpleCamera.cpp */,
+				77C9631105A51C41718B04E6 /* SimpleCamera.h */,
 			);
 			name = "OpenGLWindow";
 			sourceTree = "<group>";
 		};
-		3834045705E05AAB1AC8685B /* SharedMemory */ = {
+		5323425C2A77203D369C7066 /* SharedMemory */ = {
 			isa = PBXGroup;
 			children = (
-				63CF61274FC340EF204D2C83 /* plugins */,
+				69204565113A304E54B006ED /* plugins */,
 			);
 			name = "SharedMemory";
 			sourceTree = "<group>";
 		};
-		63CF61274FC340EF204D2C83 /* plugins */ = {
+		69204565113A304E54B006ED /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				080740310BD906AE244D6665 /* tinyRendererPlugin */,
+				44535FAB61221D3C64904D16 /* tinyRendererPlugin */,
 			);
 			name = "plugins";
 			sourceTree = "<group>";
 		};
-		080740310BD906AE244D6665 /* tinyRendererPlugin */ = {
+		44535FAB61221D3C64904D16 /* tinyRendererPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				0DBA403F048C419953D9662D /* TinyRendererVisualShapeConverter.cpp */,
-				42F975A74FCA143950E8423F /* TinyRendererVisualShapeConverter.h */,
-				75D516181DC449FA70476148 /* tinyRendererPlugin.cpp */,
-				208D2D5333761A556BE449C0 /* tinyRendererPlugin.h */,
+				6A0C5F9807280CA079F90BFA /* TinyRendererVisualShapeConverter.cpp */,
+				7A3A76B1110255AE4AF34ECF /* TinyRendererVisualShapeConverter.h */,
+				32FE7545305F335B2A1E54DE /* tinyRendererPlugin.cpp */,
+				2444096348F83EC7201B552D /* tinyRendererPlugin.h */,
 			);
 			name = "tinyRendererPlugin";
 			sourceTree = "<group>";
 		};
-		72B6122B721F6DD57117527D /* ThirdPartyLibs */ = {
+		0CEC682C5C7137E46F0023E0 /* ThirdPartyLibs */ = {
 			isa = PBXGroup;
 			children = (
-				223F08457FF3539B264B0DDE /* Wavefront */,
-				7DB666B84C0D0E964A5A7D6C /* stb_image */,
-				27BF18CB6F474A355DF9258D /* tinyxml2 */,
+				5B5741F612C03AD709F21B31 /* Wavefront */,
+				06475E634EEA7F8B2CE777A2 /* stb_image */,
+				56496126070B75452CE7023A /* tinyxml2 */,
 			);
 			name = "ThirdPartyLibs";
 			sourceTree = "<group>";
 		};
-		223F08457FF3539B264B0DDE /* Wavefront */ = {
+		5B5741F612C03AD709F21B31 /* Wavefront */ = {
 			isa = PBXGroup;
 			children = (
-				1BC270226A190F8B7D4F733F /* tiny_obj_loader.cpp */,
-				0C9C5E2F12F858E81C3D2A6F /* tiny_obj_loader.h */,
+				34D04F5235C8790B63F66546 /* tiny_obj_loader.cpp */,
+				24B71812541223E669BB0F70 /* tiny_obj_loader.h */,
 			);
 			name = "Wavefront";
 			sourceTree = "<group>";
 		};
-		7DB666B84C0D0E964A5A7D6C /* stb_image */ = {
+		06475E634EEA7F8B2CE777A2 /* stb_image */ = {
 			isa = PBXGroup;
 			children = (
-				61BD73E964A334C25E673DBD /* stb_image.cpp */,
-				1EAC48CA6E7169A42A872E1D /* stb_image.h */,
+				34A6251E66FF7210271B09C9 /* stb_image.cpp */,
+				48853E480049610676E63443 /* stb_image.h */,
 			);
 			name = "stb_image";
 			sourceTree = "<group>";
 		};
-		27BF18CB6F474A355DF9258D /* tinyxml2 */ = {
+		56496126070B75452CE7023A /* tinyxml2 */ = {
 			isa = PBXGroup;
 			children = (
-				79454AE802EF5A5668DF1EF0 /* tinyxml2.cpp */,
-				756B4BDA0E816C4008B9511E /* tinyxml2.h */,
+				3633687B03D073CC66434960 /* tinyxml2.cpp */,
+				15546BF34A7814D42B2A03B0 /* tinyxml2.h */,
 			);
 			name = "tinyxml2";
 			sourceTree = "<group>";
 		};
-		0E8D0A56453C1E556A726921 /* TinyRenderer */ = {
+		43F0562956962C0E5BBE1DBA /* TinyRenderer */ = {
 			isa = PBXGroup;
 			children = (
-				18CE2EC72BF21FB06D225DC3 /* TinyRenderer.cpp */,
-				350C51183CC530A8009B6AB3 /* geometry.cpp */,
-				291966DF78966B897C2E50C0 /* model.cpp */,
-				29C9563B463D6BD1112D2F14 /* our_gl.cpp */,
-				3B5E52920BB11FA30BE52413 /* tgaimage.cpp */,
+				58FE2C281C850C8671D91BA7 /* TinyRenderer.cpp */,
+				1A90082804E44CAA673C14CF /* geometry.cpp */,
+				5F79037D1E3D480003C038BB /* model.cpp */,
+				44C16CF567E22B6E4E135203 /* our_gl.cpp */,
+				2EC30D8F601B3677556E3A6F /* tgaimage.cpp */,
 			);
 			name = "TinyRenderer";
 			sourceTree = "<group>";
 		};
-		600441467B5135DB49646A92 /* Utils */ = {
+		7AB9367605904D9D216C5699 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				20DE5DCA2BD75FC51EDA0EA8 /* b3Clock.cpp */,
-				5986142F462F52F3104321EE /* b3Clock.h */,
-				13513D3713912472780A0F23 /* b3ResourcePath.cpp */,
-				48AD59EF7605772479807061 /* b3ResourcePath.h */,
+				0FAC09A20C3A714706C30465 /* b3Clock.cpp */,
+				5AFE12D41EBA04BB22B1173F /* b3Clock.h */,
+				316A2EC91E7F2A4F67AD3A9A /* b3ResourcePath.cpp */,
+				0E146DAE599E50DF1E2E7EE2 /* b3ResourcePath.h */,
 			);
 			name = "Utils";
 			sourceTree = "<group>";
 		};
-		761913CB0D2305CD5CDB4A02 /* Frameworks */ = {
+		62420F871C3F7B4A65547CC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B507D6F0DC671E871B1331D /* Cocoa.framework */,
+				4FA62D9137830BC67C5A7A6A /* Cocoa.framework */,
 			);
 			name = "Frameworks";
 			sourceTree = "<group>";
 		};
-		7C634EAF759251906A2A1EA8 /* Products */ = {
+		68AD4CEC40796F2D23790E9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05173BC254940106589F4552 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */,
+				69CD1F6B339B25A86CDC16E9 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
 		};
-		68722F5523DE016E5E2D0760 /* Projects */ = {
+		2CA472D4539703A6280F7A5C /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				58B513891801083713AA1AC5 /* BulletCollision.xcodeproj */,
-				072A7F474ACB706C69B24AB5 /* Bullet3Common.xcodeproj */,
-				38B45A593EB82CD62597741C /* LinearMath.xcodeproj */,
+				50B61162771E02601E707A13 /* BulletCollision.xcodeproj */,
+				678D7D4637A26FC717FF163E /* Bullet3Common.xcodeproj */,
+				4BA07B863CEA28625E8A43C6 /* LinearMath.xcodeproj */,
 			);
 			name = "Projects";
 			sourceTree = "<group>";
 		};
-		71220BED00EC1F6D570E5E4A /* Products */ = {
+		69A4224D26D904821BD628A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31C659EB1105066A2CE06022 /* libBulletCollision.a */,
+				035B0A9D4B51330072BA30CD /* libBulletCollision.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04F4488F29796CFA5097241F /* Products */ = {
+		040D188D02C17EB760476295 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B1A49CB569425E83EEA0FD1 /* libBullet3Common.a */,
+				5A395CC73196167A3EA7524D /* libBullet3Common.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28F227EA2F0C4FF219D7306A /* Products */ = {
+		066364403AD23EA018C8055F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06FE398F1649345F7B324ED0 /* libLinearMath.a */,
+				7DEF79D7228D77ED10022CDD /* libLinearMath.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -339,24 +339,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E61701D398B764011AF261F /* pybullet_tinyRendererPlugin */ = {
+		232962942049388D444E1745 /* pybullet_tinyRendererPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A9346D566E140030B7E2E71 /* Build configuration list for PBXNativeTarget "pybullet_tinyRendererPlugin" */;
+			buildConfigurationList = 476148F221A63B16261014CC /* Build configuration list for PBXNativeTarget "pybullet_tinyRendererPlugin" */;
 			buildPhases = (
-				0131552634041519313A6C23 /* Resources */,
-				04936FE1405A71485D7364E9 /* Sources */,
-				338571240C1A223379277B74 /* Frameworks */,
+				1A0B4E2A30640C1A3D7D156D /* Resources */,
+				345C324B6C03524F65B3522C /* Sources */,
+				50465B0B3DA31F1269F56C3C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				19424BE95D9571C27FA76942 /* PBXTargetDependency */,
-				536E114229A339D96C72461B /* PBXTargetDependency */,
-				5BA74B3F1FEE016F2589501A /* PBXTargetDependency */,
+				3AEB36CB564B7851403D0357 /* PBXTargetDependency */,
+				332E2F82183565D067A70FA0 /* PBXTargetDependency */,
+				29835E431D411DFA0F5C1F13 /* PBXTargetDependency */,
 			);
 			name = "pybullet_tinyRendererPlugin";
 			productName = "pybullet_tinyRendererPlugin";
-			productReference = 05173BC254940106589F4552 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */;
+			productReference = 69CD1F6B339B25A86CDC16E9 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -367,55 +367,55 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "pybullet_tinyRendererPlugin" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 1B9D214D5D855F7D182735FD /* pybullet_tinyRendererPlugin */;
+			mainGroup = 535901FC01A31860560E3F61 /* pybullet_tinyRendererPlugin */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 71220BED00EC1F6D570E5E4A /* Products */;
-					ProjectRef = 58B513891801083713AA1AC5 /* BulletCollision.xcodeproj */;
+					ProductGroup = 69A4224D26D904821BD628A6 /* Products */;
+					ProjectRef = 50B61162771E02601E707A13 /* BulletCollision.xcodeproj */;
 				},
 				{
-					ProductGroup = 04F4488F29796CFA5097241F /* Products */;
-					ProjectRef = 072A7F474ACB706C69B24AB5 /* Bullet3Common.xcodeproj */;
+					ProductGroup = 040D188D02C17EB760476295 /* Products */;
+					ProjectRef = 678D7D4637A26FC717FF163E /* Bullet3Common.xcodeproj */;
 				},
 				{
-					ProductGroup = 28F227EA2F0C4FF219D7306A /* Products */;
-					ProjectRef = 38B45A593EB82CD62597741C /* LinearMath.xcodeproj */;
+					ProductGroup = 066364403AD23EA018C8055F /* Products */;
+					ProjectRef = 4BA07B863CEA28625E8A43C6 /* LinearMath.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				3E61701D398B764011AF261F /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */,
+				232962942049388D444E1745 /* libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		31C659EB1105066A2CE06022 /* libBulletCollision.a */ = {
+		035B0A9D4B51330072BA30CD /* libBulletCollision.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libBulletCollision.a";
-			remoteRef = 73AA4F00417C5B467A97535D /* PBXContainerItemProxy */;
+			remoteRef = 5A5939B4114E1F5069320B2F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3B1A49CB569425E83EEA0FD1 /* libBullet3Common.a */ = {
+		5A395CC73196167A3EA7524D /* libBullet3Common.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libBullet3Common.a";
-			remoteRef = 1643204E6688789A50672D9C /* PBXContainerItemProxy */;
+			remoteRef = 616817F834E4189C51322FFF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		06FE398F1649345F7B324ED0 /* libLinearMath.a */ = {
+		7DEF79D7228D77ED10022CDD /* libLinearMath.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libLinearMath.a";
-			remoteRef = 135D773336A33CA51D1825CD /* PBXContainerItemProxy */;
+			remoteRef = 36A71720595C437012EF3799 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0131552634041519313A6C23 /* Resources */ = {
+		1A0B4E2A30640C1A3D7D156D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,27 +425,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04936FE1405A71485D7364E9 /* Sources */ = {
+		345C324B6C03524F65B3522C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529836E91F9A67194BE9413C /* LoadMeshFromCollada.cpp in Sources */,
-				49E641114D9247633794043D /* b3ImportMeshUtility.cpp in Sources */,
-				478650F91FC14E4C665B75E2 /* LoadMeshFromObj.cpp in Sources */,
-				0FAB2E5828F50AA5178002C1 /* Wavefront2GLInstanceGraphicsShape.cpp in Sources */,
-				6FEE0F6A7D142EE47F3908AC /* SimpleCamera.cpp in Sources */,
-				1F1155C63ECF2FEE3D531DE5 /* TinyRendererVisualShapeConverter.cpp in Sources */,
-				699552F1048422881D8D4F4A /* tinyRendererPlugin.cpp in Sources */,
-				6E404DAA6307692A5B2F1DE6 /* tiny_obj_loader.cpp in Sources */,
-				4D75546E10230F74147B1EDE /* stb_image.cpp in Sources */,
-				5E4E63F0262555C653B54205 /* tinyxml2.cpp in Sources */,
-				696109303E150F64115F7F37 /* TinyRenderer.cpp in Sources */,
-				16C56CB0343457F00D7E71C2 /* geometry.cpp in Sources */,
-				7AD022FA032D2EF506451E40 /* model.cpp in Sources */,
-				791F1E5570D625D23BC53C3C /* our_gl.cpp in Sources */,
-				7F66048C2DA351094DA51711 /* tgaimage.cpp in Sources */,
-				6CCC6B5351A07D47779D188D /* b3Clock.cpp in Sources */,
-				7CB63F89737452F81DE343BD /* b3ResourcePath.cpp in Sources */,
+				56DF785A6ED053DF7D8C0AC9 /* LoadMeshFromCollada.cpp in Sources */,
+				28E614524F901DA031576BBD /* b3ImportMeshUtility.cpp in Sources */,
+				73C54587309511003445479C /* LoadMeshFromObj.cpp in Sources */,
+				76FA2B7A107D1994526525CC /* Wavefront2GLInstanceGraphicsShape.cpp in Sources */,
+				723C544B10284FFB7ECF5C2A /* SimpleCamera.cpp in Sources */,
+				6E046B972E9422F677201254 /* TinyRendererVisualShapeConverter.cpp in Sources */,
+				3C28787E556C66C6530577BD /* tinyRendererPlugin.cpp in Sources */,
+				6D092222051552EA16E86EDF /* tiny_obj_loader.cpp in Sources */,
+				770C3C0D1C6328E1784F2BF0 /* stb_image.cpp in Sources */,
+				765303AA4CB06D4B624F66A1 /* tinyxml2.cpp in Sources */,
+				15983C0A44A875BB6C297A32 /* TinyRenderer.cpp in Sources */,
+				22653DB42A3270CF3F4F11F0 /* geometry.cpp in Sources */,
+				7DBD31F8203465D12808549F /* model.cpp in Sources */,
+				62710B651CF26DEF661F23DD /* our_gl.cpp in Sources */,
+				729D47777EC74C565D212FF1 /* tgaimage.cpp in Sources */,
+				2B90116B4642352072615D1A /* b3Clock.cpp in Sources */,
+				587E4EF478AE78B0291A20EA /* b3ResourcePath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,25 +455,25 @@
 /* End PBXVariantGroup section */
 
 /* Begin PBXTargetDependency section */
-		19424BE95D9571C27FA76942 /* PBXTargetDependency */ = {
+		3AEB36CB564B7851403D0357 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libBulletCollision.a";
-			targetProxy = 169C67147FE7534449FA58D3 /* PBXContainerItemProxy */;
+			targetProxy = 639361A52F6061B334CC3EC6 /* PBXContainerItemProxy */;
 		};
-		536E114229A339D96C72461B /* PBXTargetDependency */ = {
+		332E2F82183565D067A70FA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libBullet3Common.a";
-			targetProxy = 5DF30AFF2BC2707123116B82 /* PBXContainerItemProxy */;
+			targetProxy = 0EE420EF6C4B35292352063D /* PBXContainerItemProxy */;
 		};
-		5BA74B3F1FEE016F2589501A /* PBXTargetDependency */ = {
+		29835E431D411DFA0F5C1F13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libLinearMath.a";
-			targetProxy = 61E2508B0A51618D2CE37294 /* PBXContainerItemProxy */;
+			targetProxy = 45F16E8B7F2657D458CE5A6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		482F12A00498222D49BD3D53 /* Release */ = {
+		3DE94AD71D73287865DF33D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -489,7 +489,7 @@
 			};
 			name = "Release";
 		};
-		0D40700635977083404D275A /* Debug */ = {
+		158A3F126DA6366F3A5761BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -504,7 +504,7 @@
 			};
 			name = "Debug";
 		};
-		31237C196A51754E02581730 /* Release */ = {
+		095E29891231798477AD3272 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -540,7 +540,7 @@
 			};
 			name = "Release";
 		};
-		0E436CFA3E297E53049B0B83 /* Debug */ = {
+		3F001F6E721B536541D045FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -581,11 +581,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A9346D566E140030B7E2E71 /* Build configuration list for PBXNativeTarget "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib" */ = {
+		476148F221A63B16261014CC /* Build configuration list for PBXNativeTarget "libpybullet_tinyRendererPlugin_xcode4_x64_release.dylib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				482F12A00498222D49BD3D53 /* Release */,
-				0D40700635977083404D275A /* Debug */,
+				3DE94AD71D73287865DF33D7 /* Release */,
+				158A3F126DA6366F3A5761BB /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -593,8 +593,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "pybullet_tinyRendererPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31237C196A51754E02581730 /* Release */,
-				0E436CFA3E297E53049B0B83 /* Debug */,
+				095E29891231798477AD3272 /* Release */,
+				3F001F6E721B536541D045FB /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
