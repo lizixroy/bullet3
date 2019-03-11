@@ -7,327 +7,327 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03AF5CAD71DA515612D84D24 /* testCompileBullet3PgsJointSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 305C6CD94B8B39160E4D7DB9 /* testCompileBullet3PgsJointSolverKernels.cpp */; };
-		05F07212023D78004B9934DD /* libgtest_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C0551838767A082593137F /* libgtest_xcode4_x64_debug.a */; };
-		0C5A0A66552C7A8478221D71 /* clew.c in Sources */ = {isa = PBXBuildFile; fileRef = 12BD379671950B59415353DF /* clew.c */; };
-		153F0A8F6A6F30B766041FCF /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 059B0E1268A611DD02F46550 /* inflate.c */; };
-		1B7C26AA6AE577971AF81556 /* libBullet3Common_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52833B035F3118FF20635244 /* libBullet3Common_xcode4_x64_debug.a */; };
-		25DD0BBF67BD61DB7A0E3804 /* testCompileBullet3RaycastKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B3310F530D03A971C5707D /* testCompileBullet3RaycastKernels.cpp */; };
-		28382E5817DD53B3251E0983 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B38009A2EB84ED53EEF5301 /* infback.c */; };
-		2D7E470F31610E33661175E0 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 397418F533277DC67720118C /* zutil.c */; };
-		2E1A367D57B276D679BF2ADC /* testInitOpenCL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31961D9E2D4C0DF1067A654F /* testInitOpenCL.cpp */; };
-		2E8C17361B3B681204630384 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE945604B9124597995289E /* deflate.c */; };
-		309547D31AAE29EC5B365733 /* testCompileBullet3JacobiContactSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751007DE2290450A2D86646E /* testCompileBullet3JacobiContactSolverKernels.cpp */; };
-		33385D916540071A577A4051 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 46F84B7C5CEA2BFD22713963 /* gzread.c */; };
-		361061E5163D230E782C19E5 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 12AC5AEF32F17F1A06777773 /* compress.c */; };
-		36632167328F59A37EA24988 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B25621D72D733371ABF0B65 /* uncompr.c */; };
-		3ADA75CC24892A230A192BFC /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 280B7FB547C110670A6229FF /* crc32.c */; };
-		3D615F346BD4483D4AA721A5 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 471340716F337F9332090DE5 /* trees.c */; };
-		3FF0567D622245F70C965F5E /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 13162C775BDD21F03A6F00DB /* ioapi.c */; };
-		45EA14646BE310C97FFB5299 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143958635AE9034474E233E8 /* main.cpp */; };
-		46B40D960D2D0E653C627D15 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 154975E919AC10365990101A /* unzip.c */; };
-		481E5817779847087E714E68 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FC843E04C791CEB189439A2 /* adler32.c */; };
-		497A133B10D326640B3B5C45 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D74C543D6196612AB2F94 /* gzwrite.c */; };
-		4BA0224D26DE66150AE77980 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 560860C86D7E184229737CFF /* gzclose.c */; };
-		51E411577EDC23FD449933FC /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 35CA7A131F1003022EB12480 /* inffast.c */; };
-		56422FC82AC109C111B50551 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 68825CD1280C371353BB3797 /* inftrees.c */; };
-		597D1DAC1866572148C85934 /* testExecuteBullet3NarrowphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37770D860430003060955771 /* testExecuteBullet3NarrowphaseKernels.cpp */; };
-		64E86350497808672E4C0068 /* testCompileBullet3NarrowphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F281E4E1F7164837383307D /* testCompileBullet3NarrowphaseKernels.cpp */; };
-		64FD244D5E0465966E8436AE /* testCompileBullet3IntegrateUpdateAabbKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14461B4559476249278E1C17 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */; };
-		6A6D55D669023EA144804E9B /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 726D06440FC2401A0B255BA3 /* gzlib.c */; };
-		6BF21B3225024B615A3F6BEB /* libBullet3OpenCL_clew_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BF45E201FB330603460726 /* libBullet3OpenCL_clew_xcode4_x64_debug.a */; };
-		70BD14F046FB42E00E9F6AB3 /* testCompileBullet3PgsContactSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B362C264923BDE77A72E42 /* testCompileBullet3PgsContactSolverKernels.cpp */; };
-		71154A877ABF27B700793DEB /* testCompileBullet3BroadphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1633207E38E968350E292711 /* testCompileBullet3BroadphaseKernels.cpp */; };
-		7BB94E7513100F16274F40E4 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EC343C749B8648D680268E2 /* zip.c */; };
+		03A14ECD7DE023AC19EA6AAA /* clew.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C521B5468910F5C039A7B6C /* clew.c */; };
+		041E04127691448A7A5B2D9D /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D09301D7587721E243A70D4 /* uncompr.c */; };
+		062A42BC4AF94F156C6B672F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 45090A116FC17C9E172D308D /* ioapi.c */; };
+		08C75677510C1E3C2FC0141D /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A2529497BC0176E583F46C4 /* inftrees.c */; };
+		12B563334D7A24B171D31183 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 105F70B275B3546E16924BF2 /* inffast.c */; };
+		14FA5CE973DD6EA754804365 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25105C6E3A295B4806CA7208 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */; };
+		171032F509304BBB65F21E2F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E68017A185E588306256BB0 /* zip.c */; };
+		1AAC1D262EB51F2617800F73 /* testCompileBullet3JacobiContactSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39274D2230C024D275EF29EB /* testCompileBullet3JacobiContactSolverKernels.cpp */; };
+		20C447C23A8C5F4671B734C3 /* libBullet3Common_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59057C0D691642B730E52B63 /* libBullet3Common_xcode4_x64_debug.a */; };
+		221D53AC4B9E03AF5EF400D2 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 14BB34865FD754FF54F559F3 /* compress.c */; };
+		245E3D8C5BCE6AF536343438 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA285904D77E6F612D7629 /* main.cpp */; };
+		253B51EF61F94F5421245C04 /* libBullet3OpenCL_clew_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78587FCC40C5058F024E635F /* libBullet3OpenCL_clew_xcode4_x64_debug.a */; };
+		255325D6177B2B4D695B6561 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 02182D8E61342C180A4E3236 /* trees.c */; };
+		2BAD19241ED1612616A96D3B /* testCompileBullet3RaycastKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 628B168047B21D940E5A4FBF /* testCompileBullet3RaycastKernels.cpp */; };
+		2EAA3CE3020D417F3529369C /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3EF350CF78317F160417 /* deflate.c */; };
+		2EDA177E78ED227E2B941060 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B0DDC791825E8545D2C7E /* gzread.c */; };
+		3136038F592D42903A0D418D /* testCompileBullet3BroadphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522C073C119640175A674082 /* testCompileBullet3BroadphaseKernels.cpp */; };
+		31B927073E9162650162737B /* testExecuteBullet3NarrowphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE25272A4469F8465461B4 /* testExecuteBullet3NarrowphaseKernels.cpp */; };
+		36857AAB2CCB7ECF078602EC /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 746B363848C728C072945558 /* infback.c */; };
+		3DA61E93560A5E8B1ED55192 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D6A56476956FA60B2687C /* gzlib.c */; };
+		4A527D9B07150D0161DF2F29 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 42FD06CA550A3AEB41014902 /* unzip.c */; };
+		4B4D54870ED427482862408F /* testCompileBullet3NarrowphaseKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C46B973813202D08D912BF /* testCompileBullet3NarrowphaseKernels.cpp */; };
+		4F4175B20FF801F923FE3A37 /* libgtest_xcode4_x64_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133844A565A551133E270CDA /* libgtest_xcode4_x64_debug.a */; };
+		511011807A86278478FC2515 /* testInitOpenCL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A7182F6D6304FD0E281BDD /* testInitOpenCL.cpp */; };
+		54C3737B25C065616CFE3736 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 67884A4856F84FA76D6253B2 /* gzclose.c */; };
+		55892A593DC01D19721F5AA0 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 16EB3D89227E070421800C4A /* gzwrite.c */; };
+		59940A45481F11274B7F2C33 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 392164BA259E560723ED5CAC /* zutil.c */; };
+		5FD330B47B34396D5A7E36B7 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E40F0E0EC406972E6D318F /* crc32.c */; };
+		632E0CE34827097B75F61F37 /* testCompileBullet3PgsJointSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64154E3F1DB9633C09FB689A /* testCompileBullet3PgsJointSolverKernels.cpp */; };
+		77B105FF5491392C262C45F7 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 248C6E0A68E67E504C002736 /* adler32.c */; };
+		7A9B7BFB5CFD00F846956A9D /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 35240B59326A6C64555C442F /* inflate.c */; };
+		7BAA75C839503BD135334538 /* testCompileBullet3PgsContactSolverKernels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FC17DDF76F61289129B1C45 /* testCompileBullet3PgsContactSolverKernels.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13F802134F73341A2FE11952 /* PBXContainerItemProxy */ = {
+		232F01A71CC55793206E2E29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 432568A745537E6D3D9B4845 /* Bullet3OpenCL_clew.xcodeproj */;
+			containerPortal = 1FB66F007DF173AC61D17347 /* Bullet3Common.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 66D12E4B504045C94A27775C;
-			remoteInfo = libBullet3OpenCL_clew_xcode4_x64_release.a;
-		};
-		1EED7B805011206423DF1362 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 432568A745537E6D3D9B4845 /* Bullet3OpenCL_clew.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6F041DD46B592D6C33255F78;
-			remoteInfo = libBullet3OpenCL_clew_xcode4_x64_release.a;
-		};
-		37407DF1076458705CBE6C76 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 36B41B191C5E7C1570522227 /* gtest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F922CB94A47248758EA1034;
-			remoteInfo = libgtest_xcode4_x64_release.a;
-		};
-		38BE63A37FAA0EF935050875 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52B1641D609C60ED707530FD /* Bullet3Common.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D8130AF6C2B0E3013A370F1;
+			remoteGlobalIDString = 392C03D129CF75FF45D07B57;
 			remoteInfo = libBullet3Common_xcode4_x64_release.a;
 		};
-		3EEF4E99247717FD1AB234CD /* PBXContainerItemProxy */ = {
+		28DE2BE179FC1AFE4B5C295D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 36B41B191C5E7C1570522227 /* gtest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3C2B67045773565664A72415;
+			containerPortal = 2B2402E9216777C544B405F6 /* gtest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 76865C7472B37382670F2A70;
 			remoteInfo = libgtest_xcode4_x64_release.a;
 		};
-		747F51D332C1511F6F0070CF /* PBXContainerItemProxy */ = {
+		3337700C46E5212F1BB320E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 52B1641D609C60ED707530FD /* Bullet3Common.xcodeproj */;
+			containerPortal = 7F5413A426FE7A08599037FB /* Bullet3OpenCL_clew.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 702C7EC8220502F345656C47;
+			remoteInfo = libBullet3OpenCL_clew_xcode4_x64_release.a;
+		};
+		491C66380295106F6CE568D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2402E9216777C544B405F6 /* gtest.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 27A74D5543490A4B6B5A202F;
+			remoteGlobalIDString = 6A54523B27A82AC311340CBF;
+			remoteInfo = libgtest_xcode4_x64_release.a;
+		};
+		7BB959B12C301DA408BF3EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5413A426FE7A08599037FB /* Bullet3OpenCL_clew.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09F13F2947F4173008986014;
+			remoteInfo = libBullet3OpenCL_clew_xcode4_x64_release.a;
+		};
+		7EDE3C6E73BD308A60362ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB66F007DF173AC61D17347 /* Bullet3Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15E848E8240903790E2B4DFB;
 			remoteInfo = libBullet3Common_xcode4_x64_release.a;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059B0E1268A611DD02F46550 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = ../../examples/ThirdPartyLibs/zlib/inflate.c; sourceTree = "<group>"; };
-		11B3310F530D03A971C5707D /* testCompileBullet3RaycastKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3RaycastKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3RaycastKernels.cpp; sourceTree = "<group>"; };
-		12AC5AEF32F17F1A06777773 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ../../examples/ThirdPartyLibs/zlib/compress.c; sourceTree = "<group>"; };
-		12BD379671950B59415353DF /* clew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = clew.c; path = ../../src/clew/clew.c; sourceTree = "<group>"; };
-		13162C775BDD21F03A6F00DB /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = ../../examples/ThirdPartyLibs/minizip/ioapi.c; sourceTree = "<group>"; };
-		143958635AE9034474E233E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../test/TestBullet3OpenCL/main.cpp; sourceTree = "<group>"; };
-		14461B4559476249278E1C17 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3IntegrateUpdateAabbKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3IntegrateUpdateAabbKernels.cpp; sourceTree = "<group>"; };
-		154975E919AC10365990101A /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = ../../examples/ThirdPartyLibs/minizip/unzip.c; sourceTree = "<group>"; };
-		1633207E38E968350E292711 /* testCompileBullet3BroadphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3BroadphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3BroadphaseKernels.cpp; sourceTree = "<group>"; };
-		197D66A70FE5286C070A608E /* clew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clew.h; path = ../../src/clew/clew.h; sourceTree = "<group>"; };
-		24725BA006431D5B71547ACA /* Test_OpenCL_Bullet3_xcode4_x64_debug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_OpenCL_Bullet3_xcode4_x64_debug; sourceTree = BUILT_PRODUCTS_DIR; };
-		280B7FB547C110670A6229FF /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = ../../examples/ThirdPartyLibs/zlib/crc32.c; sourceTree = "<group>"; };
-		2EC343C749B8648D680268E2 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = zip.c; path = ../../examples/ThirdPartyLibs/minizip/zip.c; sourceTree = "<group>"; };
-		305C6CD94B8B39160E4D7DB9 /* testCompileBullet3PgsJointSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3PgsJointSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3PgsJointSolverKernels.cpp; sourceTree = "<group>"; };
-		31961D9E2D4C0DF1067A654F /* testInitOpenCL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testInitOpenCL.cpp; path = ../../test/OpenCL/BasicInitialize/testInitOpenCL.cpp; sourceTree = "<group>"; };
-		35CA7A131F1003022EB12480 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = ../../examples/ThirdPartyLibs/zlib/inffast.c; sourceTree = "<group>"; };
-		36B41B191C5E7C1570522227 /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = gtest.xcodeproj; sourceTree = SOURCE_ROOT; };
-		37770D860430003060955771 /* testExecuteBullet3NarrowphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testExecuteBullet3NarrowphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testExecuteBullet3NarrowphaseKernels.cpp; sourceTree = "<group>"; };
-		37B362C264923BDE77A72E42 /* testCompileBullet3PgsContactSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3PgsContactSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3PgsContactSolverKernels.cpp; sourceTree = "<group>"; };
-		397418F533277DC67720118C /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = ../../examples/ThirdPartyLibs/zlib/zutil.c; sourceTree = "<group>"; };
-		3F9D74C543D6196612AB2F94 /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzwrite.c; path = ../../examples/ThirdPartyLibs/zlib/gzwrite.c; sourceTree = "<group>"; };
-		432568A745537E6D3D9B4845 /* Bullet3OpenCL_clew.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bullet3OpenCL_clew.xcodeproj; sourceTree = SOURCE_ROOT; };
-		46F84B7C5CEA2BFD22713963 /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzread.c; path = ../../examples/ThirdPartyLibs/zlib/gzread.c; sourceTree = "<group>"; };
-		471340716F337F9332090DE5 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = trees.c; path = ../../examples/ThirdPartyLibs/zlib/trees.c; sourceTree = "<group>"; };
-		4B38009A2EB84ED53EEF5301 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = infback.c; path = ../../examples/ThirdPartyLibs/zlib/infback.c; sourceTree = "<group>"; };
-		52B1641D609C60ED707530FD /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bullet3Common.xcodeproj; sourceTree = SOURCE_ROOT; };
-		560860C86D7E184229737CFF /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzclose.c; path = ../../examples/ThirdPartyLibs/zlib/gzclose.c; sourceTree = "<group>"; };
-		5CE945604B9124597995289E /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = ../../examples/ThirdPartyLibs/zlib/deflate.c; sourceTree = "<group>"; };
-		5FC843E04C791CEB189439A2 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = ../../examples/ThirdPartyLibs/zlib/adler32.c; sourceTree = "<group>"; };
-		68825CD1280C371353BB3797 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = ../../examples/ThirdPartyLibs/zlib/inftrees.c; sourceTree = "<group>"; };
-		726D06440FC2401A0B255BA3 /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzlib.c; path = ../../examples/ThirdPartyLibs/zlib/gzlib.c; sourceTree = "<group>"; };
-		751007DE2290450A2D86646E /* testCompileBullet3JacobiContactSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3JacobiContactSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3JacobiContactSolverKernels.cpp; sourceTree = "<group>"; };
-		7B25621D72D733371ABF0B65 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = ../../examples/ThirdPartyLibs/zlib/uncompr.c; sourceTree = "<group>"; };
-		7F281E4E1F7164837383307D /* testCompileBullet3NarrowphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3NarrowphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3NarrowphaseKernels.cpp; sourceTree = "<group>"; };
+		00C46B973813202D08D912BF /* testCompileBullet3NarrowphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3NarrowphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3NarrowphaseKernels.cpp; sourceTree = "<group>"; };
+		02182D8E61342C180A4E3236 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = trees.c; path = ../../examples/ThirdPartyLibs/zlib/trees.c; sourceTree = "<group>"; };
+		0812704E1B92461677376904 /* Test_OpenCL_Bullet3_xcode4_x64_debug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_OpenCL_Bullet3_xcode4_x64_debug; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2529497BC0176E583F46C4 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = ../../examples/ThirdPartyLibs/zlib/inftrees.c; sourceTree = "<group>"; };
+		0CCA285904D77E6F612D7629 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../test/TestBullet3OpenCL/main.cpp; sourceTree = "<group>"; };
+		105F70B275B3546E16924BF2 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = ../../examples/ThirdPartyLibs/zlib/inffast.c; sourceTree = "<group>"; };
+		14BB34865FD754FF54F559F3 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = compress.c; path = ../../examples/ThirdPartyLibs/zlib/compress.c; sourceTree = "<group>"; };
+		16EB3D89227E070421800C4A /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzwrite.c; path = ../../examples/ThirdPartyLibs/zlib/gzwrite.c; sourceTree = "<group>"; };
+		1FB66F007DF173AC61D17347 /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bullet3Common.xcodeproj; sourceTree = SOURCE_ROOT; };
+		248C6E0A68E67E504C002736 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = ../../examples/ThirdPartyLibs/zlib/adler32.c; sourceTree = "<group>"; };
+		25105C6E3A295B4806CA7208 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3IntegrateUpdateAabbKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3IntegrateUpdateAabbKernels.cpp; sourceTree = "<group>"; };
+		2B0A3EF350CF78317F160417 /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = ../../examples/ThirdPartyLibs/zlib/deflate.c; sourceTree = "<group>"; };
+		2B2402E9216777C544B405F6 /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = gtest.xcodeproj; sourceTree = SOURCE_ROOT; };
+		35240B59326A6C64555C442F /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = ../../examples/ThirdPartyLibs/zlib/inflate.c; sourceTree = "<group>"; };
+		392164BA259E560723ED5CAC /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = ../../examples/ThirdPartyLibs/zlib/zutil.c; sourceTree = "<group>"; };
+		39274D2230C024D275EF29EB /* testCompileBullet3JacobiContactSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3JacobiContactSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3JacobiContactSolverKernels.cpp; sourceTree = "<group>"; };
+		42FD06CA550A3AEB41014902 /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = ../../examples/ThirdPartyLibs/minizip/unzip.c; sourceTree = "<group>"; };
+		45090A116FC17C9E172D308D /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = ../../examples/ThirdPartyLibs/minizip/ioapi.c; sourceTree = "<group>"; };
+		4D09301D7587721E243A70D4 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = ../../examples/ThirdPartyLibs/zlib/uncompr.c; sourceTree = "<group>"; };
+		4E303FDF78E51E5B752210D2 /* clew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clew.h; path = ../../src/clew/clew.h; sourceTree = "<group>"; };
+		522C073C119640175A674082 /* testCompileBullet3BroadphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3BroadphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3BroadphaseKernels.cpp; sourceTree = "<group>"; };
+		5C2B0DDC791825E8545D2C7E /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzread.c; path = ../../examples/ThirdPartyLibs/zlib/gzread.c; sourceTree = "<group>"; };
+		5C521B5468910F5C039A7B6C /* clew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = clew.c; path = ../../src/clew/clew.c; sourceTree = "<group>"; };
+		5D2D6A56476956FA60B2687C /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzlib.c; path = ../../examples/ThirdPartyLibs/zlib/gzlib.c; sourceTree = "<group>"; };
+		5E68017A185E588306256BB0 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = zip.c; path = ../../examples/ThirdPartyLibs/minizip/zip.c; sourceTree = "<group>"; };
+		5FDE25272A4469F8465461B4 /* testExecuteBullet3NarrowphaseKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testExecuteBullet3NarrowphaseKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testExecuteBullet3NarrowphaseKernels.cpp; sourceTree = "<group>"; };
+		628B168047B21D940E5A4FBF /* testCompileBullet3RaycastKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3RaycastKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3RaycastKernels.cpp; sourceTree = "<group>"; };
+		63A7182F6D6304FD0E281BDD /* testInitOpenCL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testInitOpenCL.cpp; path = ../../test/OpenCL/BasicInitialize/testInitOpenCL.cpp; sourceTree = "<group>"; };
+		64154E3F1DB9633C09FB689A /* testCompileBullet3PgsJointSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3PgsJointSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3PgsJointSolverKernels.cpp; sourceTree = "<group>"; };
+		67884A4856F84FA76D6253B2 /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gzclose.c; path = ../../examples/ThirdPartyLibs/zlib/gzclose.c; sourceTree = "<group>"; };
+		70E40F0E0EC406972E6D318F /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = ../../examples/ThirdPartyLibs/zlib/crc32.c; sourceTree = "<group>"; };
+		746B363848C728C072945558 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = infback.c; path = ../../examples/ThirdPartyLibs/zlib/infback.c; sourceTree = "<group>"; };
+		7F5413A426FE7A08599037FB /* Bullet3OpenCL_clew.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Bullet3OpenCL_clew.xcodeproj; sourceTree = SOURCE_ROOT; };
+		7FC17DDF76F61289129B1C45 /* testCompileBullet3PgsContactSolverKernels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = testCompileBullet3PgsContactSolverKernels.cpp; path = ../../test/OpenCL/AllBullet3Kernels/testCompileBullet3PgsContactSolverKernels.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		651F09A218CA0D8A6A8A4B7B /* Frameworks */ = {
+		350E31B44ACE58656C7B2761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F07212023D78004B9934DD /* libgtest_xcode4_x64_debug.a in Frameworks */,
-				6BF21B3225024B615A3F6BEB /* libBullet3OpenCL_clew_xcode4_x64_debug.a in Frameworks */,
-				1B7C26AA6AE577971AF81556 /* libBullet3Common_xcode4_x64_debug.a in Frameworks */,
+				4F4175B20FF801F923FE3A37 /* libgtest_xcode4_x64_debug.a in Frameworks */,
+				253B51EF61F94F5421245C04 /* libBullet3OpenCL_clew_xcode4_x64_debug.a in Frameworks */,
+				20C447C23A8C5F4671B734C3 /* libBullet3Common_xcode4_x64_debug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EB4647A35306C0B7BE438EC /* BasicInitialize */ = {
+		037C7D4035791B3E3C33471B /* clew */ = {
 			isa = PBXGroup;
 			children = (
-				31961D9E2D4C0DF1067A654F /* testInitOpenCL.cpp */,
-			);
-			name = BasicInitialize;
-			sourceTree = "<group>";
-		};
-		1DFD0A852C207C810DBF1382 /* OpenCL */ = {
-			isa = PBXGroup;
-			children = (
-				7167293B035568803308726C /* AllBullet3Kernels */,
-				0EB4647A35306C0B7BE438EC /* BasicInitialize */,
-			);
-			name = OpenCL;
-			sourceTree = "<group>";
-		};
-		29F25E1838C401B13AC235C1 /* ThirdPartyLibs */ = {
-			isa = PBXGroup;
-			children = (
-				4D513E3B207630C41E6A58AE /* minizip */,
-				62EC228F0B05799B515A23FF /* zlib */,
-			);
-			name = ThirdPartyLibs;
-			sourceTree = "<group>";
-		};
-		32F8476B7ADE3C0C4D220D0A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				38C0551838767A082593137F /* libgtest_xcode4_x64_debug.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34CA4E263A5E20AE32240EDC /* test */ = {
-			isa = PBXGroup;
-			children = (
-				1DFD0A852C207C810DBF1382 /* OpenCL */,
-				75120C991E6E5B005F851F9D /* TestBullet3OpenCL */,
-			);
-			name = test;
-			sourceTree = "<group>";
-		};
-		407A1EE240282738526E6F85 /* clew */ = {
-			isa = PBXGroup;
-			children = (
-				12BD379671950B59415353DF /* clew.c */,
-				197D66A70FE5286C070A608E /* clew.h */,
+				5C521B5468910F5C039A7B6C /* clew.c */,
+				4E303FDF78E51E5B752210D2 /* clew.h */,
 			);
 			name = clew;
 			sourceTree = "<group>";
 		};
-		408100D00576118160CB6F5B /* Test_OpenCL_Bullet3 */ = {
+		073C24311427260751866FA0 /* TestBullet3OpenCL */ = {
 			isa = PBXGroup;
 			children = (
-				77EE36255D924DB672987566 /* examples */,
-				7124085128A1228217974149 /* src */,
-				34CA4E263A5E20AE32240EDC /* test */,
-				603C0649627B39E6500E6FEF /* Products */,
-				5813675E57F521C9230B63DC /* Projects */,
-			);
-			name = Test_OpenCL_Bullet3;
-			sourceTree = "<group>";
-		};
-		4D513E3B207630C41E6A58AE /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				13162C775BDD21F03A6F00DB /* ioapi.c */,
-				154975E919AC10365990101A /* unzip.c */,
-				2EC343C749B8648D680268E2 /* zip.c */,
-			);
-			name = minizip;
-			sourceTree = "<group>";
-		};
-		53024E2366F22B1852723B71 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66BF45E201FB330603460726 /* libBullet3OpenCL_clew_xcode4_x64_debug.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5813675E57F521C9230B63DC /* Projects */ = {
-			isa = PBXGroup;
-			children = (
-				36B41B191C5E7C1570522227 /* gtest.xcodeproj */,
-				432568A745537E6D3D9B4845 /* Bullet3OpenCL_clew.xcodeproj */,
-				52B1641D609C60ED707530FD /* Bullet3Common.xcodeproj */,
-			);
-			name = Projects;
-			sourceTree = "<group>";
-		};
-		603C0649627B39E6500E6FEF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24725BA006431D5B71547ACA /* Test_OpenCL_Bullet3_xcode4_x64_debug */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		62EC228F0B05799B515A23FF /* zlib */ = {
-			isa = PBXGroup;
-			children = (
-				5FC843E04C791CEB189439A2 /* adler32.c */,
-				12AC5AEF32F17F1A06777773 /* compress.c */,
-				280B7FB547C110670A6229FF /* crc32.c */,
-				5CE945604B9124597995289E /* deflate.c */,
-				560860C86D7E184229737CFF /* gzclose.c */,
-				726D06440FC2401A0B255BA3 /* gzlib.c */,
-				46F84B7C5CEA2BFD22713963 /* gzread.c */,
-				3F9D74C543D6196612AB2F94 /* gzwrite.c */,
-				4B38009A2EB84ED53EEF5301 /* infback.c */,
-				35CA7A131F1003022EB12480 /* inffast.c */,
-				059B0E1268A611DD02F46550 /* inflate.c */,
-				68825CD1280C371353BB3797 /* inftrees.c */,
-				471340716F337F9332090DE5 /* trees.c */,
-				7B25621D72D733371ABF0B65 /* uncompr.c */,
-				397418F533277DC67720118C /* zutil.c */,
-			);
-			name = zlib;
-			sourceTree = "<group>";
-		};
-		7124085128A1228217974149 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				407A1EE240282738526E6F85 /* clew */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		7167293B035568803308726C /* AllBullet3Kernels */ = {
-			isa = PBXGroup;
-			children = (
-				1633207E38E968350E292711 /* testCompileBullet3BroadphaseKernels.cpp */,
-				14461B4559476249278E1C17 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */,
-				751007DE2290450A2D86646E /* testCompileBullet3JacobiContactSolverKernels.cpp */,
-				7F281E4E1F7164837383307D /* testCompileBullet3NarrowphaseKernels.cpp */,
-				37B362C264923BDE77A72E42 /* testCompileBullet3PgsContactSolverKernels.cpp */,
-				305C6CD94B8B39160E4D7DB9 /* testCompileBullet3PgsJointSolverKernels.cpp */,
-				11B3310F530D03A971C5707D /* testCompileBullet3RaycastKernels.cpp */,
-				37770D860430003060955771 /* testExecuteBullet3NarrowphaseKernels.cpp */,
-			);
-			name = AllBullet3Kernels;
-			sourceTree = "<group>";
-		};
-		75120C991E6E5B005F851F9D /* TestBullet3OpenCL */ = {
-			isa = PBXGroup;
-			children = (
-				143958635AE9034474E233E8 /* main.cpp */,
+				0CCA285904D77E6F612D7629 /* main.cpp */,
 			);
 			name = TestBullet3OpenCL;
 			sourceTree = "<group>";
 		};
-		77EE36255D924DB672987566 /* examples */ = {
+		22381E5509CF227E192559BD /* zlib */ = {
 			isa = PBXGroup;
 			children = (
-				29F25E1838C401B13AC235C1 /* ThirdPartyLibs */,
+				248C6E0A68E67E504C002736 /* adler32.c */,
+				14BB34865FD754FF54F559F3 /* compress.c */,
+				70E40F0E0EC406972E6D318F /* crc32.c */,
+				2B0A3EF350CF78317F160417 /* deflate.c */,
+				67884A4856F84FA76D6253B2 /* gzclose.c */,
+				5D2D6A56476956FA60B2687C /* gzlib.c */,
+				5C2B0DDC791825E8545D2C7E /* gzread.c */,
+				16EB3D89227E070421800C4A /* gzwrite.c */,
+				746B363848C728C072945558 /* infback.c */,
+				105F70B275B3546E16924BF2 /* inffast.c */,
+				35240B59326A6C64555C442F /* inflate.c */,
+				0A2529497BC0176E583F46C4 /* inftrees.c */,
+				02182D8E61342C180A4E3236 /* trees.c */,
+				4D09301D7587721E243A70D4 /* uncompr.c */,
+				392164BA259E560723ED5CAC /* zutil.c */,
+			);
+			name = zlib;
+			sourceTree = "<group>";
+		};
+		2BC271905D296FCE66392EF7 /* BasicInitialize */ = {
+			isa = PBXGroup;
+			children = (
+				63A7182F6D6304FD0E281BDD /* testInitOpenCL.cpp */,
+			);
+			name = BasicInitialize;
+			sourceTree = "<group>";
+		};
+		38D12B474BA60D811FF065EE /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				735638630A3333B2239E157B /* minizip */,
+				22381E5509CF227E192559BD /* zlib */,
+			);
+			name = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		3A526DA059CC780B41587ECB /* OpenCL */ = {
+			isa = PBXGroup;
+			children = (
+				541C13A0239F2FC215C76FC0 /* AllBullet3Kernels */,
+				2BC271905D296FCE66392EF7 /* BasicInitialize */,
+			);
+			name = OpenCL;
+			sourceTree = "<group>";
+		};
+		457A704C4F0F1BD568DE7A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133844A565A551133E270CDA /* libgtest_xcode4_x64_debug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEE0CCA3FE03BA171EB0994 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				037C7D4035791B3E3C33471B /* clew */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		4FCE01BE1EEE450D6EF5246E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3A526DA059CC780B41587ECB /* OpenCL */,
+				073C24311427260751866FA0 /* TestBullet3OpenCL */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		541C13A0239F2FC215C76FC0 /* AllBullet3Kernels */ = {
+			isa = PBXGroup;
+			children = (
+				522C073C119640175A674082 /* testCompileBullet3BroadphaseKernels.cpp */,
+				25105C6E3A295B4806CA7208 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp */,
+				39274D2230C024D275EF29EB /* testCompileBullet3JacobiContactSolverKernels.cpp */,
+				00C46B973813202D08D912BF /* testCompileBullet3NarrowphaseKernels.cpp */,
+				7FC17DDF76F61289129B1C45 /* testCompileBullet3PgsContactSolverKernels.cpp */,
+				64154E3F1DB9633C09FB689A /* testCompileBullet3PgsJointSolverKernels.cpp */,
+				628B168047B21D940E5A4FBF /* testCompileBullet3RaycastKernels.cpp */,
+				5FDE25272A4469F8465461B4 /* testExecuteBullet3NarrowphaseKernels.cpp */,
+			);
+			name = AllBullet3Kernels;
+			sourceTree = "<group>";
+		};
+		573177880FFB2FF672A95F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0812704E1B92461677376904 /* Test_OpenCL_Bullet3_xcode4_x64_debug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EF49CA03365C570220213A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78587FCC40C5058F024E635F /* libBullet3OpenCL_clew_xcode4_x64_debug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BAF7DFD78DE42EF5B157A92 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				38D12B474BA60D811FF065EE /* ThirdPartyLibs */,
 			);
 			name = examples;
 			sourceTree = "<group>";
 		};
-		79DA71FB2435426473E74534 /* Products */ = {
+		6171474115E70E1520231041 /* Test_OpenCL_Bullet3 */ = {
 			isa = PBXGroup;
 			children = (
-				52833B035F3118FF20635244 /* libBullet3Common_xcode4_x64_debug.a */,
+				5BAF7DFD78DE42EF5B157A92 /* examples */,
+				4EEE0CCA3FE03BA171EB0994 /* src */,
+				4FCE01BE1EEE450D6EF5246E /* test */,
+				573177880FFB2FF672A95F13 /* Products */,
+				6777599A2D735ACD4D222880 /* Projects */,
+			);
+			name = Test_OpenCL_Bullet3;
+			sourceTree = "<group>";
+		};
+		6777599A2D735ACD4D222880 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				2B2402E9216777C544B405F6 /* gtest.xcodeproj */,
+				7F5413A426FE7A08599037FB /* Bullet3OpenCL_clew.xcodeproj */,
+				1FB66F007DF173AC61D17347 /* Bullet3Common.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		730558ED48F7547F12687E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59057C0D691642B730E52B63 /* libBullet3Common_xcode4_x64_debug.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		735638630A3333B2239E157B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				45090A116FC17C9E172D308D /* ioapi.c */,
+				42FD06CA550A3AEB41014902 /* unzip.c */,
+				5E68017A185E588306256BB0 /* zip.c */,
+			);
+			name = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F78680F440829A111BE715C /* Test_OpenCL_Bullet3 */ = {
+		19D103400CC50CCC6582763D /* Test_OpenCL_Bullet3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47467B073493212E582040E7 /* Build configuration list for PBXNativeTarget "Test_OpenCL_Bullet3" */;
+			buildConfigurationList = 73DD56F8397E1E8D55022920 /* Build configuration list for PBXNativeTarget "Test_OpenCL_Bullet3" */;
 			buildPhases = (
-				336402A4056E100637501FFF /* Resources */,
-				51C575C76913795E1A8A7AAE /* Sources */,
-				651F09A218CA0D8A6A8A4B7B /* Frameworks */,
+				0BA2757715232E96328A2919 /* Resources */,
+				61E508AC5CEF029B1F5941B6 /* Sources */,
+				350E31B44ACE58656C7B2761 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				726C30173A08660F201B70D7 /* PBXTargetDependency */,
-				623047987A3B69D20E7D4E36 /* PBXTargetDependency */,
-				4D69672F41EF459A01884038 /* PBXTargetDependency */,
+				50FC5C7319BA2FD75BF628F8 /* PBXTargetDependency */,
+				005F6740296D662A63CD31FF /* PBXTargetDependency */,
+				3AD705065A234E642D596F42 /* PBXTargetDependency */,
 			);
 			name = Test_OpenCL_Bullet3;
 			productInstallPath = "$(HOME)/bin";
 			productName = Test_OpenCL_Bullet3;
-			productReference = 24725BA006431D5B71547ACA /* Test_OpenCL_Bullet3_xcode4_x64_debug */;
+			productReference = 0812704E1B92461677376904 /* Test_OpenCL_Bullet3_xcode4_x64_debug */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -344,55 +344,55 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = 408100D00576118160CB6F5B /* Test_OpenCL_Bullet3 */;
+			mainGroup = 6171474115E70E1520231041 /* Test_OpenCL_Bullet3 */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 79DA71FB2435426473E74534 /* Products */;
-					ProjectRef = 52B1641D609C60ED707530FD /* Bullet3Common.xcodeproj */;
+					ProductGroup = 730558ED48F7547F12687E28 /* Products */;
+					ProjectRef = 1FB66F007DF173AC61D17347 /* Bullet3Common.xcodeproj */;
 				},
 				{
-					ProductGroup = 53024E2366F22B1852723B71 /* Products */;
-					ProjectRef = 432568A745537E6D3D9B4845 /* Bullet3OpenCL_clew.xcodeproj */;
+					ProductGroup = 58EF49CA03365C570220213A /* Products */;
+					ProjectRef = 7F5413A426FE7A08599037FB /* Bullet3OpenCL_clew.xcodeproj */;
 				},
 				{
-					ProductGroup = 32F8476B7ADE3C0C4D220D0A /* Products */;
-					ProjectRef = 36B41B191C5E7C1570522227 /* gtest.xcodeproj */;
+					ProductGroup = 457A704C4F0F1BD568DE7A9E /* Products */;
+					ProjectRef = 2B2402E9216777C544B405F6 /* gtest.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				6F78680F440829A111BE715C /* Test_OpenCL_Bullet3 */,
+				19D103400CC50CCC6582763D /* Test_OpenCL_Bullet3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		38C0551838767A082593137F /* libgtest_xcode4_x64_debug.a */ = {
+		133844A565A551133E270CDA /* libgtest_xcode4_x64_debug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libgtest_xcode4_x64_debug.a;
-			remoteRef = 3EEF4E99247717FD1AB234CD /* PBXContainerItemProxy */;
+			remoteRef = 491C66380295106F6CE568D9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		52833B035F3118FF20635244 /* libBullet3Common_xcode4_x64_debug.a */ = {
+		59057C0D691642B730E52B63 /* libBullet3Common_xcode4_x64_debug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libBullet3Common_xcode4_x64_debug.a;
-			remoteRef = 747F51D332C1511F6F0070CF /* PBXContainerItemProxy */;
+			remoteRef = 7EDE3C6E73BD308A60362ED8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		66BF45E201FB330603460726 /* libBullet3OpenCL_clew_xcode4_x64_debug.a */ = {
+		78587FCC40C5058F024E635F /* libBullet3OpenCL_clew_xcode4_x64_debug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libBullet3OpenCL_clew_xcode4_x64_debug.a;
-			remoteRef = 1EED7B805011206423DF1362 /* PBXContainerItemProxy */;
+			remoteRef = 7BB959B12C301DA408BF3EEA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		336402A4056E100637501FFF /* Resources */ = {
+		0BA2757715232E96328A2919 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,78 +402,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51C575C76913795E1A8A7AAE /* Sources */ = {
+		61E508AC5CEF029B1F5941B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF0567D622245F70C965F5E /* ioapi.c in Sources */,
-				46B40D960D2D0E653C627D15 /* unzip.c in Sources */,
-				7BB94E7513100F16274F40E4 /* zip.c in Sources */,
-				481E5817779847087E714E68 /* adler32.c in Sources */,
-				361061E5163D230E782C19E5 /* compress.c in Sources */,
-				3ADA75CC24892A230A192BFC /* crc32.c in Sources */,
-				2E8C17361B3B681204630384 /* deflate.c in Sources */,
-				4BA0224D26DE66150AE77980 /* gzclose.c in Sources */,
-				6A6D55D669023EA144804E9B /* gzlib.c in Sources */,
-				33385D916540071A577A4051 /* gzread.c in Sources */,
-				497A133B10D326640B3B5C45 /* gzwrite.c in Sources */,
-				28382E5817DD53B3251E0983 /* infback.c in Sources */,
-				51E411577EDC23FD449933FC /* inffast.c in Sources */,
-				153F0A8F6A6F30B766041FCF /* inflate.c in Sources */,
-				56422FC82AC109C111B50551 /* inftrees.c in Sources */,
-				3D615F346BD4483D4AA721A5 /* trees.c in Sources */,
-				36632167328F59A37EA24988 /* uncompr.c in Sources */,
-				2D7E470F31610E33661175E0 /* zutil.c in Sources */,
-				0C5A0A66552C7A8478221D71 /* clew.c in Sources */,
-				71154A877ABF27B700793DEB /* testCompileBullet3BroadphaseKernels.cpp in Sources */,
-				64FD244D5E0465966E8436AE /* testCompileBullet3IntegrateUpdateAabbKernels.cpp in Sources */,
-				309547D31AAE29EC5B365733 /* testCompileBullet3JacobiContactSolverKernels.cpp in Sources */,
-				64E86350497808672E4C0068 /* testCompileBullet3NarrowphaseKernels.cpp in Sources */,
-				70BD14F046FB42E00E9F6AB3 /* testCompileBullet3PgsContactSolverKernels.cpp in Sources */,
-				03AF5CAD71DA515612D84D24 /* testCompileBullet3PgsJointSolverKernels.cpp in Sources */,
-				25DD0BBF67BD61DB7A0E3804 /* testCompileBullet3RaycastKernels.cpp in Sources */,
-				597D1DAC1866572148C85934 /* testExecuteBullet3NarrowphaseKernels.cpp in Sources */,
-				2E1A367D57B276D679BF2ADC /* testInitOpenCL.cpp in Sources */,
-				45EA14646BE310C97FFB5299 /* main.cpp in Sources */,
+				062A42BC4AF94F156C6B672F /* ioapi.c in Sources */,
+				4A527D9B07150D0161DF2F29 /* unzip.c in Sources */,
+				171032F509304BBB65F21E2F /* zip.c in Sources */,
+				77B105FF5491392C262C45F7 /* adler32.c in Sources */,
+				221D53AC4B9E03AF5EF400D2 /* compress.c in Sources */,
+				5FD330B47B34396D5A7E36B7 /* crc32.c in Sources */,
+				2EAA3CE3020D417F3529369C /* deflate.c in Sources */,
+				54C3737B25C065616CFE3736 /* gzclose.c in Sources */,
+				3DA61E93560A5E8B1ED55192 /* gzlib.c in Sources */,
+				2EDA177E78ED227E2B941060 /* gzread.c in Sources */,
+				55892A593DC01D19721F5AA0 /* gzwrite.c in Sources */,
+				36857AAB2CCB7ECF078602EC /* infback.c in Sources */,
+				12B563334D7A24B171D31183 /* inffast.c in Sources */,
+				7A9B7BFB5CFD00F846956A9D /* inflate.c in Sources */,
+				08C75677510C1E3C2FC0141D /* inftrees.c in Sources */,
+				255325D6177B2B4D695B6561 /* trees.c in Sources */,
+				041E04127691448A7A5B2D9D /* uncompr.c in Sources */,
+				59940A45481F11274B7F2C33 /* zutil.c in Sources */,
+				03A14ECD7DE023AC19EA6AAA /* clew.c in Sources */,
+				3136038F592D42903A0D418D /* testCompileBullet3BroadphaseKernels.cpp in Sources */,
+				14FA5CE973DD6EA754804365 /* testCompileBullet3IntegrateUpdateAabbKernels.cpp in Sources */,
+				1AAC1D262EB51F2617800F73 /* testCompileBullet3JacobiContactSolverKernels.cpp in Sources */,
+				4B4D54870ED427482862408F /* testCompileBullet3NarrowphaseKernels.cpp in Sources */,
+				7BAA75C839503BD135334538 /* testCompileBullet3PgsContactSolverKernels.cpp in Sources */,
+				632E0CE34827097B75F61F37 /* testCompileBullet3PgsJointSolverKernels.cpp in Sources */,
+				2BAD19241ED1612616A96D3B /* testCompileBullet3RaycastKernels.cpp in Sources */,
+				31B927073E9162650162737B /* testExecuteBullet3NarrowphaseKernels.cpp in Sources */,
+				511011807A86278478FC2515 /* testInitOpenCL.cpp in Sources */,
+				245E3D8C5BCE6AF536343438 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D69672F41EF459A01884038 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libBullet3Common.a;
-			targetProxy = 38BE63A37FAA0EF935050875 /* PBXContainerItemProxy */;
-		};
-		623047987A3B69D20E7D4E36 /* PBXTargetDependency */ = {
+		005F6740296D662A63CD31FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libBullet3OpenCL_clew.a;
-			targetProxy = 13F802134F73341A2FE11952 /* PBXContainerItemProxy */;
+			targetProxy = 3337700C46E5212F1BB320E6 /* PBXContainerItemProxy */;
 		};
-		726C30173A08660F201B70D7 /* PBXTargetDependency */ = {
+		3AD705065A234E642D596F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libBullet3Common.a;
+			targetProxy = 232F01A71CC55793206E2E29 /* PBXContainerItemProxy */;
+		};
+		50FC5C7319BA2FD75BF628F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libgtest.a;
-			targetProxy = 37407DF1076458705CBE6C76 /* PBXContainerItemProxy */;
+			targetProxy = 28DE2BE179FC1AFE4B5C295D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BCD769F5E0478126EFE0CED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CONFIGURATION_BUILD_DIR = ../../bin;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_MODEL_TUNING = G5;
-				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = Test_OpenCL_Bullet3_xcode4_x64_debug;
-				VALID_ARCHS = x86_64;
-			};
-			name = Debug;
-		};
-		1540317527F963CB5C8A08A6 /* Release */ = {
+		553F4BF5509168867685546F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,7 +474,7 @@
 			};
 			name = Release;
 		};
-		3BEC132B249B47A00B563DC6 /* Debug */ = {
+		642F658601B721B6744F2C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -522,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		643035D479B96A4B6C1C37DE /* Release */ = {
+		77D2241227CA43D153086C17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
@@ -554,23 +540,37 @@
 			};
 			name = Release;
 		};
+		7D8529694150099A634564E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Test_OpenCL_Bullet3_xcode4_x64_debug;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_OpenCL_Bullet3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643035D479B96A4B6C1C37DE /* Release */,
-				3BEC132B249B47A00B563DC6 /* Debug */,
+				77D2241227CA43D153086C17 /* Release */,
+				642F658601B721B6744F2C7B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47467B073493212E582040E7 /* Build configuration list for PBXNativeTarget "Test_OpenCL_Bullet3" */ = {
+		73DD56F8397E1E8D55022920 /* Build configuration list for PBXNativeTarget "Test_OpenCL_Bullet3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1540317527F963CB5C8A08A6 /* Release */,
-				0BCD769F5E0478126EFE0CED /* Debug */,
+				553F4BF5509168867685546F /* Release */,
+				7D8529694150099A634564E4 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

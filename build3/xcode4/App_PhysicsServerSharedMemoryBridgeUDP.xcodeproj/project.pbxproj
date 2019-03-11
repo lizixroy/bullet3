@@ -7,227 +7,227 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FB72D84E702D4732CB6EE2 /* PhysicsClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E0FD630BE32076FF56106 /* PhysicsClient.cpp */; };
-		035A47CC23F804706CC66F9F /* PhysicsClientC_API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B527D9B7C8B297B65F82F3D /* PhysicsClientC_API.cpp */; };
-		4F9842CA0AF30FC825781C27 /* PhysicsDirect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20285579126959190FC20A18 /* PhysicsDirect.cpp */; };
-		0AD87FD31A6F00726B385313 /* PosixSharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356F1CC21A075CD9621A2CEB /* PosixSharedMemory.cpp */; };
-		71DD6BA41681003677BB4B0E /* SharedMemoryCommandProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC72D7257242DD84CFA6718 /* SharedMemoryCommandProcessor.cpp */; };
-		665D23F74C8D70FE56373DB4 /* Win32SharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CC0264151A1EBF1B544B36 /* Win32SharedMemory.cpp */; };
-		6F7660AC6DB605A06EEB0756 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D058AE3C3C218A1A6828DF /* main.cpp */; };
-		57FB540055CF1084045440E3 /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14902A162CD453552B6F269C /* b3Clock.cpp */; };
-		60FF4462031A4F835C886637 /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D5D2933756A55792D1E33 /* b3ResourcePath.cpp */; };
-		6A4E458A764B58CD17CD5559 /* libenet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50017BC14C207C61546E3882 /* libenet.a */; };
-		283955A5677C28A4415C10D0 /* libBulletFileLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 622110C9136D767067437413 /* libBulletFileLoader.a */; };
-		088A53FD1E9A2EF416A40E5B /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 737F330F2DEA5EE921BE4E12 /* libBullet3Common.a */; };
-		24C657534B1639153C360F1F /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50442BCF50741FD16A2A1144 /* libLinearMath.a */; };
+		1BD8386D22DA380C427C0834 /* PhysicsClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19D250625C31168D0CF766F7 /* PhysicsClient.cpp */; };
+		2E334DB72E7F4E9201E30C40 /* PhysicsClientC_API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B65263F28CD2CA727145229 /* PhysicsClientC_API.cpp */; };
+		322B64E117D0041B3DCD7BCF /* PhysicsDirect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DE54CF7790A04F729B427BA /* PhysicsDirect.cpp */; };
+		00EC29ED3AC77EEE3CB60AAC /* PosixSharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29EA6E6E7F1567DE359F0692 /* PosixSharedMemory.cpp */; };
+		36356D00519E748565271C2A /* SharedMemoryCommandProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C66A267B3D0A1641E34A5B /* SharedMemoryCommandProcessor.cpp */; };
+		724E19147BFE726810DD4C58 /* Win32SharedMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5725766B7E7631BD20E5591E /* Win32SharedMemory.cpp */; };
+		753B2AFD613C557068DF4905 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000C250847237C3A7FBB796B /* main.cpp */; };
+		2CC56525104944DD19CE4A21 /* b3Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27810F08695C1DF3560D14FF /* b3Clock.cpp */; };
+		27141DF422721E2E67E43981 /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B131100A24B6C2C857721 /* b3ResourcePath.cpp */; };
+		651837107F5C79852F1B30A2 /* libenet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE4C7116F2178F39CE1181 /* libenet.a */; };
+		6DC54A337FDC7CE94D7F596B /* libBulletFileLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2D66D807DB7ACD69D335F7 /* libBulletFileLoader.a */; };
+		7E0251DF0ADC11E232691BF1 /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19000CAD4EA951C63B657437 /* libBullet3Common.a */; };
+		22DD13F373E6016134217232 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 245172D6618F04D356A1024F /* libLinearMath.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11367F142AB77A97515D5048 /* PBXContainerItemProxy */ = {
+		7A88379E7FCA2B2B4AD917CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 21BD25B719676CF97D142F8B /* enet.xcodeproj */;
+			containerPortal = 505F29533FD604D819831CE0 /* enet.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 6D731B991159156948DB37FC;
+			remoteGlobalIDString = 603F6BBD6BC90964128C45F0;
 			remoteInfo = "libenet_xcode4_x64_release.a";
 		};
-		4EFD444D1FA14488657D1778 /* PBXContainerItemProxy */ = {
+		2BB93708774F21BD7FF015F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 21BD25B719676CF97D142F8B /* enet.xcodeproj */;
+			containerPortal = 505F29533FD604D819831CE0 /* enet.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CC8401B4E1B7B7D004F61A0;
+			remoteGlobalIDString = 18F3122220CC5AC8010B01BA;
 			remoteInfo = "libenet_xcode4_x64_release.a";
 		};
-		79A500582C233D0B341F7DF8 /* PBXContainerItemProxy */ = {
+		619720237B9F375B64071052 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B9B4F354EAB56B0513D0E31 /* BulletFileLoader.xcodeproj */;
+			containerPortal = 67C74D626F1637F1379B2C95 /* BulletFileLoader.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 07B1368B16954ABB679E53CA;
+			remoteGlobalIDString = 1AEB4826493407FF2B773362;
 			remoteInfo = "libBulletFileLoader_xcode4_x64_release.a";
 		};
-		43120F4F459959496B7626FA /* PBXContainerItemProxy */ = {
+		0EDD67957D646F036F5D5C57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B9B4F354EAB56B0513D0E31 /* BulletFileLoader.xcodeproj */;
+			containerPortal = 67C74D626F1637F1379B2C95 /* BulletFileLoader.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 317C522C6FDD1D583C897853;
+			remoteGlobalIDString = 1DA33DAD5A8B0EC276C0520A;
 			remoteInfo = "libBulletFileLoader_xcode4_x64_release.a";
 		};
-		40052C445D8E2D0A7BAD5801 /* PBXContainerItemProxy */ = {
+		692C7D84709F72B42906688F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6C4953DC12316E0115E91C6F /* Bullet3Common.xcodeproj */;
+			containerPortal = 1A374AE11B3E25E01E320740 /* Bullet3Common.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 27A74D5543490A4B6B5A202F;
+			remoteGlobalIDString = 15E848E8240903790E2B4DFB;
 			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
 		};
-		5A544395150A517D66B02F0F /* PBXContainerItemProxy */ = {
+		23B8365076C743E1278404D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6C4953DC12316E0115E91C6F /* Bullet3Common.xcodeproj */;
+			containerPortal = 1A374AE11B3E25E01E320740 /* Bullet3Common.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D8130AF6C2B0E3013A370F1;
+			remoteGlobalIDString = 392C03D129CF75FF45D07B57;
 			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
 		};
-		0991154917DA0C3726A01231 /* PBXContainerItemProxy */ = {
+		74A25E1D6AC5350D73DC1D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7D915FC26A0438367FF4135D /* LinearMath.xcodeproj */;
+			containerPortal = 10AA30B3576F3FA846AC796A /* LinearMath.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 0D54087B588D491F3D3C403A;
+			remoteGlobalIDString = 62176610490C6A5D1E775217;
 			remoteInfo = "libLinearMath_xcode4_x64_release.a";
 		};
-		706645F30F3709BF5B3655E8 /* PBXContainerItemProxy */ = {
+		136845273A3E5BF8381F066A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7D915FC26A0438367FF4135D /* LinearMath.xcodeproj */;
+			containerPortal = 10AA30B3576F3FA846AC796A /* LinearMath.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C4D61AF642433E05BC63389;
+			remoteGlobalIDString = 0029196C2DC4552B0AF96E88;
 			remoteInfo = "libLinearMath_xcode4_x64_release.a";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E6E0FD630BE32076FF56106 /* PhysicsClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClient.cpp"; path = "../../examples/SharedMemory/PhysicsClient.cpp"; sourceTree = "<group>"; };
-		4E617A1C7F910CFB354D764D /* PhysicsClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClient.h"; path = "../../examples/SharedMemory/PhysicsClient.h"; sourceTree = "<group>"; };
-		5B527D9B7C8B297B65F82F3D /* PhysicsClientC_API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClientC_API.cpp"; path = "../../examples/SharedMemory/PhysicsClientC_API.cpp"; sourceTree = "<group>"; };
-		5E8111A5287E724F30A66517 /* PhysicsClientC_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClientC_API.h"; path = "../../examples/SharedMemory/PhysicsClientC_API.h"; sourceTree = "<group>"; };
-		634E204345A10B691F3B6D13 /* PhysicsCommandProcessorInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsCommandProcessorInterface.h"; path = "../../examples/SharedMemory/PhysicsCommandProcessorInterface.h"; sourceTree = "<group>"; };
-		20285579126959190FC20A18 /* PhysicsDirect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsDirect.cpp"; path = "../../examples/SharedMemory/PhysicsDirect.cpp"; sourceTree = "<group>"; };
-		4A4F3171320D1CE479A82B83 /* PhysicsDirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsDirect.h"; path = "../../examples/SharedMemory/PhysicsDirect.h"; sourceTree = "<group>"; };
-		356F1CC21A075CD9621A2CEB /* PosixSharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PosixSharedMemory.cpp"; path = "../../examples/SharedMemory/PosixSharedMemory.cpp"; sourceTree = "<group>"; };
-		2E482E253F5A657E45A50AAA /* PosixSharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PosixSharedMemory.h"; path = "../../examples/SharedMemory/PosixSharedMemory.h"; sourceTree = "<group>"; };
-		3BC72D7257242DD84CFA6718 /* SharedMemoryCommandProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "SharedMemoryCommandProcessor.cpp"; path = "../../examples/SharedMemory/SharedMemoryCommandProcessor.cpp"; sourceTree = "<group>"; };
-		2F6333D463B321A374BB5786 /* SharedMemoryCommandProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SharedMemoryCommandProcessor.h"; path = "../../examples/SharedMemory/SharedMemoryCommandProcessor.h"; sourceTree = "<group>"; };
-		46CC0264151A1EBF1B544B36 /* Win32SharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Win32SharedMemory.cpp"; path = "../../examples/SharedMemory/Win32SharedMemory.cpp"; sourceTree = "<group>"; };
-		17A63AC63B251DD247BD7FBC /* Win32SharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Win32SharedMemory.h"; path = "../../examples/SharedMemory/Win32SharedMemory.h"; sourceTree = "<group>"; };
-		76D058AE3C3C218A1A6828DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../examples/SharedMemory/udp/main.cpp"; sourceTree = "<group>"; };
-		14902A162CD453552B6F269C /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
-		7E3A1C8E328572DF33EC5C84 /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
-		6F6D5D2933756A55792D1E33 /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
-		4B4665D5100A24B25A8A318F /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
-		2B2A7CCB03270B052A1B6323 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release"; path = "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21BD25B719676CF97D142F8B /* enet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "enet.xcodeproj"; path = "enet.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		5B9B4F354EAB56B0513D0E31 /* BulletFileLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletFileLoader.xcodeproj"; path = "BulletFileLoader.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		6C4953DC12316E0115E91C6F /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		7D915FC26A0438367FF4135D /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		19D250625C31168D0CF766F7 /* PhysicsClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClient.cpp"; path = "../../examples/SharedMemory/PhysicsClient.cpp"; sourceTree = "<group>"; };
+		241F032C66605EED2E955FCC /* PhysicsClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClient.h"; path = "../../examples/SharedMemory/PhysicsClient.h"; sourceTree = "<group>"; };
+		0B65263F28CD2CA727145229 /* PhysicsClientC_API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsClientC_API.cpp"; path = "../../examples/SharedMemory/PhysicsClientC_API.cpp"; sourceTree = "<group>"; };
+		6DEC2AD65106160E15D42040 /* PhysicsClientC_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsClientC_API.h"; path = "../../examples/SharedMemory/PhysicsClientC_API.h"; sourceTree = "<group>"; };
+		7496387926D5049706242E06 /* PhysicsCommandProcessorInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsCommandProcessorInterface.h"; path = "../../examples/SharedMemory/PhysicsCommandProcessorInterface.h"; sourceTree = "<group>"; };
+		0DE54CF7790A04F729B427BA /* PhysicsDirect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PhysicsDirect.cpp"; path = "../../examples/SharedMemory/PhysicsDirect.cpp"; sourceTree = "<group>"; };
+		10A775FE084905A85BB631CF /* PhysicsDirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhysicsDirect.h"; path = "../../examples/SharedMemory/PhysicsDirect.h"; sourceTree = "<group>"; };
+		29EA6E6E7F1567DE359F0692 /* PosixSharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "PosixSharedMemory.cpp"; path = "../../examples/SharedMemory/PosixSharedMemory.cpp"; sourceTree = "<group>"; };
+		52266AD968AA04A250545648 /* PosixSharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PosixSharedMemory.h"; path = "../../examples/SharedMemory/PosixSharedMemory.h"; sourceTree = "<group>"; };
+		42C66A267B3D0A1641E34A5B /* SharedMemoryCommandProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "SharedMemoryCommandProcessor.cpp"; path = "../../examples/SharedMemory/SharedMemoryCommandProcessor.cpp"; sourceTree = "<group>"; };
+		14652FB672D3210C46B860FA /* SharedMemoryCommandProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SharedMemoryCommandProcessor.h"; path = "../../examples/SharedMemory/SharedMemoryCommandProcessor.h"; sourceTree = "<group>"; };
+		5725766B7E7631BD20E5591E /* Win32SharedMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Win32SharedMemory.cpp"; path = "../../examples/SharedMemory/Win32SharedMemory.cpp"; sourceTree = "<group>"; };
+		356D306B42F461F81B4D0DB1 /* Win32SharedMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Win32SharedMemory.h"; path = "../../examples/SharedMemory/Win32SharedMemory.h"; sourceTree = "<group>"; };
+		000C250847237C3A7FBB796B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../examples/SharedMemory/udp/main.cpp"; sourceTree = "<group>"; };
+		27810F08695C1DF3560D14FF /* b3Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3Clock.cpp"; path = "../../examples/Utils/b3Clock.cpp"; sourceTree = "<group>"; };
+		7C022401757D6674624D68D3 /* b3Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3Clock.h"; path = "../../examples/Utils/b3Clock.h"; sourceTree = "<group>"; };
+		7F2B131100A24B6C2C857721 /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
+		7A772ECA697A66B70E6E7B14 /* b3ResourcePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ResourcePath.h"; path = "../../examples/Utils/b3ResourcePath.h"; sourceTree = "<group>"; };
+		710117907768651E1D2B19F3 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release"; path = "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505F29533FD604D819831CE0 /* enet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "enet.xcodeproj"; path = "enet.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		67C74D626F1637F1379B2C95 /* BulletFileLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "BulletFileLoader.xcodeproj"; path = "BulletFileLoader.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1A374AE11B3E25E01E320740 /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		10AA30B3576F3FA846AC796A /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45C742042BBD31034DEA4092 /* Frameworks */ = {
+		3C1F535735056A9F23930FDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4E458A764B58CD17CD5559 /* libenet.a in Frameworks */,
-				283955A5677C28A4415C10D0 /* libBulletFileLoader.a in Frameworks */,
-				088A53FD1E9A2EF416A40E5B /* libBullet3Common.a in Frameworks */,
-				24C657534B1639153C360F1F /* libLinearMath.a in Frameworks */,
+				651837107F5C79852F1B30A2 /* libenet.a in Frameworks */,
+				6DC54A337FDC7CE94D7F596B /* libBulletFileLoader.a in Frameworks */,
+				7E0251DF0ADC11E232691BF1 /* libBullet3Common.a in Frameworks */,
+				22DD13F373E6016134217232 /* libLinearMath.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FDF66F171567B7365C71D0B /* App_PhysicsServerSharedMemoryBridgeUDP */ = {
+		0F4313F743930E09792A5354 /* App_PhysicsServerSharedMemoryBridgeUDP */ = {
 			isa = PBXGroup;
 			children = (
-				66BA605578AC01C67F8B2F96 /* examples */,
-				494E349C7A3A7F310CBC1CCB /* Products */,
-				62FB4E75062905776EDE46A5 /* Projects */,
+				30FA0FAB3F1321CE1A054770 /* examples */,
+				64A53F1917B724E07D280AF9 /* Products */,
+				6DB25392500B28ED649242B2 /* Projects */,
 			);
 			name = "App_PhysicsServerSharedMemoryBridgeUDP";
 			sourceTree = "<group>";
 		};
-		66BA605578AC01C67F8B2F96 /* examples */ = {
+		30FA0FAB3F1321CE1A054770 /* examples */ = {
 			isa = PBXGroup;
 			children = (
-				4B311837772A13A975D93750 /* SharedMemory */,
-				391C62E208B07C3D119147F2 /* Utils */,
+				26640ABE65912E860CE53856 /* SharedMemory */,
+				0E795E742D7F0B9B20745602 /* Utils */,
 			);
 			name = "examples";
 			sourceTree = "<group>";
 		};
-		4B311837772A13A975D93750 /* SharedMemory */ = {
+		26640ABE65912E860CE53856 /* SharedMemory */ = {
 			isa = PBXGroup;
 			children = (
-				0E6E0FD630BE32076FF56106 /* PhysicsClient.cpp */,
-				4E617A1C7F910CFB354D764D /* PhysicsClient.h */,
-				5B527D9B7C8B297B65F82F3D /* PhysicsClientC_API.cpp */,
-				5E8111A5287E724F30A66517 /* PhysicsClientC_API.h */,
-				634E204345A10B691F3B6D13 /* PhysicsCommandProcessorInterface.h */,
-				20285579126959190FC20A18 /* PhysicsDirect.cpp */,
-				4A4F3171320D1CE479A82B83 /* PhysicsDirect.h */,
-				356F1CC21A075CD9621A2CEB /* PosixSharedMemory.cpp */,
-				2E482E253F5A657E45A50AAA /* PosixSharedMemory.h */,
-				3BC72D7257242DD84CFA6718 /* SharedMemoryCommandProcessor.cpp */,
-				2F6333D463B321A374BB5786 /* SharedMemoryCommandProcessor.h */,
-				46CC0264151A1EBF1B544B36 /* Win32SharedMemory.cpp */,
-				17A63AC63B251DD247BD7FBC /* Win32SharedMemory.h */,
-				1A4330EE6D9C4D57387F32B8 /* udp */,
+				19D250625C31168D0CF766F7 /* PhysicsClient.cpp */,
+				241F032C66605EED2E955FCC /* PhysicsClient.h */,
+				0B65263F28CD2CA727145229 /* PhysicsClientC_API.cpp */,
+				6DEC2AD65106160E15D42040 /* PhysicsClientC_API.h */,
+				7496387926D5049706242E06 /* PhysicsCommandProcessorInterface.h */,
+				0DE54CF7790A04F729B427BA /* PhysicsDirect.cpp */,
+				10A775FE084905A85BB631CF /* PhysicsDirect.h */,
+				29EA6E6E7F1567DE359F0692 /* PosixSharedMemory.cpp */,
+				52266AD968AA04A250545648 /* PosixSharedMemory.h */,
+				42C66A267B3D0A1641E34A5B /* SharedMemoryCommandProcessor.cpp */,
+				14652FB672D3210C46B860FA /* SharedMemoryCommandProcessor.h */,
+				5725766B7E7631BD20E5591E /* Win32SharedMemory.cpp */,
+				356D306B42F461F81B4D0DB1 /* Win32SharedMemory.h */,
+				6F1015D1554763645E2A2434 /* udp */,
 			);
 			name = "SharedMemory";
 			sourceTree = "<group>";
 		};
-		1A4330EE6D9C4D57387F32B8 /* udp */ = {
+		6F1015D1554763645E2A2434 /* udp */ = {
 			isa = PBXGroup;
 			children = (
-				76D058AE3C3C218A1A6828DF /* main.cpp */,
+				000C250847237C3A7FBB796B /* main.cpp */,
 			);
 			name = "udp";
 			sourceTree = "<group>";
 		};
-		391C62E208B07C3D119147F2 /* Utils */ = {
+		0E795E742D7F0B9B20745602 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				14902A162CD453552B6F269C /* b3Clock.cpp */,
-				7E3A1C8E328572DF33EC5C84 /* b3Clock.h */,
-				6F6D5D2933756A55792D1E33 /* b3ResourcePath.cpp */,
-				4B4665D5100A24B25A8A318F /* b3ResourcePath.h */,
+				27810F08695C1DF3560D14FF /* b3Clock.cpp */,
+				7C022401757D6674624D68D3 /* b3Clock.h */,
+				7F2B131100A24B6C2C857721 /* b3ResourcePath.cpp */,
+				7A772ECA697A66B70E6E7B14 /* b3ResourcePath.h */,
 			);
 			name = "Utils";
 			sourceTree = "<group>";
 		};
-		494E349C7A3A7F310CBC1CCB /* Products */ = {
+		64A53F1917B724E07D280AF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B2A7CCB03270B052A1B6323 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */,
+				710117907768651E1D2B19F3 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
 		};
-		62FB4E75062905776EDE46A5 /* Projects */ = {
+		6DB25392500B28ED649242B2 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
-				21BD25B719676CF97D142F8B /* enet.xcodeproj */,
-				5B9B4F354EAB56B0513D0E31 /* BulletFileLoader.xcodeproj */,
-				6C4953DC12316E0115E91C6F /* Bullet3Common.xcodeproj */,
-				7D915FC26A0438367FF4135D /* LinearMath.xcodeproj */,
+				505F29533FD604D819831CE0 /* enet.xcodeproj */,
+				67C74D626F1637F1379B2C95 /* BulletFileLoader.xcodeproj */,
+				1A374AE11B3E25E01E320740 /* Bullet3Common.xcodeproj */,
+				10AA30B3576F3FA846AC796A /* LinearMath.xcodeproj */,
 			);
 			name = "Projects";
 			sourceTree = "<group>";
 		};
-		6398512173983E366FFF5047 /* Products */ = {
+		5D3B6D0A36256293300950FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50017BC14C207C61546E3882 /* libenet.a */,
+				77AE4C7116F2178F39CE1181 /* libenet.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DC0056E1E5D21CC7E0660DF /* Products */ = {
+		080B21442C2D56C7404123B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				622110C9136D767067437413 /* libBulletFileLoader.a */,
+				7B2D66D807DB7ACD69D335F7 /* libBulletFileLoader.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19C2136644790409795A39FD /* Products */ = {
+		5EB95BFF7A5365180F5D3530 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				737F330F2DEA5EE921BE4E12 /* libBullet3Common.a */,
+				19000CAD4EA951C63B657437 /* libBullet3Common.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EE6786E34441B0919431FC8 /* Products */ = {
+		6BBC16945DB86F07577B0A24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50442BCF50741FD16A2A1144 /* libLinearMath.a */,
+				245172D6618F04D356A1024F /* libLinearMath.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,26 +235,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		336A304531FD08C5660108E7 /* App_PhysicsServerSharedMemoryBridgeUDP */ = {
+		39B1340C242C676C646F5660 /* App_PhysicsServerSharedMemoryBridgeUDP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79AF51C9239C033109BF0448 /* Build configuration list for PBXNativeTarget "App_PhysicsServerSharedMemoryBridgeUDP" */;
+			buildConfigurationList = 340D58C4563168EB21F82FDA /* Build configuration list for PBXNativeTarget "App_PhysicsServerSharedMemoryBridgeUDP" */;
 			buildPhases = (
-				18DF7CA949193A1C377E6F01 /* Resources */,
-				30EA679C3CB277E37AA10676 /* Sources */,
-				45C742042BBD31034DEA4092 /* Frameworks */,
+				3DFC701B2F0D1C107C0E2582 /* Resources */,
+				1C885BC7692D0E530ABE7A0A /* Sources */,
+				3C1F535735056A9F23930FDF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5BD50AC335941F011B950431 /* PBXTargetDependency */,
-				23AB4B061DC2588A668B4324 /* PBXTargetDependency */,
-				3FE443861DAC341378181812 /* PBXTargetDependency */,
-				16CC6009106D7DCB1CF15275 /* PBXTargetDependency */,
+				3E31195864680E5701147B64 /* PBXTargetDependency */,
+				0E7D6A4E339868DF25476C22 /* PBXTargetDependency */,
+				30DC6F0A0E91659D4ACA165D /* PBXTargetDependency */,
+				27B5606247DA505065A55959 /* PBXTargetDependency */,
 			);
 			name = "App_PhysicsServerSharedMemoryBridgeUDP";
 			productInstallPath = "$(HOME)/bin";
 			productName = "App_PhysicsServerSharedMemoryBridgeUDP";
-			productReference = 2B2A7CCB03270B052A1B6323 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */;
+			productReference = 710117907768651E1D2B19F3 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -265,66 +265,66 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_PhysicsServerSharedMemoryBridgeUDP" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 2FDF66F171567B7365C71D0B /* App_PhysicsServerSharedMemoryBridgeUDP */;
+			mainGroup = 0F4313F743930E09792A5354 /* App_PhysicsServerSharedMemoryBridgeUDP */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6398512173983E366FFF5047 /* Products */;
-					ProjectRef = 21BD25B719676CF97D142F8B /* enet.xcodeproj */;
+					ProductGroup = 5D3B6D0A36256293300950FA /* Products */;
+					ProjectRef = 505F29533FD604D819831CE0 /* enet.xcodeproj */;
 				},
 				{
-					ProductGroup = 6DC0056E1E5D21CC7E0660DF /* Products */;
-					ProjectRef = 5B9B4F354EAB56B0513D0E31 /* BulletFileLoader.xcodeproj */;
+					ProductGroup = 080B21442C2D56C7404123B7 /* Products */;
+					ProjectRef = 67C74D626F1637F1379B2C95 /* BulletFileLoader.xcodeproj */;
 				},
 				{
-					ProductGroup = 19C2136644790409795A39FD /* Products */;
-					ProjectRef = 6C4953DC12316E0115E91C6F /* Bullet3Common.xcodeproj */;
+					ProductGroup = 5EB95BFF7A5365180F5D3530 /* Products */;
+					ProjectRef = 1A374AE11B3E25E01E320740 /* Bullet3Common.xcodeproj */;
 				},
 				{
-					ProductGroup = 5EE6786E34441B0919431FC8 /* Products */;
-					ProjectRef = 7D915FC26A0438367FF4135D /* LinearMath.xcodeproj */;
+					ProductGroup = 6BBC16945DB86F07577B0A24 /* Products */;
+					ProjectRef = 10AA30B3576F3FA846AC796A /* LinearMath.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				336A304531FD08C5660108E7 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */,
+				39B1340C242C676C646F5660 /* App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		50017BC14C207C61546E3882 /* libenet.a */ = {
+		77AE4C7116F2178F39CE1181 /* libenet.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libenet.a";
-			remoteRef = 11367F142AB77A97515D5048 /* PBXContainerItemProxy */;
+			remoteRef = 7A88379E7FCA2B2B4AD917CF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		622110C9136D767067437413 /* libBulletFileLoader.a */ = {
+		7B2D66D807DB7ACD69D335F7 /* libBulletFileLoader.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libBulletFileLoader.a";
-			remoteRef = 79A500582C233D0B341F7DF8 /* PBXContainerItemProxy */;
+			remoteRef = 619720237B9F375B64071052 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		737F330F2DEA5EE921BE4E12 /* libBullet3Common.a */ = {
+		19000CAD4EA951C63B657437 /* libBullet3Common.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libBullet3Common.a";
-			remoteRef = 40052C445D8E2D0A7BAD5801 /* PBXContainerItemProxy */;
+			remoteRef = 692C7D84709F72B42906688F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50442BCF50741FD16A2A1144 /* libLinearMath.a */ = {
+		245172D6618F04D356A1024F /* libLinearMath.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "../../bin/libLinearMath.a";
-			remoteRef = 0991154917DA0C3726A01231 /* PBXContainerItemProxy */;
+			remoteRef = 74A25E1D6AC5350D73DC1D85 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18DF7CA949193A1C377E6F01 /* Resources */ = {
+		3DFC701B2F0D1C107C0E2582 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,19 +334,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30EA679C3CB277E37AA10676 /* Sources */ = {
+		1C885BC7692D0E530ABE7A0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03FB72D84E702D4732CB6EE2 /* PhysicsClient.cpp in Sources */,
-				035A47CC23F804706CC66F9F /* PhysicsClientC_API.cpp in Sources */,
-				4F9842CA0AF30FC825781C27 /* PhysicsDirect.cpp in Sources */,
-				0AD87FD31A6F00726B385313 /* PosixSharedMemory.cpp in Sources */,
-				71DD6BA41681003677BB4B0E /* SharedMemoryCommandProcessor.cpp in Sources */,
-				665D23F74C8D70FE56373DB4 /* Win32SharedMemory.cpp in Sources */,
-				6F7660AC6DB605A06EEB0756 /* main.cpp in Sources */,
-				57FB540055CF1084045440E3 /* b3Clock.cpp in Sources */,
-				60FF4462031A4F835C886637 /* b3ResourcePath.cpp in Sources */,
+				1BD8386D22DA380C427C0834 /* PhysicsClient.cpp in Sources */,
+				2E334DB72E7F4E9201E30C40 /* PhysicsClientC_API.cpp in Sources */,
+				322B64E117D0041B3DCD7BCF /* PhysicsDirect.cpp in Sources */,
+				00EC29ED3AC77EEE3CB60AAC /* PosixSharedMemory.cpp in Sources */,
+				36356D00519E748565271C2A /* SharedMemoryCommandProcessor.cpp in Sources */,
+				724E19147BFE726810DD4C58 /* Win32SharedMemory.cpp in Sources */,
+				753B2AFD613C557068DF4905 /* main.cpp in Sources */,
+				2CC56525104944DD19CE4A21 /* b3Clock.cpp in Sources */,
+				27141DF422721E2E67E43981 /* b3ResourcePath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,30 +356,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin PBXTargetDependency section */
-		5BD50AC335941F011B950431 /* PBXTargetDependency */ = {
+		3E31195864680E5701147B64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libenet.a";
-			targetProxy = 4EFD444D1FA14488657D1778 /* PBXContainerItemProxy */;
+			targetProxy = 2BB93708774F21BD7FF015F5 /* PBXContainerItemProxy */;
 		};
-		23AB4B061DC2588A668B4324 /* PBXTargetDependency */ = {
+		0E7D6A4E339868DF25476C22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libBulletFileLoader.a";
-			targetProxy = 43120F4F459959496B7626FA /* PBXContainerItemProxy */;
+			targetProxy = 0EDD67957D646F036F5D5C57 /* PBXContainerItemProxy */;
 		};
-		3FE443861DAC341378181812 /* PBXTargetDependency */ = {
+		30DC6F0A0E91659D4ACA165D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libBullet3Common.a";
-			targetProxy = 5A544395150A517D66B02F0F /* PBXContainerItemProxy */;
+			targetProxy = 23B8365076C743E1278404D6 /* PBXContainerItemProxy */;
 		};
-		16CC6009106D7DCB1CF15275 /* PBXTargetDependency */ = {
+		27B5606247DA505065A55959 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libLinearMath.a";
-			targetProxy = 706645F30F3709BF5B3655E8 /* PBXContainerItemProxy */;
+			targetProxy = 136845273A3E5BF8381F066A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23BE43653DAC0CF156065BC8 /* Release */ = {
+		3E4D54081211591327560269 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -394,7 +394,7 @@
 			};
 			name = "Release";
 		};
-		45C25D1B292B6A3B5418211B /* Debug */ = {
+		241162D46E7905C75F6770EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -408,7 +408,7 @@
 			};
 			name = "Debug";
 		};
-		623122BB3CA121F62CD649F2 /* Release */ = {
+		560B002D3ECB2A4938441E25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -437,7 +437,7 @@
 			};
 			name = "Release";
 		};
-		25C870BA47A4205368020340 /* Debug */ = {
+		6A3E0CCD084106412AAB5339 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -473,11 +473,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79AF51C9239C033109BF0448 /* Build configuration list for PBXNativeTarget "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release" */ = {
+		340D58C4563168EB21F82FDA /* Build configuration list for PBXNativeTarget "App_PhysicsServerSharedMemoryBridgeUDP_xcode4_x64_release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23BE43653DAC0CF156065BC8 /* Release */,
-				45C25D1B292B6A3B5418211B /* Debug */,
+				3E4D54081211591327560269 /* Release */,
+				241162D46E7905C75F6770EF /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -485,8 +485,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_PhysicsServerSharedMemoryBridgeUDP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623122BB3CA121F62CD649F2 /* Release */,
-				25C870BA47A4205368020340 /* Debug */,
+				560B002D3ECB2A4938441E25 /* Release */,
+				6A3E0CCD084106412AAB5339 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";

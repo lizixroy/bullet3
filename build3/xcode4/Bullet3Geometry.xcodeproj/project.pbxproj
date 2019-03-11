@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		516A0E653E034C1B3BF4304C /* b3ConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6453236574F85D606ADF016F /* b3ConvexHullComputer.cpp */; };
-		042F39D826BB6AA05F6C6CB1 /* b3GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A68533565BC53774C1A4066 /* b3GeometryUtil.cpp */; };
+		4235274B5C497D95720F4AD5 /* b3ConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 177B0C5948C50CA41D737787 /* b3ConvexHullComputer.cpp */; };
+		77E4227D45B168346A0E46A1 /* b3GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B9729A7E9F1F0665F570A1 /* b3GeometryUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		701910E351BF5DF71DFC2AA5 /* b3AabbUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AabbUtil.h"; path = "../../src/Bullet3Geometry/b3AabbUtil.h"; sourceTree = "<group>"; };
-		6453236574F85D606ADF016F /* b3ConvexHullComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ConvexHullComputer.cpp"; path = "../../src/Bullet3Geometry/b3ConvexHullComputer.cpp"; sourceTree = "<group>"; };
-		651C30081B4425DA126D46F1 /* b3ConvexHullComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexHullComputer.h"; path = "../../src/Bullet3Geometry/b3ConvexHullComputer.h"; sourceTree = "<group>"; };
-		7A68533565BC53774C1A4066 /* b3GeometryUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3GeometryUtil.cpp"; path = "../../src/Bullet3Geometry/b3GeometryUtil.cpp"; sourceTree = "<group>"; };
-		0C39209D2EFB175F750B5388 /* b3GeometryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3GeometryUtil.h"; path = "../../src/Bullet3Geometry/b3GeometryUtil.h"; sourceTree = "<group>"; };
-		423624EC2CA736092F4C657A /* b3GrahamScan2dConvexHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3GrahamScan2dConvexHull.h"; path = "../../src/Bullet3Geometry/b3GrahamScan2dConvexHull.h"; sourceTree = "<group>"; };
-		7B56629536CD022223222162 /* libBullet3Geometry_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Geometry_xcode4_x64_release.a"; path = "libBullet3Geometry_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F72C98446633C21E295156 /* b3AabbUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3AabbUtil.h"; path = "../../src/Bullet3Geometry/b3AabbUtil.h"; sourceTree = "<group>"; };
+		177B0C5948C50CA41D737787 /* b3ConvexHullComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ConvexHullComputer.cpp"; path = "../../src/Bullet3Geometry/b3ConvexHullComputer.cpp"; sourceTree = "<group>"; };
+		7FE72F215F993FD762874E80 /* b3ConvexHullComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3ConvexHullComputer.h"; path = "../../src/Bullet3Geometry/b3ConvexHullComputer.h"; sourceTree = "<group>"; };
+		37B9729A7E9F1F0665F570A1 /* b3GeometryUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3GeometryUtil.cpp"; path = "../../src/Bullet3Geometry/b3GeometryUtil.cpp"; sourceTree = "<group>"; };
+		0E572FB93F5A66B03BFE429E /* b3GeometryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3GeometryUtil.h"; path = "../../src/Bullet3Geometry/b3GeometryUtil.h"; sourceTree = "<group>"; };
+		517D792373163DBE3E561A5F /* b3GrahamScan2dConvexHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "b3GrahamScan2dConvexHull.h"; path = "../../src/Bullet3Geometry/b3GrahamScan2dConvexHull.h"; sourceTree = "<group>"; };
+		1EB11C5D2DE10EF9368B0073 /* libBullet3Geometry_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libBullet3Geometry_xcode4_x64_release.a"; path = "libBullet3Geometry_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		127951FA0DA154CD6931253A /* Frameworks */ = {
+		67AC4D6C05D37C427AA5271B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,40 +32,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B5753BC02C0151C74180CFE /* Bullet3Geometry */ = {
+		7D684BB82D6832C95990307F /* Bullet3Geometry */ = {
 			isa = PBXGroup;
 			children = (
-				33E52A89422859D404BD2260 /* src */,
-				65C105CE3A4F2C026EFC0993 /* Products */,
+				7AA92E0F01BD56415E351B20 /* src */,
+				7D352DF26B762BF117082EDC /* Products */,
 			);
 			name = "Bullet3Geometry";
 			sourceTree = "<group>";
 		};
-		33E52A89422859D404BD2260 /* src */ = {
+		7AA92E0F01BD56415E351B20 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				6DA30ADB39F11BD9532208EC /* Bullet3Geometry */,
+				1142210967185AB754877519 /* Bullet3Geometry */,
 			);
 			name = "src";
 			sourceTree = "<group>";
 		};
-		6DA30ADB39F11BD9532208EC /* Bullet3Geometry */ = {
+		1142210967185AB754877519 /* Bullet3Geometry */ = {
 			isa = PBXGroup;
 			children = (
-				701910E351BF5DF71DFC2AA5 /* b3AabbUtil.h */,
-				6453236574F85D606ADF016F /* b3ConvexHullComputer.cpp */,
-				651C30081B4425DA126D46F1 /* b3ConvexHullComputer.h */,
-				7A68533565BC53774C1A4066 /* b3GeometryUtil.cpp */,
-				0C39209D2EFB175F750B5388 /* b3GeometryUtil.h */,
-				423624EC2CA736092F4C657A /* b3GrahamScan2dConvexHull.h */,
+				71F72C98446633C21E295156 /* b3AabbUtil.h */,
+				177B0C5948C50CA41D737787 /* b3ConvexHullComputer.cpp */,
+				7FE72F215F993FD762874E80 /* b3ConvexHullComputer.h */,
+				37B9729A7E9F1F0665F570A1 /* b3GeometryUtil.cpp */,
+				0E572FB93F5A66B03BFE429E /* b3GeometryUtil.h */,
+				517D792373163DBE3E561A5F /* b3GrahamScan2dConvexHull.h */,
 			);
 			name = "Bullet3Geometry";
 			sourceTree = "<group>";
 		};
-		65C105CE3A4F2C026EFC0993 /* Products */ = {
+		7D352DF26B762BF117082EDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B56629536CD022223222162 /* libBullet3Geometry_xcode4_x64_release.a */,
+				1EB11C5D2DE10EF9368B0073 /* libBullet3Geometry_xcode4_x64_release.a */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
@@ -73,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49CA213E2D8C68EE064C6E3A /* Bullet3Geometry */ = {
+		0FFC7A2729202E4D42883023 /* Bullet3Geometry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EB577BF4509537B30830511 /* Build configuration list for PBXNativeTarget "Bullet3Geometry" */;
+			buildConfigurationList = 26BA0B077B3E56BD53CF5F4D /* Build configuration list for PBXNativeTarget "Bullet3Geometry" */;
 			buildPhases = (
-				2AEE723E7B2607B51FA860DA /* Resources */,
-				372E6392433B602C6A402AFC /* Sources */,
-				127951FA0DA154CD6931253A /* Frameworks */,
+				6FBC557B167A5BD06B76269E /* Resources */,
+				766848BB0F2972A07CE74B53 /* Sources */,
+				67AC4D6C05D37C427AA5271B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +87,7 @@
 			);
 			name = "Bullet3Geometry";
 			productName = "Bullet3Geometry";
-			productReference = 7B56629536CD022223222162 /* libBullet3Geometry_xcode4_x64_release.a */;
+			productReference = 1EB11C5D2DE10EF9368B0073 /* libBullet3Geometry_xcode4_x64_release.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -98,17 +98,17 @@
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Geometry" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
-			mainGroup = 5B5753BC02C0151C74180CFE /* Bullet3Geometry */;
+			mainGroup = 7D684BB82D6832C95990307F /* Bullet3Geometry */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49CA213E2D8C68EE064C6E3A /* libBullet3Geometry_xcode4_x64_release.a */,
+				0FFC7A2729202E4D42883023 /* libBullet3Geometry_xcode4_x64_release.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AEE723E7B2607B51FA860DA /* Resources */ = {
+		6FBC557B167A5BD06B76269E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,12 +118,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		372E6392433B602C6A402AFC /* Sources */ = {
+		766848BB0F2972A07CE74B53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516A0E653E034C1B3BF4304C /* b3ConvexHullComputer.cpp in Sources */,
-				042F39D826BB6AA05F6C6CB1 /* b3GeometryUtil.cpp in Sources */,
+				4235274B5C497D95720F4AD5 /* b3ConvexHullComputer.cpp in Sources */,
+				77E4227D45B168346A0E46A1 /* b3GeometryUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1B9043546A3F570F37A00645 /* Release */ = {
+		1CBF7702398C2DA960CE2B71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -148,7 +148,7 @@
 			};
 			name = "Release";
 		};
-		35E00DC71B8E492F58661E01 /* Debug */ = {
+		1B81562C6B5D56E23878540B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -162,7 +162,7 @@
 			};
 			name = "Debug";
 		};
-		1DD346F726040A61797925D2 /* Release */ = {
+		46904B6655AA208B11D757AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -189,7 +189,7 @@
 			};
 			name = "Release";
 		};
-		121667127D1A3FCD57046A1A /* Debug */ = {
+		4F8E08C606E9587C4C2E10D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -223,11 +223,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EB577BF4509537B30830511 /* Build configuration list for PBXNativeTarget "libBullet3Geometry_xcode4_x64_release.a" */ = {
+		26BA0B077B3E56BD53CF5F4D /* Build configuration list for PBXNativeTarget "libBullet3Geometry_xcode4_x64_release.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B9043546A3F570F37A00645 /* Release */,
-				35E00DC71B8E492F58661E01 /* Debug */,
+				1CBF7702398C2DA960CE2B71 /* Release */,
+				1B81562C6B5D56E23878540B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
@@ -235,8 +235,8 @@
 		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Bullet3Geometry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DD346F726040A61797925D2 /* Release */,
-				121667127D1A3FCD57046A1A /* Debug */,
+				46904B6655AA208B11D757AE /* Release */,
+				4F8E08C606E9587C4C2E10D4 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release";
